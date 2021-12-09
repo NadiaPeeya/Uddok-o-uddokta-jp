@@ -1,0 +1,58 @@
+/* .carousel-caption{
+ top: 0;
+ text-align: center;
+} */
+
+/* 
+.animate__animated.animate__backInDown{
+    
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+/*   
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+ */ */
+
+  .carousel-edit{
+   margin-top: 1px;
+  }
+  .carousel-item{
+    background-color: #333333;
+    background-blend-mode: 'multiply'
+
+  }
+
+  .carousel-caption{
+    height: 60%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 70%;
+  }
+
+  #slide-1{
+    background:url('../../../images/112.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #33333356;
+    background-blend-mode: multiply;
+  }
+  #slide-2{
+    background:url('../../../images/88.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #slide-3{
+    background:url('../../../images/5.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }

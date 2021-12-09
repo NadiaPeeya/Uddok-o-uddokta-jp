@@ -1,0 +1,31 @@
+
+
+.japan{
+  
+    margin: 30px;
+    padding: 20px;
+   
+}
+.japan:hover{
+    background-color: #b71c1c;
+    color:white;
+    box-shadow: 10px 10px 10px solid brown;
+    
+}
+.japan:hover img{
+   background-color: white;
+   padding: 2px;
+
+}
+
+.japan:hover img{
+    /* transform: scale(1.2); */
+}
+.japan:hover .impact-text{
+   color: white !important;
+
+}
+.changing-background{
+ background-color: #FFF8DC;
+}
+

@@ -1,0 +1,65 @@
+.top{
+    margin-top: 5px;
+    height: 150px
+}
+.number{
+    text-align: center;
+    margin-top: 0px;
+}
+/* .call{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+   
+   
+}
+.call-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid black;
+} */
+
+.call-us{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+.call-text{
+    display: block;
+
+ 
+    text-align: left;
+    margin-top: 10px;
+
+}
+.mail-text{
+    display: block;
+  
+  
+    text-align: left;
+    margin-top: 10px;
+
+}
+.mail-to{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+.end-part{
+    margin-left: 90px;
+}
+.change-part{
+    margin-top: 25px;
+   
+    text-align: right;
+   
+  
+}
+.english{
+   color: gray;
+  
+}
