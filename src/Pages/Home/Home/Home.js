@@ -11,6 +11,10 @@ import JoinUs from '../JoinUs/JoinUs';
 import AboutBanner from './../AboutBanner/AboutBanner';
 import Slider from '../Components/Slider';
 import Top from '../Top/Top';
+import UddoktaService from '../UddoktaService/UddoktaService';
+import Achievements from './Achievements/Achievements';
+import WhatHaveCount from './WhatHaveCount/WhatHaveCount';
+import SomeCauses from './../SomeCauses/SomeCauses';
 
 
 
@@ -23,11 +27,14 @@ const Home = () => {
        <Top></Top>
         <Navigation></Navigation>
        <Banner></Banner>
-     
+       <WhatHaveCount></WhatHaveCount>
        <AboutUs></AboutUs>
+       <SomeCauses></SomeCauses>
+       <UddoktaService></UddoktaService>
+       <Achievements></Achievements>
        <Impacts></Impacts>
        <AboutBanner></AboutBanner>
-       
+      
        <Footer></Footer>
    
 

@@ -1,0 +1,23 @@
+.middle-items{
+    /* margin: 10px; */
+    padding: 20px;
+    background-color: cornsilk;
+}
+.img-style:hover{
+    padding: 20px;
+    color: crimson;
+}
+.instruments:hover .instruments-name{
+ color: brown;
+transform: scale(1.01);
+}
+.instruments:hover{
+border-left: 1px solid brown;
+border-right: 1px solid brown;
+}
+.courses{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #354252;
+}

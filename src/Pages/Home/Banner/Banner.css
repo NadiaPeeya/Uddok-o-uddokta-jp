@@ -34,13 +34,15 @@
   }
 
   #slide-1{
-    background:url('../../../images/112.jpg');
-    height: 100vh;
+    background:url('../../../images/sdg.png');
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #33333356;
     background-blend-mode: multiply;
+    width: 100%;
+
   }
   #slide-2{
     background:url('../../../images/88.jpg');

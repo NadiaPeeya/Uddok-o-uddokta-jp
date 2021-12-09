@@ -1,0 +1,10 @@
+.show-detail{
+    height: 50%;
+}
+
+.card-style:hover{
+    transform: scale(1.05);
+}
+.show-detail:hover{
+    box-shadow: 5px 5px 5px gainsboro;
+}

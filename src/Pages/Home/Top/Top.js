@@ -28,13 +28,15 @@ const Top = () => {
        <p className='text-black-50'>+880035522452</p>
     </div>
     </Col>
-    <Col className='mail-to g-2'>
+    <Col className='mail-to'>
     <div>
-    <img width="55%" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-mail-online-education-icongeek26-flat-icongeek26.png"/>
+    <img width="85%" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-mail-online-education-icongeek26-flat-icongeek26.png"/>
+{/* 
+    <i class="far fa-envelope"></i> */}
     </div>
     <div className='mail-text'>
         <h6 className='fw-bolder'>Mail To</h6>
-       <p className='text-black-50'>info.uujp@gmail.com</p>
+       <p sx={{}} className='text-black-50'>info.uujp@gmail.com</p>
     </div>
     </Col>
   </Row>
@@ -55,9 +57,9 @@ const Top = () => {
      </div>
      <div className="col-md-6">
   
-     <Button sx={{margin: '12px', padding: '10px', width: '150px', height: '55px'}} variant="contained" color="error">
-        Donate Now
-      </Button>
+     <button data-aos="zoom-out-down" className='donate'>
+     <span>Donate Now</span>
+      </button>
      </div>
    
 

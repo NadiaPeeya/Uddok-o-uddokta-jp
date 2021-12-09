@@ -1,0 +1,37 @@
+.causes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin-top: 0px;
+    padding-top: 40px;
+    
+}
+
+.causes-style{
+   margin-bottom: 150px;
+   background-color: #F6FBFF;
+}
+
+.text-style{
+   
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 150px;
+    display: block;
+
+}
+.h-text{
+    font-size: 52px;
+    color: #354252;
+}
+.p-text{
+    color: brown;
+}
+.text-para{
+    text-align: center;
+}
+.causes-div{
+    background-color: #F6FBFF;
+    border: 1px solid white;
+}

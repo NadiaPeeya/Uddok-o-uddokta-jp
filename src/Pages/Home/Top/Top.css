@@ -37,8 +37,6 @@
 }
 .mail-text{
     display: block;
-  
-  
     text-align: left;
     margin-top: 10px;
 
@@ -48,6 +46,7 @@
     justify-content: space-evenly;
     justify-content: center;
     align-items: center;
+    
 }
 .end-part{
     margin-left: 90px;
@@ -63,3 +62,50 @@
    color: gray;
   
 }
+.donate{
+    border-radius: 4px;
+    background-color: brown;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 15px;
+    margin-right: 15px;
+}
+
+.donate span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .donate:hover span {
+    padding-right: 20px;
+  }
+  
+  .donate:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* .icon-class{
+    color: brown;
+    font-size: 36px;
+    padding: 5px;
+    margin-right: 5px;
+    
+  } */
