@@ -15,6 +15,10 @@ import UddoktaService from '../UddoktaService/UddoktaService';
 import Achievements from './Achievements/Achievements';
 import WhatHaveCount from './WhatHaveCount/WhatHaveCount';
 import SomeCauses from './../SomeCauses/SomeCauses';
+import OurMission from './OurMission/OurMission';
+import AutoBannerImg from './AutoBannerImg/AutoBannerImg';
+
+
 
 
 
@@ -26,13 +30,13 @@ const Home = () => {
         <div className="mt-0">
        <Top></Top>
         <Navigation></Navigation>
-       <Banner></Banner>
-       <WhatHaveCount></WhatHaveCount>
+        <AutoBannerImg></AutoBannerImg>
        <AboutUs></AboutUs>
        <SomeCauses></SomeCauses>
+       <WhatHaveCount></WhatHaveCount>
+       <OurMission></OurMission>
        <UddoktaService></UddoktaService>
-       <Achievements></Achievements>
-       <Impacts></Impacts>
+    
        <AboutBanner></AboutBanner>
       
        <Footer></Footer>

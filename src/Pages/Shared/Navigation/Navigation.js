@@ -15,9 +15,9 @@ const Navigation = () => {
 <Navbar.Toggle />
 <Navbar.Collapse className="justify-content-end">
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#home">HOME</Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#services">SERVICES</Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#services">ABOUT US</Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#services">CAUSES</Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#aboutUs">ABOUT US</Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#someCauses">CAUSES</Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission">MiSSION</Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs">JOIN US</Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs">CONTACT US</Nav.Link>
 

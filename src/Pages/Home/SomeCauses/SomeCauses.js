@@ -16,7 +16,7 @@ import './SomeCauses.css'
 
 const SomeCauses = () => {
     return (
-        <div className='causes-div'>
+        <div id="someCauses" className='causes-div'>
   <Container className="causes-style"  sx={{ flexGrow: 1, height: '750px', mt: '15px' }}>       
         <div className='text-style mt-5 mb-5 pt-5'>
         <p className='p-text'>OUR AVAILABLE CAUSES</p>
