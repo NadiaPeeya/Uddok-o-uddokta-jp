@@ -11,7 +11,7 @@ const UddoktaService = () => {
 
     return (
         <div  className="middle-items">
-        <h1 className=""> <span className="courses">Our Services</span> <span className="melody"></span> </h1>
+        <h1 className="h-text my-5 py-5"> Our Services</h1>
         <Container className="my-5 py-5">
 <Row>
 <Col xs>

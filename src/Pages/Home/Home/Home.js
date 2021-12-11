@@ -9,7 +9,6 @@ import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
 import JoinUs from '../JoinUs/JoinUs';
 import AboutBanner from './../AboutBanner/AboutBanner';
-import Slider from '../Components/Slider';
 import Top from '../Top/Top';
 import UddoktaService from '../UddoktaService/UddoktaService';
 import Achievements from './Achievements/Achievements';

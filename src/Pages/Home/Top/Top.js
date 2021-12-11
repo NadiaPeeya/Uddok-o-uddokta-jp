@@ -7,6 +7,8 @@ import img2 from '../../../images/logo.png'
 import { Nav,Container, Row, Col, Offcanvas } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import Button from '@mui/material/Button';
+import img3 from '../../../images/telephone.png'
+
 
 
 const Top = () => {
@@ -21,16 +23,16 @@ const Top = () => {
   <Row className=''>
     <Col className="call-us">
     <div>
-    <img width="55%" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-mail-online-education-icongeek26-flat-icongeek26.png"/>
+    <img width="55%" src={img3}/>
     </div>
     <div className='call-text'>
         <h6 className='fw-bolder'>Call Us</h6>
-       <p className='text-black-50'>+880035522452</p>
+       <p className='text-black-50'>+818096668105</p>
     </div>
     </Col>
     <Col className='mail-to'>
     <div>
-    <img width="85%" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-mail-online-education-icongeek26-flat-icongeek26.png"/>
+    <img width="95%" src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-mail-online-education-icongeek26-flat-icongeek26.png"/>
 {/* 
     <i class="far fa-envelope"></i> */}
     </div>

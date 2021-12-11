@@ -18,11 +18,11 @@ const OurMission = () => {
 <div className='ourmission-div'>
   <div className='writing-style'>
       <p className='text-danger'>What We Do?</p>
-      <h1>Our Mission</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ipsa.</p>
+      <h1 className='h-text'>Our Mission</h1>
+      <p className='text-black-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ipsa.</p>
   </div>
 <Tabs width="40%" className='mb-5 missiontab' defaultActiveKey="Entrepreneurs" id="uncontrolled-tab-example">
-  <Tab className='mission-tab' eventKey="Entrepreneurs" title="Entrepreneurs">
+  <Tab className='mission-tab' sx={{color: 'black'}} eventKey="Entrepreneurs" title="Entrepreneurs">
   
   <div id="Entrepreneurs" className="container OurMission my-5 py-5">
             <div className="row">
@@ -30,8 +30,8 @@ const OurMission = () => {
                     <img width="70%" src={img1} alt="" />
                 </div>
                 <div className="col-md-6">
-                    <h4>To accumulate entrepreneurs for sustainable accomplishments.</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
+                    <h4 className='h2-text'>To accumulate entrepreneurs for sustainable accomplishments.</h4>
+               <p className='text-black-50 p2-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
                 </div>
             </div>
             
@@ -46,8 +46,8 @@ const OurMission = () => {
                     <img width="70%" src={img2} alt="" />
                 </div>
                 <div className="col-md-6">
-                    <h4>To build up knowledge and skills of entrepreneurship.</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
+                    <h4 className='h2-text'>To build up knowledge and skills of entrepreneurship.</h4>
+               <p className='text-black-50 p2-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
                 </div>
             </div>
             
@@ -63,10 +63,10 @@ const OurMission = () => {
                     <img width="70%" src={img3} alt="" />
                 </div>
                 <div className="col-md-6">
-                    <h4>To enrich the capability of entrepreneurs through research,
+                    <h4 className='h2-text'>To enrich the capability of entrepreneurs through research,
 regular training programs, seminars, counseling &amp; relevant
 activities.</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
+               <p className='text-black-50 p2-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
                 </div>
             </div>
             
@@ -82,9 +82,9 @@ activities.</h4>
                     <img width="70%" src={img1} alt="" />
                 </div>
                 <div className="col-md-6">
-                    <h4>To ensure the proper combination of theoretical study and
+                    <h4 className='h2-text'>To ensure the proper combination of theoretical study and
 practical business operation.</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
+               <p className='text-black-50 p2-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
                 </div>
             </div>
             
@@ -100,9 +100,9 @@ practical business operation.</h4>
                     <img width="70%" src={img1} alt="" />
                 </div>
                 <div className="col-md-6">
-                    <h4>To solve contemporary social issues by assuring creative social
+                    <h4 className='h2-text'>To solve contemporary social issues by assuring creative social
 enterprises.</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
+               <p className='text-black-50 p2-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
                 </div>
             </div>
             
@@ -118,9 +118,9 @@ enterprises.</h4>
                     <img width="70%" src={img4} alt="" />
                 </div>
                 <div className="col-md-6">
-                    <h4>To provide all types of possible support to convert failure
+                    <h4 className='h2-text'>To provide all types of possible support to convert failure
 entrepreneurships into successful beneficiary groups</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
+               <p className='text-black-50 p2-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptas quia tenetur expedita facere illum laboriosam deleniti voluptatibus. Totam, id.</p>
                 </div>
             </div>
             

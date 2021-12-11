@@ -45,11 +45,11 @@ const Footer = () => {
                         <Grid direction="column" align="center" item xs={12}>
                             <Place />
                             <Typography variant="body2">
-                                 Street: Shinjuku Park Tower,N30F, <br />
+                                  Shinjuku Park Tower,N30F, <br />
                                   3-7-1 Nishishinjuku,
                                  Shinjuku-ku, 
  <br />
-                                City: Tokyo, Japan <br />
+ Tokyo 163-1030, Japan <br />
                               
                             </Typography>
                         </Grid>

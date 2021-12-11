@@ -1,0 +1,38 @@
+
+.textloop-text{
+    font-size: 64px;
+   text-align: left;
+}
+.text-whitesmoke{
+    font-size: 28px;
+}
+.autobannerimg{
+    height: 80vh;
+    background: url('../../../../images/today1.jpg');
+    background-color: #5a5b5d;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.autobanner{
+    margin-top: -65px;
+}
+.autobannerimg-2{
+    height: 80vh;
+    background: url('../../../../images/today2.jpg');
+    background-color: #5a5b5d;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.autobannerimg-3{
+    height: 80vh;
+    background: url('../../../../images/sdg_changed.png');
+    background-color: #5a5b5d;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

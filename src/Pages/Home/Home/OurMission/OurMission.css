@@ -52,4 +52,22 @@ margin-right: 10px;
    background: #ffffff;
 }
 
-
+.nav-link{
+    color: gray;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    color:rgba(165, 42, 42, 0.822);
+}
+.h-text{
+    font-size: 62px;
+    color: #354252;
+}
+.h2-text{
+    font-size: 32px;
+    color: #354252;
+     text-align: left;
+}
+.p2-text{
+text-align: left;
+}

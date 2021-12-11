@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from './Pages/Home/Home/Home';
-import Slider from './Pages/Home/Components/Slider';
+
 import Japanese from './Pages/Japanese/Japanese';
 
 AOS.init();

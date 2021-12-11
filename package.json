@@ -27,6 +27,7 @@
     "react-slick": "^0.28.1",
     "react-spring": "^9.3.2",
     "react-svg": "^14.1.2",
+    "react-text-loop": "^2.3.0",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"
   },
