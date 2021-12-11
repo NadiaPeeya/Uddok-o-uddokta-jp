@@ -1,6 +1,6 @@
 .footer-style{
     padding: 40px;
-    background-color: white;
+    background-color: #FFF8DC;
     height: 700px;
     margin-top: 400px;
    
@@ -17,4 +17,11 @@
 .tag-link{
     text-decoration: none;
     color: white;
+}
+.text-color-change{
+    color: #354252;
+    
+}
+.facebook{
+    color:#354252;
 }
