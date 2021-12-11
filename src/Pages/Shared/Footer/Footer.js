@@ -23,7 +23,7 @@ const Footer = () => {
     //     marginTop: '350px'
     // }
     return (
-        <div className="footer-style">
+        <div data-aos="zoom-in-up" className="footer-style">
            
            <Container className='mt-5 pt-5'>
   <Row>

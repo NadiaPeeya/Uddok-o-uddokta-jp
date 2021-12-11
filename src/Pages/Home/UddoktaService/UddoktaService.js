@@ -11,7 +11,7 @@ const UddoktaService = () => {
 
     return (
    
-        <div  className="middle-items mb-5">
+        <div  data-aos="zoom-in-up" className="middle-items mb-5">
         <h1 className="h-text my-5 py-5"> Our Services</h1>
         <Container className="my-5 py-5">
 <Row>

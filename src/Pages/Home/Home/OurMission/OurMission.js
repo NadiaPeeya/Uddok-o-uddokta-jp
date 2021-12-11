@@ -13,7 +13,7 @@ const OurMission = () => {
 
   
     return (
-        <div id="mission" className='mission-background'>
+        <div data-aos="zoom-in-up" id="mission" className='mission-background'>
  <div className='ourMission'>
 <div className='ourmission-div'>
   <div className='writing-style'>
