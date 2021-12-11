@@ -1,69 +1,76 @@
 import React from 'react';
-import { CopyrightOutlined, Place, CopyrightSharp, EmailOutlined, FacebookOutlined, PhoneAndroidOutlined, Twitter } from '@mui/icons-material';
-import { Container, Grid, Typography } from '@mui/material';
+import './Footer.css'
+import { Nav } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+import { Col, Container, Row } from 'react-bootstrap';
+// import { CopyrightOutlined, Place, CopyrightSharp, EmailOutlined, FacebookOutlined, PhoneAndroidOutlined, Twitter } from '@mui/icons-material';
+// import {  Grid, Typography } from '@mui/material';
+import logo from '../../../images/logo.png'
 
 
 const Footer = () => {
-    const style = {
-        backgroundColor: 'rgb(35, 34, 34)',
-        color: '#D8D2BE',
-        textAlign: "center",
-        paddingTop: "40px",
-        paddingBottom: "40px",
-        position: "static",
-        left: "0",
-        bottom: "0",
+    // const style = {
+    //     backgroundColor: 'rgb(35, 34, 34)',
+    //     color: '#D8D2BE',
+    //     textAlign: "center",
+    //     paddingTop: "40px",
+    //     paddingBottom: "40px",
+    //     position: "static",
+    //     left: "0",
+    //     bottom: "0",
 
-        width: "100%",
-        marginTop: '350px'
-    }
+    //     width: "100%",
+    //     marginTop: '350px'
+    // }
     return (
-        <div style={style} >
-        <Container >
-            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                <Grid item xs={12} sm={6}>
-                    <Typography sx={{paddingY:4}} variant="h4">Contact us!</Typography>
-                    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                        <Grid direction="column" align="left" item xs={6}>
-                            <FacebookOutlined sx={{ marginX: 1 }} /> @Uddog O uddogta Japan
-                        </Grid>
-                        <Grid direction="column" align="left" item xs={6}>
-                            <Twitter sx={{ marginX: 1 }} /> @Uddog O uddogta Japan
-                        </Grid>
-                        <Grid direction="column" align="left" item xs={6}>
-                            <EmailOutlined sx={{ marginX: 1 }} /> info.uujp@gmail.com
-                        </Grid>
-                        <Grid direction="column" align="left" item xs={6}>
-                            <PhoneAndroidOutlined sx={{ marginX: 1 }} />  +81-80-9666-8105
-                        </Grid>
-                    </Grid>
+        <div className="footer-style">
+           
+           <Container className='mt-5 pt-5'>
+  <Row>
+    <Col xs>
+        <div className="footer-styling">
+           
+            <h2 className="fw-bolder text-white">Quick Link</h2>
+            {/* <div className=''>
+                <img src="" alt="" />
+            </div> */}
+            <p className="fw-bold text-white"><Nav.Link className="text-white" as={HashLink} to="/home#aboutUs"> <span className=''>ABOUT US</span></Nav.Link></p>
+            <p className="fw-bold text-white"></p>
+            <p className="fw-bold text-white"><Nav.Link className="text-white" as={HashLink} to="/home#someCauses"> <span className=''>CAUSES</span></Nav.Link></p>
+            <p className="fw-bold text-white"> <Nav.Link className="text-white" as={HashLink} to="/home#mission"><span className=''>MiSSION</span></Nav.Link></p>
+            <p className="fw-bold text-white"><Nav.Link className="text-white" as={HashLink} to="/home#joinUs"> <span className='text-white'>JOIN US</span></Nav.Link></p>
+            <p className="fw-bold text-white"><Nav.Link className="text-white" as={HashLink} to="/home#joinUs"> <span className='text-white'>Contact</span></Nav.Link></p>
+        </div>
+    </Col>
+    
+    <Col xs={{ order: 12 }} className="footer-styling">
+        <div className=''><img width="30%" src={logo} alt="" /></div>
+        {/* <h2 className="fw-bolder text-white"> Uddok O Uddokta </h2> */}
+        <p className="fw-bold text-white">Shinjuku Park Tower N30F,</p> 
+        <p className="fw-bold text-white">
+        3-7-1 Nishishinjuku,Shinjuku-ku,
+        </p >
+        
+<p className="fw-bold text-white">Tokyo 163-1030, Japan</p>
 
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                    <Typography sx={{paddingY:4}} variant="h4">Address</Typography>
-                    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                        <Grid direction="column" align="center" item xs={12}>
-                            <Place />
-                            <Typography variant="body2">
-                                  Shinjuku Park Tower,N30F, <br />
-                                  3-7-1 Nishishinjuku,
-                                 Shinjuku-ku, 
- <br />
- Tokyo 163-1030, Japan <br />
-                              
-                            </Typography>
-                        </Grid>
-                    </Grid>
-                </Grid>
-            </Grid>
-            <br />
-            <br />
-            <br />
-            <Typography variant="subtitle1">Uddog O uddogta Japan.</Typography>
-            <Typography variant="subtitle1">Copyright all right reserved <CopyrightOutlined /></Typography>
+        <p className="fw-bold text-white">info@uddogouddokta.jp</p>
+        <p className="fw-bold text-white">+81-80-9666-8105</p>
+    </Col>
+    <Col xs={{ order: 1 }}>
+        <h2 className="fw-bolder text-white">Socials</h2>
+        <p className="fw-bold text-white fs-2"><a className='tag-link' target="_blank" href="https://www.facebook.com/uddogouddoktajapan"><i class="fab fa-facebook"></i></a> </p>
+        <p className="fw-bold text-white fs-2"><i class="fab fa-instagram-square"></i></p>
+        <p className="fw-bold text-white fs-2"><i class="fab fa-linkedin"></i></p>
+        <p className="fw-bold text-white fs-2"><i class="fab fa-twitter-square"></i></p>
+    </Col>
+  </Row>
 
-        </Container>
-    </div>
+</Container>
+<div className="mt-5">
+<p className="text-white footer-bottom">Copyright <img width="1%" src="https://o.remove.bg/downloads/d1ae6f8a-5594-4bc7-86f0-45961b852fa7/001_2688246-5b916f32c9e77c0025c0cc9c-removebg-preview.png" alt="" /> 2021. All Rights Reserved</p>
+</div>
+     
+        </div>
     );
 };
 
