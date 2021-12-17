@@ -14,7 +14,7 @@ import img3 from '../../../images/telephone.png'
 const Top = () => {
        
     return (
-     <div className="top mt-3 container">
+     <div className="top mt-3 container top-uddokta">
  <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
  
     <Grid item xs={2} sm={4} md={4} >
