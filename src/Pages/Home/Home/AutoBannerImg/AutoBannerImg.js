@@ -24,9 +24,10 @@ const AutoBannerImg = () => {
                     <div className="banner-title">
                         <span className="text-whitesmoke">We Need Your Hand</span> <span className="text-red"></span> <br />
                     </div>
-                    <TextLoop interval={5000}>
+                    <TextLoop interval={1500}>
                     
-                        <span className="textloop-text">Lorem ipsum dolor sit amet.</span>
+                    
+                        <span className="textloop-text">Lorem, ipsum.</span>
                         <span className="textloop-text">Lorem, ipsum.</span>
                         <span className="textloop-text">Lorem ipsum dolor sit amet.</span>
                       
@@ -44,9 +45,10 @@ const AutoBannerImg = () => {
                     <div className="banner-title">
                         <span className="text-whitesmoke">lorem</span> <span className="text-red"></span> <br />
                     </div>
-                    <TextLoop interval={5000}>
+                    <TextLoop interval={1500}>
                       
-                        <span className="textloop-text">Lorem ipsum dolor sit amet.</span>
+                 
+                        <span className="textloop-text">Lorem, ipsum.</span>
                         <span className="textloop-text">Lorem, ipsum.</span>
                         <span className="textloop-text">Lorem ipsum dolor sit amet.</span>
                       
@@ -64,9 +66,10 @@ const AutoBannerImg = () => {
                     <div className="banner-title">
                         <span className="text-whitesmoke">lorem</span> <span className="text-red"></span> <br />
                     </div>
-                    <TextLoop interval={3000}>
+                    <TextLoop interval={1500}>
                   
-                        <span className="textloop-text">Lorem ipsum dolor sit amet.</span>
+                  
+                        <span className="textloop-text">Lorem, ipsum.</span>
                         <span className="textloop-text">Lorem, ipsum.</span>
                         <span className="textloop-text">Lorem ipsum dolor sit amet.</span>
                       

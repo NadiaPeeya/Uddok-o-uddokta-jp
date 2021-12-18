@@ -40,7 +40,8 @@ const Navigation = () => {
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#home"> <span className='style-nav' >HOME</span></Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#aboutUs"> <span className='style-nav'>ABOUT US</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#someCauses"> <span className='style-nav'>CAUSES</span> </Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission"><span className='style-nav'>MiSSION</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission"><span className='style-nav'>NEWS & EVENTS</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission"><span className='style-nav'>BLOG</span></Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>JOIN US</span></Nav.Link>
  {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>CONTACT US</span> </Nav.Link> */}
 

@@ -7,13 +7,27 @@ import './Donation.css';
 
 const Donation = () => {
     return (
-        <Grid container spacing={2}>
-        <Grid item xs={6}>
-       <h1>hi</h1>
+      <div className='donation-section'>
+  <Grid container spacing={2} className='my-2 py-2'>
+        <Grid item xs={6} className='donation-style'>
+          <div className='donation-text container'>
+            <h1 className='text-center text-white fw-bolder h-donation'>Donate for Sustainable <br />
+             Social Impacts</h1>
+            <p className='container text-center text-white p-donation'>Donate for bringing positive changes in the
+lives of the underprivileged. With us you
+can participate in not just any charity, but
+your offerings will surely be used in places
+where they are bound to create sustainable
+impacts. The goal is not to provide
+temporary help, but to ensure that people.don’t require further donations to live
+healthy lives. In other words, Donation for
+sustainable development.</p>
+          </div>
+      
         </Grid>
         <Grid item xs={6}>
-         <Container>
-  <Row className='container'>
+         <Container className=''>
+  <Row className='container payment-form py-5'>
   
     <Col className='form-table container'>
 
@@ -27,28 +41,21 @@ const Donation = () => {
      <input className='input-field' type="text" id="adr" name="address" placeholder="542 W. 15th Street"/>
      <Label className='label-field' htmlFor="city"><i className="fa fa-institution"></i> City</Label>
      <input className='input-field' type="text"  id="city" name="city" placeholder="Tokyo"/>
+     <div className='row'>
+     <div className='col'>
      <Label className='label-field' htmlFor="state">State</Label>
      <input className='input-field' type="text" id="state" name="state" placeholder="NY"/>
+     </div>
+     <div className='col'> 
      <Label className='label-field' htmlFor="zip">Zip</Label>
      <input className='input-field' type="text" id="zip" name="zip" placeholder="10001" />
+     </div>
+  
+     </div>
+   
+   
    </div>
 
-    
- 
-{/* 
-
-    <div className='row'>
-        <div className='col'>
-        <Label className='label-field' htmlFor="state">State</Label>
-     <input className='input-field' type="text" id="state" name="state" placeholder="NY"/>
-        </div>
-   
-<div className='col'>
-<Label className='label-field' htmlFor="zip">Zip</Label>
-     <input className='input-field' type="text" id="zip" name="zip" placeholder="10001" />
-</div>
-    
-    </div> */}
    
 
     </Col>
@@ -68,11 +75,19 @@ const Donation = () => {
      <input className='input-field' type="text" id="cname" name="cardname" placeholder="John More Doe" />
      <Label className='label-field' htmlFor="ccnum">Credit card number</Label>
      <input className='input-field' type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"/>
-     <Label className='label-field' htmlFor="expmonth">Exp Month</Label>
+     <div className="row">
+       <div className="col">
+       <Label className='label-field' htmlFor="expmonth">Exp Month</Label>
      <input className='input-field' type="text" id="expmonth" name="expmonth" placeholder="September"/>
-     <Label className='label-field' htmlFor="cvv">CVV</Label>
+       </div>
+       <div className="col">
+       <Label className='label-field' htmlFor="cvv">CVV</Label>
      <input className='input-field' type="text" id="cvv" name="cvv" placeholder="352"/>
  
+       </div>
+     </div>
+     
+    
 
     
  
@@ -95,11 +110,14 @@ const Donation = () => {
    
     
     </Col>
+    <input type="submit" value="Continue Donation" class="donation-continue"/>
   </Row>
 </Container>
         </Grid>
 
       </Grid>
+      </div>
+      
       
     );
 };

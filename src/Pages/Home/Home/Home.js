@@ -17,6 +17,8 @@ import SomeCauses from './../SomeCauses/SomeCauses';
 import OurMission from './OurMission/OurMission';
 import AutoBannerImg from './AutoBannerImg/AutoBannerImg';
 import Donation from './../Donation/Donation';
+import Services from '../Services/Services';
+import OurTeam from '../OurTeam/OurTeam';
 
 
 
@@ -35,6 +37,7 @@ const Home = () => {
        <SomeCauses></SomeCauses>
        <WhatHaveCount></WhatHaveCount>
        <OurMission></OurMission>
+       <OurTeam></OurTeam>
        <Donation></Donation>
        <UddoktaService></UddoktaService>
     

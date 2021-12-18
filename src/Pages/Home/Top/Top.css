@@ -103,7 +103,10 @@
     opacity: 1;
     right: 0;
   }
-
+.main-name-english{
+    color: black;
+    font: bolder;
+}
   /* .icon-class{
     color: brown;
     font-size: 36px;

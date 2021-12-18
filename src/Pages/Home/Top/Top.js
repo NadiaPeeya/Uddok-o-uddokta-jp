@@ -25,9 +25,9 @@ const Top = () => {
     <div>
     <img width="55%" src={img3}/>
     </div>
-    <div className='call-text'>
-        <h6 className='fw-bolder'>Call Us</h6>
-       <p className='text-black-50'>+818096668105</p>
+    <div className='call-text mt-4'>
+        <h6 className='fw-bolder text-black-50'>+818096668105</h6>
+      
     </div>
     </Col>
     <Col className='mail-to'>
@@ -36,9 +36,9 @@ const Top = () => {
 {/* 
     <i class="far fa-envelope"></i> */}
     </div>
-    <div className='mail-text'>
-        <h6 className='fw-bolder'>Mail To</h6>
-       <p sx={{}} className='text-black-50'>info.uujp@gmail.com</p>
+    <div className='mail-text mt-4'>
+        <h6 className='text-black-50 fw-bolder'>info.uujp@gmail.com</h6>
+       {/* <p sx={{}} className='text-black-50'>info.uujp@gmail.com</p> */}
     </div>
     </Col>
   </Row>
@@ -47,7 +47,7 @@ const Top = () => {
     <Grid item xs={2} sm={4} md={4} >
      <div className="col">
       <h2 className="fw-bolder text-danger mt-2">ウッドグ オ ウッドクタ日本</h2>
-      <h3 className="fw-bolder">般社団法人</h3>
+      <p className='main-name-english fw-bolder'>UDDOG O UDDOKTA JAPAN</p>
      </div>
  
     </Grid>
