@@ -46,7 +46,7 @@ const Top = () => {
     </Grid>
     <Grid item xs={2} sm={4} md={4} >
      <div className="col">
-      <h2 className="fw-bolder text-danger mt-2">ウッドグ オ ウッドクタ日本</h2>
+      <h2 className="fw-bolder text-primary mt-2">ウッドグ オ ウッドクタ日本</h2>
       <p className='main-name-english fw-bolder'>UDDOG O UDDOKTA JAPAN</p>
      </div>
  
@@ -55,7 +55,7 @@ const Top = () => {
         <div className="row end-part">
         <div className="col-md-6 change-part">
         <Button sx={{borderRight: '1px solid brown'}} size="small"> <span className='text-black-50'>EN</span> </Button>
-        <Button size="small"> <Nav.Link className="text-black-50" as={HashLink} to="/japanese">JP</Nav.Link></Button>
+        <Button size="small"> <Nav.Link className="text-black-50" as={HashLink} to="/japanese">日本</Nav.Link></Button>
      </div>
      <div className="col-md-6">
   

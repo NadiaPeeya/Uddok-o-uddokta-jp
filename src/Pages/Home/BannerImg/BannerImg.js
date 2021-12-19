@@ -28,7 +28,7 @@ const BannerImg = () => {
          </Button>
           </Grid>
           <Grid item xs={12} md={7}>
-            <img sx={{ marginLeft: 10}} width="60%" src="https://blog.ipleaders.in/wp-content/uploads/2019/11/What-Is-The-Best-Time-In-History-To-Become-An-Entrepreneur-770x500.jpg" alt="" />
+            <img sx={{ marginLeft: 10}} width="100%" src="https://blog.ipleaders.in/wp-content/uploads/2019/11/What-Is-The-Best-Time-In-History-To-Become-An-Entrepreneur-770x500.jpg" alt="" />
           </Grid>
      
         </Grid>

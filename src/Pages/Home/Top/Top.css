@@ -104,8 +104,9 @@
     right: 0;
   }
 .main-name-english{
-    color: black;
-    font: bolder;
+    color: #495057;
+    font-weight: bolder;
+ 
 }
   /* .icon-class{
     color: brown;

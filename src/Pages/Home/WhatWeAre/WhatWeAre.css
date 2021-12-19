@@ -1,0 +1,15 @@
+
+.whatweare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatweare-text{
+    text-align: justify;
+}
+.whatWeAre{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

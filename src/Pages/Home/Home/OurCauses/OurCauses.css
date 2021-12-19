@@ -1,0 +1,26 @@
+.causes-slider{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.slider-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      height: 400px;
+    width: 100%;
+   
+    color: #fff;
+    margin: 0 15px;
+    font-size: 4em;
+}
+.causes-div{
+  background-color: #F6FBFF;
+}
+.causes-head{
+  color: #354252;
+  text-align: left;
+  
+}

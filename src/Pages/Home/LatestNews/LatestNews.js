@@ -12,20 +12,21 @@ import { Container } from '@mui/material';
 import img1 from '../../../images/global_strategic_research_center.jpg'
 import img2 from '../../../images/financialcause.png'
 import img3 from '../../../images/Career progression.jpg'
-import './SomeCauses.css'
+import './LatestNews.css'
+import { textAlign } from '@mui/system';
 
-const SomeCauses = () => {
+const LatestNews = () => {
     return (
-        <div data-aos="zoom-in-up" id="someCauses" className='causes-div'>
-  <Container className="causes-style"  sx={{ flexGrow: 1, height: '750px', mt: '15px' }}>       
+        <div data-aos="zoom-in-up" id="LatestNews" className='LatestNews-div'>
+  <Container className="LatestNews-style"  sx={{ flexGrow: 1, height: '750px', mt: '15px' }}>       
         <div className='text-style mt-5 mb-5 pt-5'>
-        <p className='p-text'>OUR AVAILABLE CAUSES</p>
-            <h1 className='h-text'>Some Causes</h1>
+       
+            <h1 className='h-text'>Latest News</h1>
            <p className='text-para'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet eius quos, <br />
            vero ipsum consectetur autem voluptates aperiam aliquid quidem neque?</p>
         </div>
         
-        <Grid className="causes"  container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Grid className="LatestNews"  container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           
             <Grid item xs={2} sm={4} md={4}>
             <Card className="border-0" sx={{ maxWidth: 350}}>
@@ -37,10 +38,10 @@ const SomeCauses = () => {
         
       />
       <CardContent className='mb-5 pb-2'>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
           Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, libero!
         </Typography>
       </CardContent>
@@ -57,10 +58,10 @@ const SomeCauses = () => {
         image={img2}
       />
       <CardContent className='mb-5 pb-4'>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
          Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
         </Typography>
       </CardContent>
@@ -77,10 +78,10 @@ const SomeCauses = () => {
         image={img3}
       />
       <CardContent className='mb-5 pb-4'>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
         Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography sx={{textAlign: 'justify' }} variant="body2" color="text.secondary">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, laborum.
         </Typography>
       </CardContent>
@@ -96,4 +97,4 @@ const SomeCauses = () => {
     );
 };
 
-export default SomeCauses;
+export default LatestNews;

@@ -49,6 +49,50 @@ const WhatHaveCount = () => {
             Mentor
           </div>
                 </div>
+                <div className="box">
+          <div className="icon">
+          <i className="fa fa-chalkboard-teacher"></i>
+          </div>
+          <div className="counter">
+             10
+          </div>
+          <div className='text'>
+            Mentor
+          </div>
+                </div>
+                <div className="box">
+          <div className="icon">
+          <i className="fa fa-chalkboard-teacher"></i>
+          </div>
+          <div className="counter">
+             10
+          </div>
+          <div className='text'>
+            Mentor
+          </div>
+                </div>
+                <div className="box">
+          <div className="icon">
+          <i className="fa fa-chalkboard-teacher"></i>
+          </div>
+          <div className="counter">
+             10
+          </div>
+          <div className='text'>
+            Mentor
+          </div>
+                </div>
+                <div className="box">
+          <div className="icon">
+          <i className="fa fa-chalkboard-teacher"></i>
+          </div>
+          <div className="counter">
+             10
+          </div>
+          <div className='text'>
+            Mentor
+          </div>
+                </div>
 
             </div>
             

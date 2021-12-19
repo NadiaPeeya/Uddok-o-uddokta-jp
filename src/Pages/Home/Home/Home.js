@@ -13,12 +13,16 @@ import Top from '../Top/Top';
 import UddoktaService from '../UddoktaService/UddoktaService';
 import Achievements from './Achievements/Achievements';
 import WhatHaveCount from './WhatHaveCount/WhatHaveCount';
-import SomeCauses from './../SomeCauses/SomeCauses';
+import SomeCauses from '../LatestNews/LatestNews';
 import OurMission from './OurMission/OurMission';
 import AutoBannerImg from './AutoBannerImg/AutoBannerImg';
 import Donation from './../Donation/Donation';
 import Services from '../Services/Services';
 import OurTeam from '../OurTeam/OurTeam';
+import OurCauses from './OurCauses/OurCauses';
+import BannerImg from '../BannerImg/BannerImg';
+import WhatWeAre from '../WhatWeAre/WhatWeAre';
+import LatestNews from '../LatestNews/LatestNews';
 
 
 
@@ -33,14 +37,13 @@ const Home = () => {
        <Top></Top>
         <Navigation></Navigation>
         <AutoBannerImg></AutoBannerImg>
-       <AboutUs></AboutUs>
-       <SomeCauses></SomeCauses>
+       <WhatWeAre></WhatWeAre>
+       <OurCauses></OurCauses>
+      
        <WhatHaveCount></WhatHaveCount>
-       <OurMission></OurMission>
-       <OurTeam></OurTeam>
+       <OurMission></OurMission>   
+       <LatestNews></LatestNews> 
        <Donation></Donation>
-       <UddoktaService></UddoktaService>
-    
        <AboutBanner></AboutBanner>
       
        <Footer></Footer>

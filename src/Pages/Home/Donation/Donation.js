@@ -8,7 +8,7 @@ import './Donation.css';
 const Donation = () => {
     return (
       <div className='donation-section'>
-  <Grid container spacing={2} className='my-2 py-2'>
+  <Grid className="donation-start" container spacing={2} className='my-2 py-2'>
         <Grid item xs={6} className='donation-style'>
           <div className='donation-text container'>
             <h1 className='text-center text-white fw-bolder h-donation'>Donate for Sustainable <br />
