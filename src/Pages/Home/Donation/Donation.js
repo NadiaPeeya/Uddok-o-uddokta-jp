@@ -7,8 +7,11 @@ import './Donation.css';
 
 const Donation = () => {
     return (
-      <div className='donation-section'>
-  <Grid className="donation-start" container spacing={2} className='my-2 py-2'>
+     
+<div className='donation-section'>
+<Container>
+  <Grid className="donation-start" container spacing={2} className='my-5 py-5'>
+ 
         <Grid item xs={6} className='donation-style'>
           <div className='donation-text container'>
             <h1 className='text-center text-white fw-bolder h-donation'>Donate for Sustainable <br />
@@ -26,7 +29,7 @@ sustainable development.</p>
       
         </Grid>
         <Grid item xs={6}>
-         <Container className=''>
+         <Container className='container'>
   <Row className='container payment-form py-5'>
   
     <Col className='form-table container'>
@@ -62,7 +65,7 @@ sustainable development.</p>
     
     <Col>
     <h3>Payment</h3>
-  <Label className='label-field' htmlFor="fname"><i className="fa fa-user"></i>Accepted Cards</Label>
+  {/* <Label className='label-field' htmlFor="fname"><i className="fa fa-user"></i>Accepted Cards</Label> */}
   <div className="icon-container">
               <i className="fa fa-cc-visa navy" ></i>
               <i className="fa fa-cc-amex blue" ></i>
@@ -116,7 +119,10 @@ sustainable development.</p>
         </Grid>
 
       </Grid>
+      </Container>
       </div>
+     
+      
       
       
     );

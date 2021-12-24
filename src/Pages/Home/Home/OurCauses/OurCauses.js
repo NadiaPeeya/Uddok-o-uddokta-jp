@@ -1,15 +1,19 @@
 import React from 'react';
 import Carousel from "react-elastic-carousel";
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
+// import Card from '@mui/material/Card';
+// import CardActions from '@mui/material/CardActions';
+// import CardContent from '@mui/material/CardContent';
+// import CardMedia from '@mui/material/CardMedia';
+// import Typography from '@mui/material/Typography';
 import { Container } from '@mui/material';
-import img1 from '../../../../images/global_strategic_research_center.jpg'
-import img2 from '../../../../images/financialcause.png'
-import img3 from '../../../../images/Career progression.jpg'
+import img1 from '../../../../images/cause1.png'
+import img2 from '../../../../images/cause2.png'
+import img3 from '../../../../images/cause3.png'
+import img4 from '../../../../images/cause4.png'
+import img5 from '../../../../images/cause5.png'
+import Typography from '@mui/material/Typography';
 import './OurCauses.css'
+import { Button, Card } from 'react-bootstrap';
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -23,8 +27,8 @@ const OurCauses = () => {
     return (
 
         <div data-aos="zoom-in-up" id="specialCauses" className='causes-div'>
-        <Container className="causes-style"  sx={{ flexGrow: 1, mt: '15px' }}>
-               <div className='text-style mt-5 mb-5 pt-5'>
+        <Container className="causes-style"  sx={{ flexGrow: 1 }}>
+               <div className='text-style'>
        
             <h1 className='h-text'>Social Causes</h1>
             <div className='text-div'>
@@ -37,102 +41,86 @@ const OurCauses = () => {
           <Carousel breakPoints={breakPoints}>
            
              <div className='slider-box'>
-             <Card className="border-0" sx={{ maxWidth: 400}}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="320"
-        image={img1}
-        
-      />
-      <CardContent className='mb-5 pb-2'>
-        <Typography className='causes-head' gutterBottom variant="h6" component="div">
-        Entrepreneurship for Zero Unemployment
+             <Card sx={{ maxWidth: 550}}>
+    <Card.Img variant="top" height={300} src={img1} />
+    <Card.Body>
+    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+         Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, libero! */}
+        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
         </Typography>
-      </CardContent>
-  
-    </Card>
+    </Card.Body>
+    {/* <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer> */}
+  </Card>
              </div>
              <div className='slider-box'>
-             <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="320"
-        image={img2}
-      />
-      <CardContent className='mb-5 pb-4'>
-        <Typography className='causes-head' gutterBottom variant="h6" component="div">
-        Entrepreneurship to achieve Universal Health Coverage 
+             <Card sx={{ maxWidth: 550}}>
+    <Card.Img variant="top" height={300} src={img2} />
+    <Card.Body>
+    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+         Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates. */}
+        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
         </Typography>
-      </CardContent>
-    
-    </Card>
+    </Card.Body>
+    {/* <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer> */}
+  </Card>
              </div>
              <div className='slider-box'>
                 <p>
-                <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="330"
-        image={img3}
-      />
-      <CardContent className='mb-5 pb-4'>
-        <Typography className='causes-head' gutterBottom variant="h6" component="div">
-        Entrepreneurship to provide Quality Education
+                <Card sx={{ maxWidth: 550}}>
+    <Card.Img variant="top" height={300} src={img3} />
+    <Card.Body>
+    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+         Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, laborum. */}
+        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
         </Typography>
-      </CardContent>
-
-    </Card>
+    </Card.Body>
+    {/* <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer> */}
+  </Card>
                 </p>
              </div>
              <div className='slider-box'>
-             <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="330"
-        image={img3}
-      />
-      <CardContent className='mb-5 pb-4'>
-        <Typography className='causes-head' gutterBottom variant="h6" component="div">
-        Entrepreneurship to create Equal Opportunities 
+             <Card sx={{ maxWidth: 550}}>
+    <Card.Img variant="top" height={300} src={img4} />
+    <Card.Body>
+    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+         Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, laborum. */}
+        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
         </Typography>
-      </CardContent>
-
-    </Card>
+    </Card.Body>
+    {/* <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer> */}
+  </Card>
              </div>
              <div className='slider-box'>
-             <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="320"
-        image={img3}
-      />
-      <CardContent className='mb-5 pb-4'>
-        <Typography className='causes-head' gutterBottom variant="h6" component="div">
-        Lorem ipsum dolor sit amet.
+             <Card sx={{ maxWidth: 550}}>
+    <Card.Img variant="top" height={300} src={img5} />
+    <Card.Body>
+    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+         Lorem ipsum dolor sit amet.
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, laborum.
+        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
         </Typography>
-      </CardContent>
-
-    </Card>
+    </Card.Body>
+    {/* <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer> */}
+  </Card>
              </div>
              {/* <div className='slider-box'>
              <Card sx={{ maxWidth: 345 }}>

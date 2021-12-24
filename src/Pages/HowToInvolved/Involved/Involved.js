@@ -39,7 +39,7 @@ const Involved = (props) => {
       <CardActions sx={{textAlign: 'center'}}>
         {/* <Button  sx={{border:'1px solid #b71c1c', backgroundColor: '#b71c1c'}} className="mx-auto design-color" variant="contained"  size="small">  </Button> */}
         <Button sx={{border:'1px solid #b71c1c', backgroundColor: '#b71c1c'}} className="mx-auto design-color" variant="contained"  size="small"  onClick={handleShow}>
-        Donate
+        Join
       </Button>
 
       <Modal show={show} onHide={handleClose}>

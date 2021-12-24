@@ -8,9 +8,9 @@
 }
 .autobannerimg{
     height: 100vh;
-    background: url('../../../../images/today1.jpg');
-    background-color: #aaaeb3;
-    background-blend-mode: multiply;
+    background: url('../../../../images/finalSlide1.png');
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,22 +20,44 @@
 }
 .autobannerimg-2{
     height: 100vh;
-    background: url('../../../../images/today2.jpg');
+    background: url('../../../../images/finalSlide2.png');
     /* background-color: #5a5b5d;
     background-blend-mode: multiply; */
-    background-color: #aaaeb3;
-    background-blend-mode: multiply;
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .autobannerimg-3{
     height: 100vh;
-    background: url('../../../../images/55.jpg');
+    background: url('../../../../images/finalSlide3.png');
     /* background-color: #5a5b5d;
     background-blend-mode: multiply; */
-    background-color: #aaaeb3;
-    background-blend-mode: multiply;
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.autobannerimg-4{
+    height: 100vh;
+    background: url('../../../../images/finalSlide4.png');
+    /* background-color: #5a5b5d;
+    background-blend-mode: multiply; */
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.autobannerimg-5{
+    height: 100vh;
+    background: url('../../../../images/finalSlide5.png');
+    /* background-color: #5a5b5d;
+    background-blend-mode: multiply; */
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

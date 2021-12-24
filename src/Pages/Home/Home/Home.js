@@ -23,6 +23,7 @@ import OurCauses from './OurCauses/OurCauses';
 import BannerImg from '../BannerImg/BannerImg';
 import WhatWeAre from '../WhatWeAre/WhatWeAre';
 import LatestNews from '../LatestNews/LatestNews';
+import NewsLetter from './NewsLetter/NewsLetter';
 
 
 
@@ -45,7 +46,7 @@ const Home = () => {
        <LatestNews></LatestNews> 
        <Donation></Donation>
        <AboutBanner></AboutBanner>
-      
+      <NewsLetter></NewsLetter>
        <Footer></Footer>
    
 

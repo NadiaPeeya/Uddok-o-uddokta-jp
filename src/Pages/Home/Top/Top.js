@@ -7,6 +7,7 @@ import img2 from '../../../images/logo.png'
 import { Nav,Container, Row, Col, Offcanvas } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import Button from '@mui/material/Button';
+import languageImg from '../../../images/language-translation-and-linguistics-icon-vector-14239078.jpeg'
 import img3 from '../../../images/telephone.png'
 
 
@@ -52,8 +53,11 @@ const Top = () => {
  
     </Grid>
     <Grid item xs={2} sm={4} md={4} >
+        
         <div className="row end-part">
+            
         <div className="col-md-6 change-part">
+        <img width="10%" src={languageImg} alt="" />
         <Button sx={{borderRight: '1px solid brown'}} size="small"> <span className='text-black-50'>EN</span> </Button>
         <Button size="small"> <Nav.Link className="text-black-50" as={HashLink} to="/japanese">日本</Nav.Link></Button>
      </div>

@@ -5,7 +5,7 @@ import './WhatWeAre.css';
 
 const WhatWeAre = () => {
     return (
-        <Box className='about' id="aboutUs" sx={{ flexGrow: 1, padding: 5,  backgroundColor: '#fafafa'}}>
+        <Box className='about' id="aboutUs" sx={{ flexGrow: 1,  backgroundColor: '#fafafa'}}>
         {/* <Typography variant="h3" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 500}}> */}
         <div className="container whatWeAre my-5 py-5">
         <div className="row">

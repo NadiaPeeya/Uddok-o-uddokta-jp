@@ -8,6 +8,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from './Pages/Home/Home/Home';
 
 import Japanese from './Pages/Japanese/Japanese';
+import Research from './Pages/Research/Research';
+import Training from './Pages/Training/Training';
+import Consulting from './Pages/Consulting/Consulting';
+import Funding from './Pages/Funding/Funding';
 
 AOS.init();
 function App() {
@@ -20,6 +24,10 @@ function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route  path="/home" element={<Home/>}/>
           <Route  path="/Japanese" element={<Japanese/>}/>
+          <Route  path="/Research" element={<Research/>}/>
+          <Route  path="/Training" element={<Training/>}/>
+          <Route  path="/Consulting" element={<Consulting/>}/>
+          <Route  path="/Funding" element={<Funding/>}/>
           {/* <Route exact path="/login" element={<Login/>}/>
           <Route exact path="/recovery-password" element={<RecoveryPassword/>}/>
           <Route path="*" element={<NotFound/>}/> */}

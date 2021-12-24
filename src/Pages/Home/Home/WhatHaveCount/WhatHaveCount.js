@@ -18,17 +18,6 @@ const WhatHaveCount = () => {
                 </div>
                 <div className="box">
           <div className="icon">
-          <i className="fa fa-handshake"></i>
-          </div>
-          <div className="counter">
-             25
-          </div>
-          <div className='text'>
-            Partnership
-          </div>
-                </div>
-                <div className="box">
-          <div className="icon">
           <i className="fa fa-user-tie"></i>
           </div>
           <div className="counter">
@@ -40,13 +29,35 @@ const WhatHaveCount = () => {
                 </div>
                 <div className="box">
           <div className="icon">
-          <i className="fa fa-chalkboard-teacher"></i>
+          <i className="fa fa-user-tie"></i>
           </div>
           <div className="counter">
-             10
+          500
           </div>
           <div className='text'>
-            Mentor
+          Beneficiaries
+          </div>
+                </div>
+                <div className="box">
+          <div className="icon">
+          <i class="fas fa-dollar-sign"></i>
+          </div>
+          <div className="counter">
+          1,000,000
+          </div>
+          <div className='text'>
+          Investment
+          </div>
+                </div>
+                <div className="box">
+          <div className="icon">
+          <i class="fas fa-hands-helping"></i>
+          </div>
+          <div className="counter">
+             25
+          </div>
+          <div className='text'>
+          Partnership
           </div>
                 </div>
                 <div className="box">
@@ -62,35 +73,24 @@ const WhatHaveCount = () => {
                 </div>
                 <div className="box">
           <div className="icon">
-          <i className="fa fa-chalkboard-teacher"></i>
+          <i class="fas fa-id-card-alt"></i>
           </div>
           <div className="counter">
-             10
+             3
           </div>
           <div className='text'>
-            Mentor
+          Interns
           </div>
                 </div>
                 <div className="box">
           <div className="icon">
-          <i className="fa fa-chalkboard-teacher"></i>
+          <i class="fas fa-people-carry"></i>
           </div>
           <div className="counter">
-             10
+             3
           </div>
           <div className='text'>
-            Mentor
-          </div>
-                </div>
-                <div className="box">
-          <div className="icon">
-          <i className="fa fa-chalkboard-teacher"></i>
-          </div>
-          <div className="counter">
-             10
-          </div>
-          <div className='text'>
-            Mentor
+          Volunteers
           </div>
                 </div>
 

@@ -118,9 +118,10 @@
 }
 
 .donation-section{
-  height: 850px;
+  height: 900px;
+  margin-bottom: 150px;
   background: url('https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')no-repeat;
-  min-height: 80vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   padding: 0 50px;

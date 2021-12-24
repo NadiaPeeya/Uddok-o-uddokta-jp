@@ -34,7 +34,8 @@ const AboutBanner = () => {
          </Typography>
 
          <Typography  variant="h6" style={{color: 'white',  fontWeight: 300, textAlign:'center'}}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iusto laborum perferendis modi repellendus voluptates. Cumque quam accusamus dicta enim.
+         We are working for the betterment of society. <br /> Anyone is welcome to join with us to create more positive impact. You can play your role as per your availability and strength.
+
          </Typography>
          {/* <Button variant="contained" sx={{margin:5}}>
            Learn More
