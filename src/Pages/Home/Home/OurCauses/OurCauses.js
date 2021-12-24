@@ -28,8 +28,9 @@ const OurCauses = () => {
 
         <div data-aos="zoom-in-up" id="specialCauses" className='causes-div'>
         <Container className="causes-style"  sx={{ flexGrow: 1 }}>
-               <div className='text-style'>
-       
+
+
+              <div className='text-style'>   
             <h1 className='h-text'>Social Causes</h1>
             <div className='text-div'>
             <p className='text-para'>Entrepreneurship is our tool to solve social problems in a sustainable way. <br /> There are so many social causes we can work on.  We are moving <br /> forward one by one. Currently we are working on followings.

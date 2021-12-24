@@ -8,17 +8,18 @@
 }
 .autobannerimg{
     height: 100vh;
-    background: url('../../../../images/finalSlide1.png');
+    background: url('../../../../images/finalSlide2.png');
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+ 
 }
 .autobanner{
-    margin-top: -65px;
+    margin-top: -45px;
 }
-.autobannerimg-2{
+.autobannerimg-1{
     height: 100vh;
     background: url('../../../../images/finalSlide2.png');
     /* background-color: #5a5b5d;
@@ -26,10 +27,10 @@
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    /* background-position: center; */
 }
-.autobannerimg-3{
+.autobannerimg-2{
     height: 100vh;
     background: url('../../../../images/finalSlide3.png');
     /* background-color: #5a5b5d;
@@ -37,10 +38,12 @@
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    /* background-position: center; */
+ 
+ 
 }
-.autobannerimg-4{
+.autobannerimg-3{
     height: 100vh;
     background: url('../../../../images/finalSlide4.png');
     /* background-color: #5a5b5d;
@@ -48,10 +51,11 @@
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    /* background-position: center; */
+
 }
-.autobannerimg-5{
+.autobannerimg-4{
     height: 100vh;
     background: url('../../../../images/finalSlide5.png');
     /* background-color: #5a5b5d;
@@ -59,6 +63,19 @@
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    /* background-position: center; */
+
+}
+.autobannerimg-5{
+    height: 100vh;
+    background: url('../../../../images/finalSlide1.png');
+    /* background-color: #5a5b5d;
+    background-blend-mode: multiply; */
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+  
 }

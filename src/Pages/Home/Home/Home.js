@@ -39,13 +39,14 @@ const Home = () => {
         <Navigation></Navigation>
         <AutoBannerImg></AutoBannerImg>
        <WhatWeAre></WhatWeAre>
-       <OurCauses></OurCauses>
-      
+       <OurCauses></OurCauses>     
+       <OurMission></OurMission>  
+       <Donation></Donation> 
        <WhatHaveCount></WhatHaveCount>
-       <OurMission></OurMission>   
-       <LatestNews></LatestNews> 
-       <Donation></Donation>
        <AboutBanner></AboutBanner>
+       <LatestNews></LatestNews> 
+      
+      
       <NewsLetter></NewsLetter>
        <Footer></Footer>
    

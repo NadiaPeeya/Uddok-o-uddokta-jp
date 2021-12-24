@@ -1,5 +1,5 @@
 .counter-up{
-
+    margin-bottom: 150px;
     background: url('../.../../../../../images/backgroundimgservices.jpg')no-repeat;
     min-height: 80vh;
     display: flex;
@@ -31,7 +31,7 @@
     justify-content: space-between;
 }
 .content .box{
-    width: calc(25% - 30px);
+    width: calc(25% - 35px);
     border: 1px dashed rgba(255,255,255,0.6);
     border-radius: 5px;
     padding: 20px;

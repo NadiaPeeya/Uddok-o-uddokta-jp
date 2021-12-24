@@ -1,9 +1,10 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import './JoinUs.css'
+
 import Grid from '@mui/material/Grid';
 import Join from './../Home/Join/Join';
 import Container from '@mui/material/Container';
+import './JoinUs.css'
 
 
 
@@ -36,7 +37,7 @@ const services = [
 
 const JoinUs = () => {
     return (
-        <Box className='join-us mt-5 pt-5' sx={{ flexGrow: 1}}>
+        <Box className='join-us container' sx={{ flexGrow: 1}}>
         <Grid   container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
              {
                  services.map(service => <Join key={service.name} service={service}></Join>)

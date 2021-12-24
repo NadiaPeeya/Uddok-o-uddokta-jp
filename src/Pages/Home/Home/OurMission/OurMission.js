@@ -15,7 +15,7 @@ import { Button } from '@mui/material';
 const OurMission = () => {
 
     return (
-        <div data-aos="zoom-in-up" id="mission" className='mission-background'>
+        <div data-aos="zoom-in-up" id="OurMission" className='mission-background'>
  <div className='ourMission'>
 <div className='ourmission-div'>
   <div className='writing-style'>

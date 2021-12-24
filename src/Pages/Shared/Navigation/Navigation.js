@@ -32,7 +32,7 @@ const Navigation = () => {
 
     return (
    
-     <Navbar id="scroll-navbar-width"  data-aos="zoom-out-down" style={{height: '130px', width: "90%" , mb: '-5px'}} className="change-color" collapseOnSelect expand="lg" fixed="top" >
+     <Navbar id="scroll-navbar-width"  data-aos="zoom-out-down" style={{height: '120px', width: "90%" , mb: '-3px'}} className="change-color" collapseOnSelect expand="lg" fixed="top" >
 
 <Navbar.Brand style={{marginLeft: '-45px'}} className="uddok-o-uddokta" href="#home"> <img width="55%" src={img} alt="" /></Navbar.Brand>
 <Navbar.Toggle />
@@ -40,9 +40,9 @@ const Navigation = () => {
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#home"> <span className='style-nav' >HOME</span></Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#aboutUs"> <span className='style-nav'>ABOUT US</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#specialCauses"> <span className='style-nav'>SOCIAL CAUSES</span> </Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#specialCauses"> <span className='style-nav'>SERVICES</span> </Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#OurMission"> <span className='style-nav'>SERVICES</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>JOIN US</span></Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission"><span className='style-nav'>EVENTS & NEWS</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav'>EVENTS & NEWS</span></Nav.Link>
 
 
  {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission"><span className='style-nav'>BLOG</span></Nav.Link> */}

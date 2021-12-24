@@ -21,7 +21,7 @@ const Join = (props) => {
     
     }
     return (
-     <Grid id="services" data-aos="zoom-in-left" style={BackGroundImg} item xs={2} sm={4} md={3} container spacing={0} sx={{ border: 0,  marginTop: 0,  height: 300, width: '50%'}}>
+     <Grid id="services" data-aos="zoom-in-left" style={BackGroundImg} item xs={2} sm={4} md={3} container spacing={0} sx={{ border: 0,  marginTop: 250, width: '50%'}}>
         <Box className="box-hover"
   sx={{
     display: 'grid',
@@ -44,7 +44,7 @@ const Join = (props) => {
  
            
            <Box>
-           <Typography gutterBottom variant="h4" component="div" sx={{fontWeight: 900, color: 'white', fontFamily: 'cursive'}}>
+           <Typography gutterBottom variant="h4" component="div" sx={{fontWeight: 900, color: 'white', fontFamily: 'cambria'}}>
         {name}
         </Typography>
         <Typography gutterBottom variant="p" component="div" sx={{fontWeight: 300}}>

@@ -10,15 +10,15 @@ const AutoBannerImg = () => {
     return (
         
      <div  id="carouselExampleCaptions" className="carousel slide autobanner" data-bs-ride="carousel">
-           <div class="carousel-indicators">
+           {/* <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item autobannerimg active">
+  </div> */}
+  <div className="carousel-inner container">
+    <div className="carousel-item autobannerimg-1 active">
       {/*<img src="" className="d-block w-100" alt="..."/> */}
       <div className="carousel-caption d-none d-md-block">
       {/* <div className="banner-text mx-auto">
@@ -37,6 +37,12 @@ const AutoBannerImg = () => {
                 </div>
             
             </div> */}
+
+
+
+
+
+
       </div>
     </div>
     <div className="carousel-item autobannerimg-2">

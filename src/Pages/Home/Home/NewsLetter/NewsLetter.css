@@ -3,7 +3,13 @@
     margin-top: 550px;
  
 }
-.newsLetter-1{
+.newsletter-1{
+    background-color: #00baa3;
     height: 450px;
-    border: 1px solid black;
+    border: 1px solid #00baa3;
+    border-radius: 5px;
+}
+.subscribe-btn{
+    background: #76ed7f;
+    border: 1px solid #76ed7f;
 }

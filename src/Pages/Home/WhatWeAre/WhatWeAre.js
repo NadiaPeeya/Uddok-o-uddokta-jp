@@ -7,7 +7,7 @@ const WhatWeAre = () => {
     return (
         <Box className='about' id="aboutUs" sx={{ flexGrow: 1,  backgroundColor: '#fafafa'}}>
         {/* <Typography variant="h3" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 500}}> */}
-        <div className="container whatWeAre my-5 py-5">
+        <div className="container whatWeAre">
         <div className="row">
             <div className="col-md-6">
                 <img width="70%" src="https://media.istockphoto.com/photos/diverse-adults-packing-donation-boxes-in-charity-food-bank-picture-id471500478?b=1&k=20&m=471500478&s=170667a&w=0&h=v4BlPN0IZrymhM2qxpqFF9p3A1ZAN6DOfvuvo7NJwqw=" alt="" />

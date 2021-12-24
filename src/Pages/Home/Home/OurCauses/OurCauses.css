@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin-top: -50px;
 }
 .slider-box{
     display: flex;
@@ -18,9 +19,13 @@
 }
 .causes-div{
   background-color: #F6FBFF;
+
 }
 .causes-head{
   color: #354252;
   text-align: left;
   
+}
+.text-style{
+
 }
