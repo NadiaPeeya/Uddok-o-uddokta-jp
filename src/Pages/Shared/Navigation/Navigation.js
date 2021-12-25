@@ -21,7 +21,7 @@ const Navigation = () => {
     // window.addEventListener('scroll', changeNavbarColor);
       
     window.onscroll = function(){
-        if(window.scrollY >= 300 && window.scrollY >= 500){
+        if(window.scrollY >= 200 || window.scrollY >= 500){
             document.getElementById('scroll-navbar-width').style.width= '100%';
             ;
           }
@@ -31,9 +31,21 @@ const Navigation = () => {
                 ;
           }
         
+          else{
+            document.getElementById('scroll-navbar-width').style.width= '80%';
+            ;
+          }
+        
        
     }
 
+
+    window.scrollTop = function(){
+        if(window.scrollTop > 1){
+            document.getElementById('scroll-navbar-width').style.width= '100%';
+            ;
+        }
+    }
 
     return (
    
