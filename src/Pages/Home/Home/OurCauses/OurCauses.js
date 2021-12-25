@@ -45,12 +45,12 @@ const OurCauses = () => {
              <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img1} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+    Entrepreneurship for Zero Unemployment
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
@@ -61,12 +61,14 @@ const OurCauses = () => {
              <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img2} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+        
+Entrepreneurship to achieve Universal Health Coverage 
+
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
@@ -78,12 +80,12 @@ const OurCauses = () => {
                 <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img3} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+    Entrepreneurship to provide Quality Education
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
@@ -95,12 +97,12 @@ const OurCauses = () => {
              <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img4} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+    Entrepreneurship to create Equal Opportunities 
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
@@ -111,12 +113,13 @@ const OurCauses = () => {
              <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img5} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+    Entrepreneurship to combat Climate Change 
+
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>

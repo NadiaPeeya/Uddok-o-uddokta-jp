@@ -1,11 +1,12 @@
 import React from 'react';
 import './Footer.css'
-import { Nav } from 'react-bootstrap';
+import { Nav, Button, Card } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import { Col, Container, Row } from 'react-bootstrap';
 // import { CopyrightOutlined, Place, CopyrightSharp, EmailOutlined, FacebookOutlined, PhoneAndroidOutlined, Twitter } from '@mui/icons-material';
 // import {  Grid, Typography } from '@mui/material';
 import logo from '../../../images/logo.png'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -34,18 +35,25 @@ const Footer = () => {
             {/* <div className=''>
                 <img src="" alt="" />
             </div> */}
-            <p className="fw-bold text-color-change"><Nav.Link className="text-color-change" as={HashLink} to="/home#aboutUs"> <span className=''>ABOUT US</span></Nav.Link></p>
-            <p className="fw-bold text-color-change"></p>
-            <p className="fw-bold text-color-change"><Nav.Link className="text-color-change" as={HashLink} to="/home#someCauses"> <span className=''>CAUSES</span></Nav.Link></p>
-            <p className="fw-bold text-color-change"> <Nav.Link className="text-color-change" as={HashLink} to="/home#mission"><span className=''>MiSSION</span></Nav.Link></p>
+            <p className=""><Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#aboutUs"> <span className='text-color-change'>ABOUT US</span></Nav.Link></p>
+
+            <p className=""><Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#someCauses"> <span className='text-color-change'>SOCIAL CAUSES</span></Nav.Link></p>
+
+            <p className=""> <Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#mission"><span className='text-color-change'>SERVICEC</span></Nav.Link></p>
             
-            <p className="fw-bold text-color-change"><Nav.Link className="text-color-change" as={HashLink} to="/home#joinUs"> <span className='text-color-change'>JOIN US</span></Nav.Link></p>
-            <p className="fw-bold text-color-change"><Nav.Link className="text-color-change" as={HashLink} to="/home#joinUs"> <span className='text-color-change'>Contact</span></Nav.Link></p>
+            <p className=""><Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#joinUs"> <span className='text-color-change'>JOIN US</span></Nav.Link></p>
+
+            <p className=" text-color-change"><Nav.Link className="text-color-change  hover-color" as={HashLink} to="/home#joinUs"> <span className='text-color-change'>NEWS & EVENTS</span></Nav.Link></p>
         </div>
     </Col>
     
     <Col xs={{ order: 12 }} className="footer-styling">
-        <div className=''><img width="30%" src={logo} alt="" /></div>
+        <div className='mb-4'> 
+        <h5 className='text-primary fw-bolder'>ウッドグ オ ウッドクタ日本
+
+</h5> 
+<h5 className='text-secondary fw-bolder'>UDDOG O UDDOKTA JAPAN</h5> 
+</div>
         {/* <h2 className="fw-bolder text-color-change"> Uddok O Uddokta </h2> */}
         <p className="fw-bold text-color-change">Shinjuku Park Tower N30F,</p> 
         <p className="fw-bold text-color-change">
@@ -59,16 +67,32 @@ const Footer = () => {
     </Col>
     <Col xs={{ order: 1 }}>
         <h2 className="fw-bolder text-color-change">Socials</h2>
-        <p className="fw-bold facebook fs-2"><i class="fab fa-facebook"></i> </p>
-        <p className="fw-bold text-color-change fs-2"><i class="fab fa-instagram-square"></i></p>
-        <p className="fw-bold text-color-change fs-2"><i class="fab fa-linkedin"></i></p>
-        <p className="fw-bold text-color-change fs-2"><i class="fab fa-twitter-square"></i></p>
+        <p className="fw-bold fs-3"><Card.Link className='link-color-change' target="_blank" href="https://www.facebook.com/uddogouddoktajapan/"><i class="fab fa-facebook"></i></Card.Link></p>
+        {/* <Card.Link target="_blank" href="https://www.facebook.com/samiradcc"><i class="fab fa-facebook"></i></Card.Link> */}
+        <p className="fw-bold fs-4"><Card.Link target="_blank" className='link-color-change' href="https://www.linkedin.com/company/uujapan
+"><i class="fab fa-linkedin"></i></Card.Link>
+</p>
+        {/* <Card.Link target="_blank" href="https://www.facebook.com/samiradcc"><i class="fab fa-linkedin"></i></Card.Link> */}
+
+        <p className="fw-bold fs-4"><Card.Link className='link-color-change' target="_blank" href="https://www.youtube.com/channel/UCiwNJcJlDcDJg4I8XKz0XTQ"><i class="fab fa-youtube"></i></Card.Link></p>
+
+        {/* <Card.Link target="_blank" href="https://www.facebook.com/samiradcc"><i class="fab fa-youtube"></i></Card.Link> */}
+
+        <p className="fw-bold fs-4"> <Card.Link className='link-color-change' target="_blank" href="https://www.twitter.com/OUddog/"><i class="fab fa-twitter-square"></i></Card.Link></p>
+        {/* <Card.Link target="_blank" href="https://www.facebook.com/samiradcc"><i class="fab fa-twitter-square"></i></Card.Link> */}
+
+        <p className="fw-bold  fs-4"><Card.Link className='link-color-change' target="_blank" href="https://instagram.com/uu_japan/
+
+"><i class="fab fa-instagram-square"></i></Card.Link></p>
+         
+        {/* <Card.Link target="_blank" href="https://www.facebook.com/samiradcc"><i class="fab fa-instagram-square"></i></Card.Link> */}
+    
     </Col>
   </Row>
 
 </Container>
 <div className="mt-5">
-<p className="text-color-change footer-bottom">Copyright <img width="1%" src="https://o.remove.bg/downloads/d1ae6f8a-5594-4bc7-86f0-45961b852fa7/001_2688246-5b916f32c9e77c0025c0cc9c-removebg-preview.png" alt="" /> 2021. All Rights Reserved</p>
+<p className="text-color-change footer-bottom">Copyright <img width="1%" src="https://o.remove.bg/downloads/d1ae6f8a-5594-4bc7-86f0-45961b852fa7/001_2688246-5b916f32c9e77c0025c0cc9c-removebg-preview.png" alt="" /> 2022. All Rights Reserved</p>
 </div>
      
         </div>

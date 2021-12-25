@@ -1,0 +1,42 @@
+
+.textloop-text{
+    font-size: 64px;
+   text-align: left;
+}
+.text-whitesmoke{
+    font-size: 28px;
+}
+.newsBanner1img{
+    height: 70vh;
+    background: url('http://photos.prnasia.com/prnvar/20190321/2410317-1');
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.newsBanner1{
+    margin-top: -65px;
+}
+.newsBanner1img-2{
+    height: 70vh;
+    background: url('../../../images/consultation.png');
+    /* background-color: #5a5b5d;
+    background-blend-mode: multiply; */
+    background-color: #aaaeb3;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.newsBanner1img-3{
+    height: 70vh;
+    background: url('../../../images/global_strategic_research_center.jpg');
+    /* background-color: #5a5b5d;
+    background-blend-mode: multiply; */
+    background-color: #aaaeb3;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

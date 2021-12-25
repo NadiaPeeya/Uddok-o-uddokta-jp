@@ -1,0 +1,28 @@
+.about-styling{
+   
+
+  
+}
+
+.about-us{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.about-all{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+  background-color: #FBEDE2;
+}
+.news3-about{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: cornsilk;
+
+}
+.outline-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

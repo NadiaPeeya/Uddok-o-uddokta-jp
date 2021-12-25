@@ -46,10 +46,12 @@ margin-right: 10px;
     margin-bottom: 65px;
 }
 .ourmission-div{
-    margin-bottom: 75px;
+   
+    margin-top: 50px;
 }
 .mission-background{
    background: #ffffff;
+   margin-top: 20px;
 }
 
 .nav-link{

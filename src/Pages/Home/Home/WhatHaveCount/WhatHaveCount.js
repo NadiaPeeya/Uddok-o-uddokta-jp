@@ -29,7 +29,7 @@ const WhatHaveCount = () => {
                 </div>
                 <div className="box">
           <div className="icon">
-          <i className="fa fa-user-tie"></i>
+          <i class="fas fa-briefcase"></i>
           </div>
           <div className="counter">
           500

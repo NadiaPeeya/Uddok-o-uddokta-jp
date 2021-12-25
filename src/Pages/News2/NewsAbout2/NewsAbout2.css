@@ -1,0 +1,46 @@
+.about-styling{
+   
+
+  
+}
+
+.about-us{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.about-all{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+  background-color: #FBEDE2;
+}
+.news3-about{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: cornsilk;
+
+}
+.eligibility-text{
+    border: 1px solid white;
+    text-align: justify;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 10px 10px 10px gray;
+
+}
+.large-text{
+    border: 1px solid black;
+    padding: 20px;
+    border: 1px solid white;
+    text-align: justify;
+    background: white;
+    box-shadow: 10px 10px 10px gray;
+}
+.img-style-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

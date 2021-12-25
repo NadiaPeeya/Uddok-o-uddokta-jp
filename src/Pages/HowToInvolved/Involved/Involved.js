@@ -21,11 +21,11 @@ const Involved = (props) => {
         <Grid item xs={3} >
         <Card style={{boxShadow: '5px 5px 10px brown'}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" sx={{ maxWidth: 355}}>
+     data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height="170"
+        height={200}
         image={img}
       />
       <CardContent>
@@ -38,7 +38,7 @@ const Involved = (props) => {
       </CardContent>
       <CardActions sx={{textAlign: 'center'}}>
         {/* <Button  sx={{border:'1px solid #b71c1c', backgroundColor: '#b71c1c'}} className="mx-auto design-color" variant="contained"  size="small">  </Button> */}
-        <Button sx={{border:'1px solid #b71c1c', backgroundColor: '#b71c1c'}} className="mx-auto design-color" variant="contained"  size="small"  onClick={handleShow}>
+        <Button sx={{border:'1px solid primary', backgroundColor: 'primary'}} className="mx-auto design-color" variant="contained"  size="small"  onClick={handleShow}>
         Join
       </Button>
 

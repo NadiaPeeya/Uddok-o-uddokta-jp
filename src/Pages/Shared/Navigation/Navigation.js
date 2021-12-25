@@ -21,9 +21,14 @@ const Navigation = () => {
     // window.addEventListener('scroll', changeNavbarColor);
       
     window.onscroll = function(){
-        if(window.scrollY >= 500){
+        if(window.scrollY >= 300 && window.scrollY >= 500){
             document.getElementById('scroll-navbar-width').style.width= '100%';
             ;
+          }
+       
+           else if(window.scrollY <= 300){
+                document.getElementById('scroll-navbar-width').style.width= '90%';
+                ;
           }
         
        

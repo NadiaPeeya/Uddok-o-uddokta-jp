@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-
+import { HashLink } from 'react-router-hash-link';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -14,7 +14,7 @@ import img2 from '../../../images/newsEve2.jpg'
 import img3 from '../../../images/newsEve3.jpg'
 import './LatestNews.css'
 import { textAlign } from '@mui/system';
-import { Card } from 'react-bootstrap';
+import { Card, Nav } from 'react-bootstrap';
 
 const LatestNews = () => {
     return (
@@ -33,12 +33,14 @@ const LatestNews = () => {
             <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img1} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '700'}} gutterBottom variant="p" component="div">
+    Micro Entrepreneurship Program for the Poor Women in Bangladesh 
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
+                     <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/NewsBanner1"><span className='style-nav'>View More</span></Nav.Link>
+</Button>
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
@@ -50,12 +52,14 @@ const LatestNews = () => {
             <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img2} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '700'}} gutterBottom variant="p" component="div">
+    Internship opportunity for enthusiastic people 
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
+                        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/NewsBanner2"><span className='style-nav'>View More</span></Nav.Link>
+</Button>
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
@@ -65,14 +69,16 @@ const LatestNews = () => {
             </Grid>
             <Grid item xs={2} sm={4} md={4}>
             <Card sx={{ maxWidth: 550}}>
-    <Card.Img variant="top" height={300} src={img3} />
+    <Card.Img variant="top" height={270} src={img3} />
     <Card.Body>
-    <Typography sx={{textAlign: 'justify',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
-         Lorem ipsum dolor sit amet.
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '700'}} gutterBottom variant="p" component="div">
+    Annual Conference 2022: 50 Years of Japan-Bangladesh relationship and opportunities for future collaboration
         </Typography>
-        <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
+        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography>
+        </Typography> */}
+                     <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/NewsBanner3"><span className='style-nav'>View More</span></Nav.Link>
+</Button>
     </Card.Body>
     {/* <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
