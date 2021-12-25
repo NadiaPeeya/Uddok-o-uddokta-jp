@@ -37,13 +37,13 @@ const Footer = () => {
             </div> */}
             <p className=""><Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#aboutUs"> <span className='text-color-change'>ABOUT US</span></Nav.Link></p>
 
-            <p className=""><Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#someCauses"> <span className='text-color-change'>SOCIAL CAUSES</span></Nav.Link></p>
+            <p className=""><Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#specialCauses"> <span className='text-color-change'>SOCIAL CAUSES</span></Nav.Link></p>
 
-            <p className=""> <Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#mission"><span className='text-color-change'>SERVICEC</span></Nav.Link></p>
+            <p className=""> <Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#OurMission"><span className='text-color-change'>SERVICES</span></Nav.Link></p>
             
             <p className=""><Nav.Link className="text-color-change hover-color" as={HashLink} to="/home#joinUs"> <span className='text-color-change'>JOIN US</span></Nav.Link></p>
 
-            <p className=" text-color-change"><Nav.Link className="text-color-change  hover-color" as={HashLink} to="/home#joinUs"> <span className='text-color-change'>NEWS & EVENTS</span></Nav.Link></p>
+            <p className=" text-color-change"><Nav.Link className="text-color-change  hover-color" as={HashLink} to="/home#LatestNews"> <span className='text-color-change'>NEWS & EVENTS</span></Nav.Link></p>
         </div>
     </Col>
     
@@ -92,7 +92,8 @@ const Footer = () => {
 
 </Container>
 <div className="mt-5">
-<p className="text-color-change footer-bottom">Copyright <img width="1%" src="https://o.remove.bg/downloads/d1ae6f8a-5594-4bc7-86f0-45961b852fa7/001_2688246-5b916f32c9e77c0025c0cc9c-removebg-preview.png" alt="" /> 2022. All Rights Reserved</p>
+<p className="text-color-change footer-bottom">Copyright <img width="1%" src="https://o.remove.bg/downloads/d1ae6f8a-5594-4bc7-86f0-45961b852fa7/001_2688246-5b916f32c9e77c0025c0cc9c-removebg-preview.png" alt="" />Copyright © Uddog o Uddokta Japan Association, 2022. All Rights Reserved.
+</p>
 </div>
      
         </div>
