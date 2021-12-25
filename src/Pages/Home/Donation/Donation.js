@@ -10,7 +10,7 @@ const Donation = () => {
      
 <div className='donation-section'>
 <Container>
-  <Grid className="donation-start" container spacing={2} className='my-5 py-5'>
+  <Grid id="donation" className="donation-start my-5 py-5" container spacing={2}>
  
         <Grid item xs={6} className='donation-style'>
           <div className='donation-text container'>
@@ -70,7 +70,7 @@ sustainable development.</p>
               <i className="fa fa-cc-visa navy" ></i>
               <i className="fa fa-cc-amex blue" ></i>
               <i className="fa fa-cc-mastercard red" ></i>
-              <i className="fa fa-cc-discover orange"></i>
+              <i class="fab fa-cc-paypal orange"></i>
             </div>
             <div className='form-table container'>
                 
