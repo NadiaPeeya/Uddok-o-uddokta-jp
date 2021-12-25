@@ -29,7 +29,7 @@ const Involved = (props) => {
         image={img}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography className='join-text' gutterBottom variant="h5" component="div">
          {name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
