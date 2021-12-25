@@ -26,10 +26,15 @@ const Navigation = () => {
             ;
           }
        
-           else if(window.scrollY <= 300){
+           else if(window.scrollY <= 200){
                 document.getElementById('scroll-navbar-width').style.width= '90%';
                 ;
           }
+          else if(window.scrollY <= 600){
+            document.getElementById('scroll-navbar-width').style.width= '90%';
+            ;
+      }
+      
         
           else{
             document.getElementById('scroll-navbar-width').style.width= '80%';
@@ -40,16 +45,10 @@ const Navigation = () => {
     }
 
 
-    window.scrollTop = function(){
-        if(window.scrollTop > 1){
-            document.getElementById('scroll-navbar-width').style.width= '100%';
-            ;
-        }
-    }
 
     return (
    
-     <Navbar id="scroll-navbar-width"  data-aos="zoom-out-down" style={{height: '120px', width: "90%" , mb: '-3px'}} className="change-color" collapseOnSelect expand="lg" fixed="top" >
+     <Navbar id="scroll-navbar-width" style={{height: '120px', width: "90%" , mb: '-3px'}} className="change-color" collapseOnSelect expand="lg" fixed="top" >
 
 <Navbar.Brand style={{marginLeft: '-45px'}} className="uddok-o-uddokta" href="#home"> <img width="55%" src={img} alt="" /></Navbar.Brand>
 <Navbar.Toggle />
