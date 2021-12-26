@@ -92,7 +92,7 @@ const Footer = () => {
 
 </Container>
 <div className="mt-5">
-<p className="text-color-change footer-bottom">Copyright <img width="1%" src="https://o.remove.bg/downloads/d1ae6f8a-5594-4bc7-86f0-45961b852fa7/001_2688246-5b916f32c9e77c0025c0cc9c-removebg-preview.png" alt="" />Copyright © Uddog o Uddokta Japan Association, 2022. All Rights Reserved.
+<p className="text-color-change footer-bottom"><img width="1%" src="https://o.remove.bg/downloads/d1ae6f8a-5594-4bc7-86f0-45961b852fa7/001_2688246-5b916f32c9e77c0025c0cc9c-removebg-preview.png" alt="" />Copyright © Uddog o Uddokta Japan Association, 2022. All Rights Reserved.
 </p>
 </div>
      
