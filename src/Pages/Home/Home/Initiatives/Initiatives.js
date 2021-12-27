@@ -86,7 +86,7 @@ Erisa Limited
                <img height={200} width="70%"  src={img3} alt="" />
                <Typography className='slider-text' sx={{textAlign: 'left', fontWeight: '700'}} gutterBottom variant="h6" component="div">
     
-               M I International Ltd
+               Zhumka Bangladesh
 
 
 
@@ -102,8 +102,8 @@ Erisa Limited
                <img height={200} width="100%"  src={img4} alt="" />
                <Typography className='slider-text' sx={{textAlign: 'left', fontWeight: '700'}} gutterBottom variant="h6" component="div">
     
-               Zhumka Bangladesh
-
+            
+   Misaki
 
 
         </Typography>
@@ -119,7 +119,7 @@ Erisa Limited
                <img height={200} width="100%"  src={img5} alt="" />
                <Typography className='slider-text' sx={{textAlign: 'left', fontWeight: '700'}} gutterBottom variant="h6" component="div">
     
-               Misaki
+            LESD
 
 
 
@@ -136,7 +136,8 @@ Erisa Limited
                <img height={200} width="100%"  src={img6} alt="" />
                <Typography className='slider-text' sx={{textAlign: 'left', fontWeight: '700'}} gutterBottom variant="h6" component="div">
     
-               Lesd It Solution
+            
+               M I International Ltd
 
 
 
