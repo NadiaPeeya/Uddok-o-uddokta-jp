@@ -24,6 +24,8 @@ import BannerImg from '../BannerImg/BannerImg';
 import WhatWeAre from '../WhatWeAre/WhatWeAre';
 import LatestNews from '../LatestNews/LatestNews';
 import NewsLetter from './NewsLetter/NewsLetter';
+import Initiatives from './Initiatives/Initiatives.js';
+
 
 
 
@@ -40,7 +42,8 @@ const Home = () => {
         <AutoBannerImg></AutoBannerImg>
        <WhatWeAre></WhatWeAre>
        <OurCauses></OurCauses>     
-       <OurMission></OurMission>  
+       <OurMission></OurMission> 
+       <Initiatives></Initiatives>
        <Donation></Donation> 
        <LatestNews></LatestNews> 
        <WhatHaveCount></WhatHaveCount>
