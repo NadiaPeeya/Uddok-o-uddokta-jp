@@ -14,7 +14,7 @@ import { textAlign } from '@mui/system';
 const AboutUs = () => {
    
     return (
-        <Box className='about' id="aboutUs" sx={{ flexGrow: 1, padding: 5,  backgroundColor: '#fafafa'}}>
+        <Box data-aos="zoom-in-up" className='about' id="aboutUs" sx={{ flexGrow: 1, padding: 5,  backgroundColor: '#fafafa'}}>
              <Typography variant="h3" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 500}}>
        
       </Typography>

@@ -20,6 +20,10 @@
 .causes-div{
   background-color: #F6FBFF;
   margin-top: 0px;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .causes-head{

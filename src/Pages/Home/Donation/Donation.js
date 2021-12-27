@@ -8,7 +8,7 @@ import './Donation.css';
 const Donation = () => {
     return (
      
-<div className='donation-section'>
+<div data-aos="zoom-in-up" className='donation-section'>
 <Container>
   <Grid id="donation" className="donation-start my-5 py-5" container spacing={2}>
  

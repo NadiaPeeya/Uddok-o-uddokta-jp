@@ -42,16 +42,20 @@ margin-right: 10px;
 .missiontab:hover{
 }
 .writing-style{
-   margin-top: 100px;
-    margin-bottom: 65px;
+   /* margin-top: 100px;
+    margin-bottom: 65px; */
 }
 .ourmission-div{
    
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .mission-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    background: #ffffff;
    margin-top: 20px;
+   height: 950px;
 }
 
 .nav-link{

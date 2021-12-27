@@ -3,7 +3,7 @@ import './WhatHaveCount.css'
 
 const WhatHaveCount = () => {
     return (
-        <div className="counter-up">
+        <div data-aos="zoom-in-up" className="counter-up">
             <div className="content">
                 <div className="box">
           <div className="icon">
