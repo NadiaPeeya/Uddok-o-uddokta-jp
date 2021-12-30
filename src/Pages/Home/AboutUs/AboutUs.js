@@ -31,7 +31,7 @@ const AboutUs = () => {
           <Grid className='about-text' data-aos="zoom-in-left" item xs={6} sx={{}}>
           <Typography variant="h3" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'start', color: '#354252'}}>
           What We Believe
-        <hr
+        {/* <hr
         style={{
             color: '#b71c1c',
             backgroundColor: '#b71c1c',
@@ -40,7 +40,7 @@ const AboutUs = () => {
             display: 'flex',
             justifyContent: 'center'
         }}
-    />
+    /> */}
       </Typography>
   
           <Typography variant="p" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 200, textAlign: 'justify', color: '#354252'}}>

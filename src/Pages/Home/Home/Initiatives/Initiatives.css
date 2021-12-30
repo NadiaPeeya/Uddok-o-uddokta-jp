@@ -18,7 +18,7 @@
     font-size: 4em;
 }
 .Initiatives-div{
-  background-color: #ededed;
+  /* background-color: #ede7f6; */
   margin-top: 0px;
   height: 950px;
   display: flex;
@@ -131,4 +131,10 @@
 }
 .slider-inside:hover{
 transform: scale(1.05);
+
+
+
+}
+.slider-box:hover{
+ 
 }

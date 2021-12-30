@@ -25,7 +25,7 @@ We live in Delhi and take the treatment and lots of difficulties of life. But at
 
 <Typography variant="h3" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'start', color: '#354252'}}>
           What We Believe
-        <hr
+        {/* <hr
         style={{
             color: '#b71c1c',
             backgroundColor: '#b71c1c',
@@ -34,11 +34,10 @@ We live in Delhi and take the treatment and lots of difficulties of life. But at
             display: 'flex',
             justifyContent: 'center'
         }}
-    />
+    /> */}
       </Typography>
       <Typography variant="p" component="div" gutterBottom sx={{fontFamily: 'cambria',  textAlign: 'justify', color: '#354252'}}>
-        What We Believe
-        We believe that, “ENTREPRENEURSHIP” can be the best tool to work for social developments. We are helping people to become entrepreneur in a sustainable way. In tradition business/entrepreneurship was just for profit maximization and wealth maximization.  But, now the concept changed already. We can use business to solve the social problems. We can solve unemployment problem worldwide which is one of the major cause of poverty and social crime. We can ensure women empowerment by promoting women entrepreneurship. We can ensure sustainable world through creating social businesses. Charity model can give us one time solution to work for the social development but entrepreneurship can ensure a long term solutions. 
+       “ENTREPRENEURSHIP” can be the best tool to work for social developments. We are helping people to become entrepreneur in a sustainable way. In tradition business/entrepreneurship was just for profit maximization and wealth maximization.  But, now the concept changed already. We can use business to solve the social problems. We can solve unemployment problem worldwide which is one of the major cause of poverty and social crime. We can ensure women empowerment by promoting women entrepreneurship. We can ensure sustainable world through creating social businesses. Charity model can give us one time solution to work for the social development but entrepreneurship can ensure a long term solutions. 
 
       </Typography>
                 </div>
