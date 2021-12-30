@@ -19,8 +19,9 @@ const OurMission = () => {
  <div className='ourMission'>
 <div className='ourmission-div'>
   <div className='writing-style'>
-      <h1 className='h-text'>Service towards Vision</h1>
-      <p className='text-black-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ipsa.</p>
+  <p className='h-pera fw-bolder text-secondary'>What we do?</p>
+      <h1 className='h-text'>Service towards vision</h1>
+   
   </div>
 <Tabs width="40%" className='mb-5 missiontab' defaultActiveKey="Research" id="uncontrolled-tab-example">
   <Tab className='mission-tab' sx={{color: 'black'}} eventKey="Research" title="Research">

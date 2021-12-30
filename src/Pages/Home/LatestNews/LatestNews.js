@@ -20,11 +20,9 @@ const LatestNews = () => {
     return (
         <div data-aos="zoom-in-up" id="LatestNews" className='LatestNews-div'>
   <Container className="LatestNews-style"  sx={{ flexGrow: 1, height: '750px', mt: '15px' }}>       
-        <div className='text-style mt-5 mb-5 pt-5'>
+        <div className='text-style mt-5 pt-5'>
        
             <h1 className='h-text'>Latest News & Events</h1>
-           <p className='text-para'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet eius quos, <br />
-           vero ipsum consectetur autem voluptates aperiam aliquid quidem neque?</p>
         </div>
         
         <Grid className="LatestNews"  container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>

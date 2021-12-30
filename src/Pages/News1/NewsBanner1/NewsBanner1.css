@@ -7,13 +7,18 @@
     font-size: 28px;
 }
 .newsBanner1img{
-    height: 70vh;
-    background: url('http://photos.prnasia.com/prnvar/20190321/2410317-1');
+    height: 50vh;
+    background: url('https://www.adb.org/sites/default/files/styles/content_media/public/content-media/139206-nr-photo-1.jpeg?itok=mTLJh3a8');
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+   width: 80%;
+   justify-content: center;
+   align-items: center;
+   margin-left: 150px;
     background-position: center;
+    margin-top: 65px;
 }
 .newsBanner1{
     margin-top: -65px;

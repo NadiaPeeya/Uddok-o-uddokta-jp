@@ -21,8 +21,33 @@
     background-color: cornsilk;
 
 }
+
+/* 
 .outline-text{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+ */
+
+.news1{
+  text-align: justify;
+  color: #354252;
+}
+.news1-heading{
+  text-align: justify;
+  color: #007fc3;
+}
+.list-item{
+  text-align: justify;
+   margin-left: 20px;
+}
+.img-news1{
+  /* border-radius: 50%; */
+}
+.news1-box{
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px gray;
 }

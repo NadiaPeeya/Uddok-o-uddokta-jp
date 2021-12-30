@@ -29,7 +29,7 @@ const Initiatives = () => {
               <div className='text-style'>   
             <h1 className='h-text'>Entrepreneurial Initiatives</h1>
             <div className='text-div'>
-            <p className='text-para'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, dignissimos? <br /> Lorem ipsum dolor sit amet.<br /> Lorem ipsum dolor, sit amet consectetur adipisicing elit. At hic architecto, excepturi animi harum nemo quod, voluptates enim dolores tenetur ipsam nostrum ratione? Nihil, dolor iste incidunt quaerat minima quos!
+            <p className='text-para text-black-50'>We are closely working with new and existing entrepreneurs for their organizational <br /> development as well as for social development. <br /> They have taken our various services at different times. <br /> We wish them continued success and more impact on society.
 </p>
             </div>
 

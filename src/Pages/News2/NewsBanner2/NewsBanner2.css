@@ -9,6 +9,8 @@
 .newsBanner2img{
     height: 70vh;
     background: url('../../../images/today1.jpg');
+ 
+    
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;

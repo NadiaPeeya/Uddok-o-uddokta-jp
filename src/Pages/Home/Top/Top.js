@@ -10,9 +10,6 @@ import Button from '@mui/material/Button';
 import languageImg from '../../../images/language-translation-and-linguistics-icon-vector-14239078.jpeg'
 import img3 from '../../../images/phoneblue.png'
 
-
-
-
 const Top = () => {
        
     return (

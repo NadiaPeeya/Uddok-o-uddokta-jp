@@ -13,12 +13,12 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   padding: 20px;
-  background-color: #FBEDE2;
+  /* background-color: #FBEDE2; */
 }
 .news3-about{
     margin-top: 20px;
     margin-bottom: 2px;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
 
 }
 .eligibility-text{
@@ -38,9 +38,18 @@
     text-align: justify;
     background: white;
     box-shadow: 10px 10px 10px gray;
+    border-radius: 5%;
 }
 .img-style-about{
     display: flex;
     justify-content: center;
     align-items: center;
+  
+}
+.internship{
+  display: flex;
+  justify-content: space-between;
+}
+.img-style-about{
+  border-radius: 5%;
 }

@@ -33,7 +33,7 @@ const OurCauses = () => {
               <div className='text-style'>   
             <h1 className='h-text'>Social Causes</h1>
             <div className='text-div'>
-            <p className='text-para'>Entrepreneurship is our tool to solve social problems in a sustainable way. <br /> There are so many social causes we can work on.  We are moving <br /> forward one by one. Currently we are working on followings.
+            <p className='text-black-50'>Entrepreneurship is our tool to solve social problems in a sustainable way. <br /> There are so many social causes we can work on.  We are moving <br /> forward one by one. Currently we are working on followings.
 </p>
             </div>
 
