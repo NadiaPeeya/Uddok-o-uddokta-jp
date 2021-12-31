@@ -7,6 +7,7 @@ import { Button, Typography } from '@mui/material';
 import { Container } from 'react-bootstrap';
 import { height } from '@mui/system';
 import HowToInvolved from '../../HowToInvolved/HowToInvolved';
+import './AboutBanner.css'
 
 
 const appointmentBg = {
@@ -23,7 +24,7 @@ const appointmentBg = {
 
 const AboutBanner = () => {
     return (
-        <Container  sx={{}} id="joinUs">
+        <Container className='about-banner' sx={{}} id="joinUs">
  <Box data-aos="zoom-in-up" style={appointmentBg} sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
 

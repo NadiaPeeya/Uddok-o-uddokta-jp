@@ -1,22 +1,17 @@
 import React from 'react';
-import { Container, Row, Col, FormLabel as Label } from 'react-bootstrap';
 import Grid from '@mui/material/Grid';
+import { Container, Row, Col, FormLabel as Label } from 'react-bootstrap';
+import './Donation2.css';
 
-import './Donation.css';
-
-
-const Donation = () => {
+const Donation2 = () => {
     return (
-     
-<div data-aos="zoom-in-up" className='donation-section'>
-<Container>
-  <Grid id="donation" className="donation-start my-5 py-5" container spacing={2}>
- 
-        <Grid item xs={6} className='donation-style'>
-          <div className='donation-text'>
-            <h1 className='text-center text-white fw-bolder h-donation'>Donate for Sustainable <br />
+        <div data-aos="zoom-in-up" className='donation-section container'>
+      <div className="row donation-start my-5 py-5">
+          <div className="col-md-6 donate-inside-text">
+           <div className='container'>
+           <h1 className='text-white fw-bolder h-donation'>Donate for Sustainable 
              Social Impacts</h1>
-            <p className='container text-center text-white p-donation'>Donate for bringing positive changes in the
+            <p className='text-white p-donation'>Donate for bringing positive changes in the
 lives of the underprivileged. With us you
 can participate in not just any charity, but
 your offerings will surely be used in places
@@ -25,16 +20,14 @@ impacts. The goal is not to provide
 temporary help, but to ensure that people.don’t require further donations to live
 healthy lives. In other words, Donation for
 sustainable development.</p>
-          </div>
-      
-        </Grid>
-        <Grid item xs={6}>
-         <Container className='container'>
-  <Row className='container payment-form py-5'>
-  
-    <Col className='form-table container'>
+           </div>
 
-    <h3>Billing Address</h3>
+          </div>
+     
+          <div className="col-md-6">
+               <div className="row container payment-form py-5">
+                   <div className="col-md-6 form-table container">
+                   <h3>Billing Address</h3>
    <div className='form-table container'>
    <Label className='label-field' htmlFor="fname"><i className="fa fa-user"></i> Full Name</Label>
      <input className='input-field' type="text" id="fname" name="firstname" placeholder="John M. Doe" />
@@ -59,12 +52,9 @@ sustainable development.</p>
    
    </div>
 
-   
-
-    </Col>
-    
-    <Col>
-    <h3>Payment</h3>
+                   </div>
+                   <div className="col-md-6">
+                   <h3>Payment</h3>
   {/* <Label className='label-field' htmlFor="fname"><i className="fa fa-user"></i>Accepted Cards</Label> */}
   <div className="icon-container">
               <i className="fa fa-cc-visa navy" ></i>
@@ -95,21 +85,16 @@ sustainable development.</p>
    
   </div>
    
-    
-    </Col>
-    <input type="submit" value="Continue Donation" class="donation-continue"/>
-  </Row>
-</Container>
-        </Grid>
+                   </div>
+                   <input type="submit" value="Continue Donation" class="donation-continue"/>
+               </div>
+               
 
-      </Grid>
-      </Container>
+          </div>
+          
       </div>
-     
-      
-      
-      
+        </div>
     );
 };
 
-export default Donation;
+export default Donation2;

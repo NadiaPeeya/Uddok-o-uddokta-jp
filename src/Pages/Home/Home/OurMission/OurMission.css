@@ -77,3 +77,34 @@ margin-right: 10px;
 text-align: left;
  color: #354252;
 }
+
+
+@media (max-width: 1036px){
+    .mission-background{
+      
+    margin-top: 250px;
+  
+
+    
+    }
+    .ourMission{
+        margin-top: 350px;
+        
+    
+    }
+ 
+  
+  }
+  
+  @media (max-width: 580px){
+    .mission-background{
+      
+        margin-top: 150px;
+    
+        
+        }
+     
+  
+}
+  
+  

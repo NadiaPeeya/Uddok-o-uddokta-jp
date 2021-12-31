@@ -25,6 +25,8 @@ import WhatWeAre from '../WhatWeAre/WhatWeAre';
 import LatestNews from '../LatestNews/LatestNews';
 import NewsLetter from './NewsLetter/NewsLetter';
 import Initiatives from './Initiatives/Initiatives.js';
+import Donation2 from '../Donation2/Donation2';
+import JoinUs2 from '../JoinUs2/JoinUs2';
 
 
 
@@ -41,16 +43,16 @@ const Home = () => {
         <Navigation></Navigation>
         <AutoBannerImg></AutoBannerImg>
        <WhatWeAre></WhatWeAre>
-       <OurCauses></OurCauses>     
+       
+       <OurCauses></OurCauses> 
+       
+      
        <OurMission></OurMission> 
-       <Initiatives></Initiatives>
-       <Donation></Donation> 
-       <LatestNews></LatestNews> 
+       <Donation2></Donation2>    
        <WhatHaveCount></WhatHaveCount>
        <AboutBanner></AboutBanner>
-      
-      
-      
+       <JoinUs2></JoinUs2> 
+       <LatestNews></LatestNews>  
       <NewsLetter></NewsLetter>
        <Footer></Footer>
    

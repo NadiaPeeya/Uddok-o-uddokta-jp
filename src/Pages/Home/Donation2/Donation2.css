@@ -1,0 +1,37 @@
+.donation-section{
+  
+}
+
+.donate-inside-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 1036px){
+    .donation-section{
+      
+    
+        margin-top: 350px;
+        margin-bottom: 350px;
+    
+    }
+ 
+  
+  }
+  
+  @media (max-width: 580px){
+    .donation-start{
+      
+      
+     
+  
+  
+  }
+  
+}
+  
+  

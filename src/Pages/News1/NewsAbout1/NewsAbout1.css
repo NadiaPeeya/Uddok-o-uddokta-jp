@@ -35,7 +35,7 @@
   color: #354252;
 }
 .news1-heading{
-  text-align: justify;
+  text-align: left;
   color: #007fc3;
 }
 .list-item{
@@ -51,3 +51,27 @@
   border-radius: 5%;
   box-shadow: 10px 10px 5px gray;
 }
+
+@media (max-width: 1036px){
+  .joinUs2{
+    
+   margin-top: -100px;
+
+  
+  }
+
+
+}
+
+@media (max-width: 580px){
+  .joinUs2{
+    
+      margin-top: -100px;
+  
+   
+
+
+}
+
+}
+

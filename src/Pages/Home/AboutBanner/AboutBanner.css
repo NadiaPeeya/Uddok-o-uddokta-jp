@@ -1,0 +1,29 @@
+
+.about-banner{
+    margin-top: -100px;
+}
+
+
+@media (max-width: 1036px){
+    .about-banner{
+      
+    
+        display: none;
+    
+    }
+ 
+  
+  }
+  
+  @media (max-width: 580px){
+    .about-banner{
+      
+    
+        display: none;
+    
+    }
+ 
+  
+}
+  
+  

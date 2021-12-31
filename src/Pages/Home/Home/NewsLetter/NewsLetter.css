@@ -1,6 +1,6 @@
 .newsLetter{
 
-    margin-top: 400px;
+    margin-top:50px;
     height: 450px;
  
 }
@@ -14,3 +14,29 @@
     background: #76ed7f;
     border: 1px solid #76ed7f;
 }
+
+
+@media (max-width: 1036px){
+    .newsLetter{
+      
+    margin-top: 10px;
+
+    
+    }
+ 
+  
+  }
+  
+  @media (max-width: 580px){
+    .newsLetter{
+      
+        margin-top: 10px;
+    
+     
+  
+  
+  }
+  
+}
+  
+  

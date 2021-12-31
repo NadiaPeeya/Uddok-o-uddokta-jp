@@ -10,7 +10,7 @@ const NewsAbout1 = () => {
         <div className="container py-5">
 
 
-        <Box className='news1-box' sx={{ bgcolor: '#cfe8fc', height: '100vh' }}>
+        <Box className='news1-box' sx={{ bgcolor: '#cfe8fc', height: '100%' }}>
         <div >
            
            <h1 className="news1-heading">Micro Entrepreneurship Program for the Poor <br /> Women in Bangladesh </h1>

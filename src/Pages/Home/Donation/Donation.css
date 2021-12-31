@@ -6,7 +6,9 @@
   margin: 0 -16px;
  
 }
-
+.h-donation{
+  text-align: left;
+}
 
 .input-field{
     width: 100%;
@@ -106,20 +108,22 @@
  
 } */
 .donation-text{
- 
-  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify; */
 
 }
 .p-donation{
 
  
   width: 70%;
-   justify-content: center;
+   justify-content:justify;
    text-align: left;
 }
 
 .donation-section{
-  height: 900px;
+  /* height: 900px; */
 
   background: url('https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')no-repeat;
   min-height: 50vh;
@@ -157,3 +161,36 @@
 .donation-section{
   margin-top: 10px;
 }
+
+
+
+@media (max-width: 1036px){
+  .donation-start{
+    
+  
+   display: inline-block;
+  
+  }
+  .donation-style{
+    width: 50%;
+    background-color: chocolate;
+    display: inline-block;
+  }
+
+}
+
+@media (max-width: 580px){
+  .donation-start{
+    
+    
+   
+    display: inline-block;
+  }
+  .donation-section{
+    display: inline-block;
+    
+  }
+
+}
+
+

@@ -1,0 +1,34 @@
+.joinSector{
+    height: 100%;
+}
+
+.sector{
+    display: none;
+}
+
+@media (max-width: 1036px){
+    .sector{
+      
+      display: block;
+      margin-top: -100px;
+
+    
+    }
+ 
+  
+  }
+  
+  @media (max-width: 580px){
+    .sector{
+      
+      display: block;
+      margin-top: -100px;
+     
+  
+  
+  }
+
+  
+}
+  
+  

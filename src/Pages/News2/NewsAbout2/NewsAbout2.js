@@ -14,7 +14,7 @@ const NewsAbout2 = () => {
            
               
                <p  sx={{textAlign: 'left'}} className="text-dark-50 fs-6 mb-5 large-text">
-               <h4 className="text-dark-50 text-primary">Internship opportunity for enthusiastic people </h4>
+               <h4 className="text-dark-50 text-primary text-news2">Internship opportunity for enthusiastic people </h4>
                    Just having a good degree is no longer enough to secure that all-important graduate job offer in today’s world. Pertinent work experience is now just as valuable as your degree and exam results when it comes to building a successful career. As a result, internships have become an essential way to help candidates make themselves stand out. An internship is an official program offered by organisations to help train and provide work experience to students and recent graduates. The concept of working as an intern began a long time ago but has drastically evolved over the years. Internships first started as a labourer who would take on young individuals and teach them their art or trade. In exchange for being taught a skill, the trainee would agree to work for the labourer for a specific time. Even then, the purpose of an internship or rather an apprenticeship was to gain new skills to be able to obtain future work. This is a virtual internship offer by Uddog o Uddokta Japan Association which is a registered social organization in Japan.
                    <br />
                   <br />

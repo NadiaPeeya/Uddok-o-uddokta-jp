@@ -127,8 +127,31 @@
 .top-uddokta{
   margin-bottom: 10px;
 }
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     .top-uddokta{
         display: block;
     }
-}
+} */
+
+
+
+@media (max-width: 1036px){
+    .top-uddokta{
+      
+      display: none;
+  
+    }
+
+  }
+  
+  @media (max-width: 580px){
+    .top-uddokta{
+     
+       display: none;
+   
+    }
+
+  }
+  
+  
+  

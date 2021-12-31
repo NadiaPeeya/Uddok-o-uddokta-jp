@@ -32,8 +32,46 @@
     text-align: center;
 }
 .LatestNews-div{
+    margin-top: 350px;
     background-color: #F6FBFF;
     border: 1px solid white;
     height: 950px;
   
 }
+
+
+
+@media (max-width: 1036px){
+    .donation-section{
+      
+    
+        margin-top: -200px;
+        margin-bottom: 350px;
+    
+    }
+ 
+  
+  }
+  
+  @media (max-width: 580px){
+    .lates-news-h1{
+   
+      padding-bottom: 20px;
+    }
+      .LatestNews{
+          /* margin-top: -50px; */
+         
+      }
+
+      .LatestNews-div{
+          margin-bottom: 350px;
+          margin-top: 20px;
+      }
+     
+  
+  
+  }
+  
+
+  
+  
