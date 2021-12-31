@@ -1,0 +1,27 @@
+
+.textloop-text{
+    font-size: 64px;
+   text-align: left;
+}
+.text-whitesmoke{
+    font-size: 28px;
+}
+.donorBannerImg{
+    margin-top: -40px;
+    height: 80vh;
+    /* background: url('../../images/112.jpg'); */
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+   width: 80%;
+   justify-content: center;
+   align-items: center;
+   margin-left: 150px;
+    background-position: center;
+    margin-top: 65px; */
+}
+.donor-form-text{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}

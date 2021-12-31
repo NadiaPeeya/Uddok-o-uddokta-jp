@@ -1,3 +1,8 @@
+import React, {useState, useEffect} from 'react';
+import { useParams } from 'react-router-dom';
+import Navigation from './../../../Shared/Navigation/Navigation';
+import { Card } from 'react-bootstrap';
+
 
 
 const activities = [
@@ -71,3 +76,27 @@ const activities = [
  
  
  ]
+
+
+
+
+const InvolvedDetail = () => {
+    const activities = activities.filter(activity => activity.id === activity.id && activity.name === activity.name);
+  
+
+const {id} = useParams();
+
+    return (
+        <div>
+        
+         <Navigation></Navigation>
+         {
+ activities.filter(activity=> activity.id === activity.id && activity.name === activity.name)
+         }
+        
+     
+        </div> 
+    );
+};
+
+export default InvolvedDetail;

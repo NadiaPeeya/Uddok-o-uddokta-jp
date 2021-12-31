@@ -24,25 +24,12 @@ const Navigation = () => {
         if(window.scrollY >= 200 || window.scrollY >= 500){
             document.getElementById('scroll-navbar-width').style.width= '100%';
             ;
-            document.getElementById('scroll-navbar-width').style.backgroundColor= 'white';
-            ;
           }
        
            else if(window.scrollY <= 200){
                 document.getElementById('scroll-navbar-width').style.width= '90%';
                 ;
           }
-      //     else if(window.scrollY <= 600){
-      //       document.getElementById('scroll-navbar-width').style.width= '90%';
-      //       ;
-      // }
-      
-        
-      //     else{
-      //       document.getElementById('scroll-navbar-width').style.width= '80%';
-      //       ;
-      //     }
-        
        
     }
 

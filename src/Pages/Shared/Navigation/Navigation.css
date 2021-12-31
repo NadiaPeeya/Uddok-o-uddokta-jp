@@ -84,17 +84,34 @@ margin-top: 25px;
   .uddok-o-uddokta{
     margin-top: -10px;
   }
+
 }
 
 @media (max-width: 580px){
   .change-color{
-   
+     width: 100%;
      display: flex;
      align-items: center;
+
   }
   .uddok-o-uddokta{
     margin-top: -10px;
+    
   }
+
+}
+@media (max-width: 375px){
+  .change-color{
+     width: 100%;
+     display: flex;
+     align-items: center;
+    
+  }
+  .uddok-o-uddokta{
+    margin-top: -10px;
+  
+  }
+
 }
 
 
