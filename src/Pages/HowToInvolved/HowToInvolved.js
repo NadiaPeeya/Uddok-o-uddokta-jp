@@ -95,7 +95,7 @@ const HowToInvolved = () => {
         {/* <Link to={`/involved/involvedDetail/${id}`}><Button className="visit" variant="danger" size="lg">Join</Button></Link>  */}
        
 
-        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/DonorForm"><span className='style-nav'>View More</span></Nav.Link>
+        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/DonorForm"><span className='style-nav'>Join</span></Nav.Link>
 </Button>
       </CardActions>
     </Card>
@@ -121,7 +121,7 @@ const HowToInvolved = () => {
       <CardActions sx={{textAlign: 'center'}}>
         {/* <Button  sx={{border:'1px solid #b71c1c', backgroundColor: '#b71c1c'}} className="mx-auto design-color" variant="contained"  size="small">  </Button> */}
         {/* <Link to={`/involved/involvedDetail/${id}`}><Button className="visit" variant="danger" size="lg">Join</Button></Link>  */}
-        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/InvestorForm"><span className='style-nav'>View More</span></Nav.Link>
+        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/InvestorForm"><span className='style-nav'>Join</span></Nav.Link>
 </Button>
       </CardActions>
     </Card>
@@ -147,7 +147,7 @@ const HowToInvolved = () => {
       <CardActions sx={{textAlign: 'center'}}>
         {/* <Button  sx={{border:'1px solid #b71c1c', backgroundColor: '#b71c1c'}} className="mx-auto design-color" variant="contained"  size="small">  </Button> */}
         {/* <Link to={`/involved/involvedDetail/${id}`}><Button className="visit" variant="danger" size="lg">Join</Button></Link>  */}
-        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/MentorForm"><span className='style-nav'>View More</span></Nav.Link>
+        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/MentorForm"><span className='style-nav'>Join</span></Nav.Link>
 </Button>
       </CardActions>
     </Card>
@@ -173,7 +173,7 @@ const HowToInvolved = () => {
       <CardActions sx={{textAlign: 'center'}}>
         {/* <Button  sx={{border:'1px solid #b71c1c', backgroundColor: '#b71c1c'}} className="mx-auto design-color" variant="contained"  size="small">  </Button> */}
         {/* <Link to={`/involved/involvedDetail/${id}`}><Button className="visit" variant="danger" size="lg">Join</Button></Link>  */}
-        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/DonorForm"><span className='style-nav'>View More</span></Nav.Link>
+        <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/MemberForm"><span className='style-nav'>Join</span></Nav.Link>
 </Button>
       </CardActions>
     </Card>

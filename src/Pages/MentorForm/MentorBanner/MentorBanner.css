@@ -1,0 +1,22 @@
+
+@media (max-width: 1036px){
+
+    .mentor-form{
+        width: 80%;
+    }
+    .mentor-next-section{
+        margin-top: -250px;
+    }
+
+  }
+  
+  @media (max-width: 580px){
+ 
+    .mentor-form{
+        width: 80%;
+    }
+    .mentor-next-section{
+        margin-top: -500px;
+    }
+
+  }

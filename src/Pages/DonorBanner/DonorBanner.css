@@ -25,3 +25,32 @@
     margin-left: 20px;
     margin-bottom: 50px;
 }
+.donor-form{
+    background-color: #ede7f6;
+}
+
+
+@media (max-width: 1036px){
+
+    .donor-form{
+        width: 100%;
+    }
+    .donor-next-section{
+        margin-top: -400px;
+    }
+
+  }
+  
+  @media (max-width: 580px){
+ 
+    .donor-form{
+        width: 100%;
+    }
+ .donor-next-section{
+        margin-top: -500px;
+    }
+
+
+  }
+  
+  

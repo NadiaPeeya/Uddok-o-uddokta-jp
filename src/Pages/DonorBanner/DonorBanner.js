@@ -15,7 +15,7 @@ const DonorBanner = () => {
         <div className="container py-5">
 
 
-<Box className='' sx={{ bgcolor: '', height: '100%' }}>
+<Box className='donor-next-section' sx={{ bgcolor: '', height: '100%' }}>
 <div >
    
    <h1 className="news1-heading">Win your chance to donate for the  sustainable development <br /> of society</h1>
@@ -55,12 +55,12 @@ const DonorBanner = () => {
 </p>
 </div>
     </Box> 
-    <Box className='mx-auto'>
+    <Box className='mx-auto '>
         <h1 className="text-primary">Enlistment as Donor </h1>
         <p sx={{textAlign: 'center', color: '#354252' }} className="donor-form-text container fs-4 fw-bolder">Please register here to become enlisted donor and to be a social change maker:
 </p>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScNbaX7AWA9BhXA3C3UEh7zEeeRUeehEPYWdIakfwJkgo94Aw/viewform?embedded=true" width="1240" height="2454" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScNbaX7AWA9BhXA3C3UEh7zEeeRUeehEPYWdIakfwJkgo94Aw/viewform?embedded=true" className='donor-form' width="1240" height="2454" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </Box>
 
 </div>

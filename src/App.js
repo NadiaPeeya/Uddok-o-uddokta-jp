@@ -19,6 +19,7 @@ import InvolvedDetail from './Pages/HowToInvolved/Involved/InvolvedDetail/Involv
 import DonorForm from './Pages/DonorForm/DonorForm';
 import InvestorForm from './Pages/InvestorForm/InvestorForm';
 import MentorForm from './Pages/MentorForm/MentorForm';
+import MemberForm from './Pages/MemberForm/MemberForm';
 
 AOS.init();
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route  path="/DonorForm" element={<DonorForm/>}/>
           <Route  path="/InvestorForm" element={<InvestorForm/>}/>
           <Route  path="/MentorForm" element={<MentorForm/>}/>
+          <Route  path="/MemberForm" element={<MemberForm/>}/>
        
           
           {/* <Route exact path="/login" element={<Login/>}/>

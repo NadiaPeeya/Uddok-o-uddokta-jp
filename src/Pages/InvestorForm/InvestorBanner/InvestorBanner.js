@@ -1,7 +1,8 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import img from '../../../images/investor-1.jpg'
-
+import Container from '@mui/material/Container';
+import './InvestorBanner.css'
 const InvestorBanner = () => {
     return (
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
@@ -14,7 +15,7 @@ const InvestorBanner = () => {
         <div className="container py-5">
 
 
-<Box className='' sx={{ bgcolor: '', height: '100%' }}>
+<Box className='investor-next-section' sx={{ bgcolor: '', height: '100%' }}>
 <div >
    
    <h1 className="news1-heading">Opportunity to create a social impact through investing in youth innovations and dedications. You can be an enlisted  investor <br /> with us to create larger and quick social impacts. 
@@ -62,15 +63,17 @@ High-Risk High Return
 </p>
 </div>
     </Box> 
-    <Box className='mx-auto'>
+    <Container fixed>
+        <Box className='mx-auto my-5 py-5'>
         <h1 className="text-primary">Enlistment as Investor
 </h1>
-        <p sx={{textAlign: 'center', color: '#354252' }} className="donor-form-text container fs-4 fw-bolder">Please register here to become enlisted angel investor:
+        <p sx={{textAlign: 'center', color: '#354252' }} className="donor-form-text container fs-4 fw-bolder">Please register here to become enlisted angel Investor:
 
 </p>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFGn7FpJ46rYPlVvb5uBUzBm42xujo0HDoMlveSl1cCEYTgg/viewform?embedded=true" width="640" height="2299" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFGn7FpJ46rYPlVvb5uBUzBm42xujo0HDoMlveSl1cCEYTgg/viewform?embedded=true" width="1240" className='investor-form' height="2299" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </Box>
+</Container>
 
 </div>
 

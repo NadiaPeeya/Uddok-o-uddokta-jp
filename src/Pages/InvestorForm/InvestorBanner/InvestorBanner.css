@@ -1,0 +1,28 @@
+.investor-form{
+    background-color: #ede7f6;
+}
+
+
+@media (max-width: 1036px){
+
+    .investor-form{
+        width: 100%;
+    }
+    .investor-next-section{
+        margin-top: -150px;
+    }
+
+  }
+  
+  @media (max-width: 580px){
+ 
+    .investor-form{
+        width: 100%;
+    }
+.investor-next-section{
+        margin-top: -450px;
+    }
+
+  }
+  
+  

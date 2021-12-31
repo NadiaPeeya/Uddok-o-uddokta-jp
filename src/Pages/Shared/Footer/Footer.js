@@ -81,9 +81,9 @@ const Footer = () => {
         <p className="fw-bold fs-4"> <Card.Link className='link-color-change' target="_blank" href="https://www.twitter.com/OUddog/"><i class="fab fa-twitter-square"></i></Card.Link></p>
         {/* <Card.Link target="_blank" href="https://www.facebook.com/samiradcc"><i class="fab fa-twitter-square"></i></Card.Link> */}
 
-        <p className="fw-bold  fs-4"><Card.Link className='link-color-change' target="_blank" href="https://instagram.com/uu_japan/
+        <p className="fw-bold  fs-4"><Card.Link className='link-color-change' target="_blank" href="https://www.instagram.com/uu_japan_official/?utm_medium=copy_link"
 
-"><i class="fab fa-instagram-square"></i></Card.Link></p>
+><i class="fab fa-instagram-square"></i></Card.Link></p>
          
         {/* <Card.Link target="_blank" href="https://www.facebook.com/samiradcc"><i class="fab fa-instagram-square"></i></Card.Link> */}
     
