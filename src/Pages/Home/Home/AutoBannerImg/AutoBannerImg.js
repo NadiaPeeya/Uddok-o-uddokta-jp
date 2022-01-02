@@ -17,7 +17,7 @@ const AutoBannerImg = () => {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div> */}
-  <div className="carousel-inner container">
+  <div id="home" className="carousel-inner autobanner container">
     <div className="carousel-item autobannerimg-1 active">
       {/*<img src="" className="d-block w-100" alt="..."/> */}
       <div className="carousel-caption d-none d-md-block">

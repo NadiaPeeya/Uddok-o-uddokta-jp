@@ -34,3 +34,28 @@
 .text-style{
 
 }
+
+
+
+@media (max-width: 1036px){
+  .causes-slider{
+    
+  
+      margin-top:10px;
+  
+      
+  
+  }
+  .causes-div{
+    margin-bottom: 150px;
+  }
+
+
+}
+
+@media (max-width: 580px){
+  
+
+}
+
+

@@ -22,7 +22,11 @@
 @media (max-width: 1036px){
     .about{
       
-     margin-top: -520px;
+     margin-top: -900px;
+     margin-bottom: 320px;
+    }
+    .img-about{
+        margin-left: -130px;
     }
   
   }
@@ -30,7 +34,16 @@
   @media (max-width: 580px){
     .about{
       
-        margin-top: -520px;
+        margin-top: -550px;
+        margin-bottom: 20px;
+       }
+       .img-about{
+           margin-right: 0px;
+       }
+       .whatweare{
+           display: flex;
+           justify-content: center;
+           align-items: center;
        }
   }
   

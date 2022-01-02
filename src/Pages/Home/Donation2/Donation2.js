@@ -5,7 +5,7 @@ import './Donation2.css';
 
 const Donation2 = () => {
     return (
-        <div data-aos="zoom-in-up" className='donation-section container'>
+        <div data-aos="zoom-in-up" id="donation2" className='donation-section container'>
       <div className="row donation-start my-5 py-5">
           <div className="col-md-6 donate-inside-text">
            <div className='container'>

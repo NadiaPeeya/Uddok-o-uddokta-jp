@@ -5,6 +5,9 @@
 .sector{
   display: none;
 }
+.joinus2-text{
+    display: none;
+}
 
 @media (max-width: 1036px){
   .sector{
@@ -13,6 +16,12 @@
     margin-top: -100px;
 
   
+  }
+  .joinus2-text{
+    display: block;
+  }
+  .joinUs2{
+    margin-top: -550px;
   }
 
 
@@ -24,35 +33,30 @@
     display: block;
     margin-top: -100px;
    
+  } 
+  .joinUs2{
+    margin-top: -550px;
+    margin-bottom: 570px;
+  }
 
 
 }
 
 
-}
+
 
 
 @media (max-width: 1036px){
     .joinUs2{
       
      margin-top: -100px;
-
+      margin-bottom: -350px;
     
     }
  
   
   }
   
-  @media (max-width: 580px){
-    .joinUs2{
-      
-        margin-top: -100px;
-    
-     
   
-  
-  }
-  
-}
-  
+
   

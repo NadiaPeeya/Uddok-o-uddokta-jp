@@ -1,6 +1,6 @@
 .footer-style{
     padding: 40px;
-    background-color: #FFF8DC;
+    background-color: #141823;
     /* background-color: #9b9898; */
     height: 600px;
     margin-top: 100px;
@@ -21,7 +21,7 @@
     color: white;
 }
 .text-color-change{
-    color: #0e315f;
+    color: white;
     
 }
 .facebook{
@@ -40,8 +40,8 @@
 
 @media (max-width: 1036px){
     .footer-style{
-        background-color: #FFF8DC;
-        height: 950px;
+        background-color: #141823;
+        height: 750px;
     }
   
   }
@@ -49,8 +49,8 @@
   @media (max-width: 580px){
     .footer-style{
       
-        background-color: #FFF8DC;
-        height: 800px;
+        background-color: #141823;
+        height: 1200px;
        }
   }
   

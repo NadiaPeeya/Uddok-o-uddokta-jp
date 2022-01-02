@@ -79,3 +79,30 @@
     /* background-position: center; */
   
 }
+
+
+
+@media (max-width: 1036px){
+    .autobanner{
+      
+    
+        margin-top: 5px;
+        
+    
+    }
+ 
+  
+  }
+  
+  @media (max-width: 580px){
+    .autobanner{
+      
+    
+        margin-top: 30px;
+        
+    
+    }
+  
+}
+  
+  

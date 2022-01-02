@@ -37,9 +37,9 @@ const Navigation = () => {
 
     return (
    
-     <Navbar id="scroll-navbar-width" style={{height: '120px', width: "90%" , mb: '-3px'}} className="change-color" collapseOnSelect expand="lg" fixed="top" >
+     <Navbar id="scroll-navbar-width" style={{height: '100px', width: "90%" , mb: '-3px'}} className="change-color" collapseOnSelect expand="lg" fixed="top" >
 
-<Navbar.Brand style={{marginLeft: '-45px'}} className="uddok-o-uddokta" href="#home"> <img width="45%" src={img} alt="" /></Navbar.Brand>
+<Navbar.Brand style={{marginLeft: '-45px'}} className="uddok-o-uddokta" href="#home"> <img width="40%" src={img} alt="" /></Navbar.Brand>
 <Navbar.Toggle />
 <Navbar.Collapse className="justify-content-end">
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#home"> <span className='style-nav' >HOME</span></Nav.Link>

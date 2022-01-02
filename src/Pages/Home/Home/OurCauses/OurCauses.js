@@ -48,13 +48,9 @@ const OurCauses = () => {
     <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
     Entrepreneurship for Zero Unemployment
         </Typography>
-        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography> */}
+ 
     </Card.Body>
-    {/* <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer> */}
+ 
   </Card>
              </div>
              <div className='slider-box'>
@@ -66,13 +62,9 @@ const OurCauses = () => {
 Entrepreneurship to achieve Universal Health Coverage 
 
         </Typography>
-        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography> */}
+
     </Card.Body>
-    {/* <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer> */}
+  
   </Card>
              </div>
              <div className='slider-box'>
@@ -83,13 +75,9 @@ Entrepreneurship to achieve Universal Health Coverage
     <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
     Entrepreneurship to provide Quality Education
         </Typography>
-        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography> */}
+  
     </Card.Body>
-    {/* <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer> */}
+
   </Card>
                 </p>
              </div>
@@ -100,13 +88,9 @@ Entrepreneurship to achieve Universal Health Coverage
     <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
     Entrepreneurship to create Equal Opportunities 
         </Typography>
-        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography> */}
+  
     </Card.Body>
-    {/* <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer> */}
+
   </Card>
              </div>
              <div className='slider-box'>
@@ -117,75 +101,13 @@ Entrepreneurship to achieve Universal Health Coverage
     Entrepreneurship to combat Climate Change 
 
         </Typography>
-        {/* <Typography sx={{textAlign: 'justify'}} variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, voluptates.
-        </Typography> */}
+   
     </Card.Body>
-    {/* <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer> */}
+ 
   </Card>
              </div>
-             {/* <div className='slider-box'>
-             <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="320"
-        image={img3}
-      />
-      <CardContent className='mb-5 pb-4'>
-        <Typography gutterBottom variant="h5" component="div">
-        Lorem ipsum dolor sit amet.
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, laborum.
-        </Typography>
-      </CardContent>
-
-    </Card>
-             </div> */}
-             {/* <div className='slider-box'>
-             <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="320"
-        image={img3}
-      />
-      <CardContent className='mb-5 pb-4'>
-        <Typography gutterBottom variant="h5" component="div">
-        Lorem ipsum dolor sit amet.
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, laborum.
-        </Typography>
-      </CardContent>
-
-    </Card>
-             </div> */}
-             {/* <div className='slider-box'>
-               <p>
-
-               <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="320"
-        image={img3}
-      />
-      <CardContent className='mb-5 pb-4'>
-        <Typography gutterBottom variant="h5" component="div">
-        Lorem ipsum dolor sit amet.
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, laborum.
-        </Typography>
-      </CardContent>
-
-    </Card>
-               </p>
-             </div> */}
+      
+        
           </Carousel>
         </div>
         </Container>

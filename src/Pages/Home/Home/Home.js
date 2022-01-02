@@ -5,7 +5,7 @@ import Impacts from '../../Impacts/Impacts';
 import Footer from '../../Shared/Footer/Footer';
 import { Nav } from '../../Shared/Navbar/NavbarStyles';
 import Navigation from '../../Shared/Navigation/Navigation';
-import AboutUs from '../AboutUs/AboutUs';
+
 import Banner from '../Banner/Banner';
 import JoinUs from '../JoinUs/JoinUs';
 import AboutBanner from './../AboutBanner/AboutBanner';
@@ -50,7 +50,7 @@ const Home = () => {
        <OurMission></OurMission> 
        <Donation2></Donation2>    
        <WhatHaveCount></WhatHaveCount>
-       <AboutBanner></AboutBanner>
+        <AboutBanner></AboutBanner>
        <JoinUs2></JoinUs2> 
        <LatestNews></LatestNews>  
       <NewsLetter></NewsLetter>

@@ -73,7 +73,7 @@ const HowToInvolved = () => {
            } */}
 
 <Grid item xs={3} className='involved-join' >
-        <Card className='involved-join' style={{boxShadow: '5px 0px 10px skyBlue'}} data-aos="flip-left"
+        <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
       <CardMedia
@@ -101,7 +101,7 @@ const HowToInvolved = () => {
     </Card>
       </Grid>
 <Grid item xs={3} className='involved-box'>
-        <Card className='involved-join' style={{boxShadow: '5px 0px 10px skyBlue'}} data-aos="flip-left"
+        <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
       <CardMedia
@@ -127,7 +127,7 @@ const HowToInvolved = () => {
     </Card>
       </Grid>
 <Grid item xs={3} className='involved-box'>
-        <Card className='involved-join' style={{boxShadow: '5px 0px 10px skyBlue'}} data-aos="flip-left"
+        <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
       <CardMedia
@@ -153,7 +153,7 @@ const HowToInvolved = () => {
     </Card>
       </Grid>
 <Grid item xs={3} className='involved-box'>
-        <Card className='involved-join' style={{boxShadow: '5px 0px 10px skyBlue'}} data-aos="flip-left"
+        <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
       <CardMedia

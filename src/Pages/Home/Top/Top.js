@@ -13,7 +13,8 @@ import img3 from '../../../images/phoneblue.png'
 const Top = () => {
        
     return (
-     <div className="top mt-3 container top-uddokta">
+        <div className="top1">
+  <div className="top mt-2 container top-uddokta">
  <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
  
     <Grid item xs={2} sm={4} md={4} >
@@ -26,7 +27,7 @@ const Top = () => {
     </div>
     <div className='call-text mt-4'>
  
-        <h6 className='fw-bolder text-black-50'>+818096668105</h6>
+        <h6 className='fw-bolder text-white'>+818096668105</h6>
       
     </div>
     </Col>
@@ -37,9 +38,9 @@ const Top = () => {
     <i class="far fa-envelope"></i> */}
     </div>
     <div className='mail-text mt-4'>
-        <h6 className='text-black-50 fw-bolder'><span>
+        <h6 className='text-white fw-bolder'><span className='email'> 
             </span> info.uujp@gmail.com</h6>
-       {/* <p sx={{}} className='text-black-50'>info.uujp@gmail.com</p> */}
+       {/* <p sx={{}} className='text-white'>info.uujp@gmail.com</p> */}
     </div>
     </Col>
   </Row>
@@ -47,8 +48,8 @@ const Top = () => {
     </Grid>
     <Grid item xs={2} sm={4} md={4} >
      <div className="col">
-      <h2 className="fw-bolder text-primary mt-2">ウッドグ オ ウッドクタ日本</h2>
-      <h3 className='main-name-english fw-bolder mt-2'>UDDOG O UDDOKTA JAPAN</h3>
+      <h2 className="fw-bolder text-primary my-3">ウッドグ オ ウッドクタ日本</h2>
+      <h3 className='main-name-english fw-bolder mt-2'></h3>
      </div>
  
     </Grid>
@@ -58,12 +59,12 @@ const Top = () => {
             
         <div className="col-md-6 change-part">
         <img width="10%" src={languageImg} alt="" />
-        <Button sx={{borderRight: '1px solid #0d6efd'}} size="small"> <span className='text-black-50'>EN</span> </Button>
-        <Button size="small"> <Nav.Link className="text-black-50" as={HashLink} to="/japanese">日本</Nav.Link></Button>
+        <Button sx={{borderRight: '1px solid #0d6efd'}} size="small"> <span className='text-white'>EN</span> </Button>
+        <Button size="small"> <Nav.Link className="text-white" as={HashLink} to="/japanese">日本</Nav.Link></Button>
      </div>
      <div className="col-md-6">
   
-     <Nav.Link className="" as={HashLink} to="/home#donation"><button data-aos="zoom-out-down" className='donate'>
+     <Nav.Link className="" as={HashLink} to="/home#donation2"><button data-aos="zoom-out-down" className='donate'>
      <span>Donate Now</span> </button></Nav.Link>
      
      </div>
@@ -83,6 +84,8 @@ const Top = () => {
 
 
      </div>
+        </div>
+   
     );
 };
 
