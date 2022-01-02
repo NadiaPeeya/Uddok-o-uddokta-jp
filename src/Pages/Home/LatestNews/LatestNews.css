@@ -10,7 +10,7 @@
 
 .LatestNews-style{
    margin-bottom: 150px;
-   background-color: #F6FBFF;
+   /* background-color: #F6FBFF; */
 }
 
 .text-style{
@@ -32,10 +32,11 @@
     text-align: center;
 }
 .LatestNews-div{
-    margin-top: 350px;
-    background-color: #F6FBFF;
+    margin-top: 300px;
+    /* background-color: #F6FBFF; */
     border: 1px solid white;
-    height: 950px;
+    /* height: 950px; */
+    padding: 100px 0px 100px 0px;
   
 }
 

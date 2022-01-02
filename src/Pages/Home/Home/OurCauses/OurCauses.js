@@ -26,12 +26,12 @@ const breakPoints = [
 const OurCauses = () => {
     return (
 
-        <div data-aos="zoom-in-up" id="specialCauses" className='causes-div'>
+        <div data-aos="zoom-in-up"  className='causes-div'>
         <Container className="causes-style"  sx={{ flexGrow: 1 }}>
 
 
-              <div className='text-style'>   
-            <h1 className='h-text'>Social Causes</h1>
+              <div id="specialCauses" className='text-style'>   
+            <h1  className='h-text'>Social Causes</h1>
             <div className='text-div'>
             <p className='text-black-50'>Entrepreneurship is our tool to solve social problems in a sustainable way. <br /> There are so many social causes we can work on.  We are moving <br /> forward one by one. Currently we are working on followings.
 </p>
@@ -45,7 +45,7 @@ const OurCauses = () => {
              <Card sx={{ maxWidth: 550}}>
     <Card.Img variant="top" height={300} src={img1} />
     <Card.Body>
-    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '900'}} gutterBottom variant="h6" component="div">
+    <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '600'}} gutterBottom variant="h6" component="div">
     Entrepreneurship for Zero Unemployment
         </Typography>
  

@@ -62,9 +62,7 @@ const HowToInvolved = () => {
       
     return (
         <Container className='involved-style' sx={{mt: 35}}>
-        {/* <Typography gutterBottom variant="h2" component="div" sx={{fontWeight: 500 , color:'#354252'}}>
-              JOIN US AS
-        </Typography> */}
+
 
                     <Box sx={{ width: '100%' }}>
 <Grid className='involved-join' container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
@@ -75,11 +73,11 @@ const HowToInvolved = () => {
 <Grid item xs={3} className='involved-join' >
         <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
+     data-aos-duration="2000" sx={{ maxWidth: 355}}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height={200}
+        height="46%"
         image="https://i.ibb.co/hcrWS31/Crowdfunding-concept-Social-business-fundraising-and-investing-into-new-ideas-Sponsorship-and-invest.jpg"
       />
       <CardContent>
@@ -103,11 +101,11 @@ const HowToInvolved = () => {
 <Grid item xs={3} className='involved-box'>
         <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
+     data-aos-duration="2000" sx={{ maxWidth: 355, height: ""}}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height={200}
+        height="46%"
         image="https://i.ibb.co/YPbRPdG/final-Investor2.jpg"
       />
       <CardContent>
@@ -129,11 +127,11 @@ const HowToInvolved = () => {
 <Grid item xs={3} className='involved-box'>
         <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
+     data-aos-duration="2000" sx={{ maxWidth: 355, height: ""}}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height={200}
+        height="46%"
         image="https://i.ibb.co/1d6Ksx1/Skilled-or-motivational-coach-lecturing-to-diverse-multiracial-students-or-businesspeople-in-a-face.jpg"
       />
       <CardContent>
@@ -155,11 +153,11 @@ const HowToInvolved = () => {
 <Grid item xs={3} className='involved-box'>
         <Card className='involved-join' style={{boxShadow: ''}} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
+     data-aos-duration="2000" sx={{ maxWidth: 355, height: ""}}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height={200}
+        height="46%"
         image="https://i.ibb.co/hRxWVVz/final-Member.png"
       />
       <CardContent>

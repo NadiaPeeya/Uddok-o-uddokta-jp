@@ -1,5 +1,6 @@
 .involved-style{
-    margin-bottom: 250px;
+    margin-bottom: 550px;
+    padding: 100px 0px 100px 0px;
 }
 .involved-design{
     box-shadow:10px 10px 10px skyblue;
@@ -27,4 +28,5 @@
 }
 .involved-join{
     margin-top: 180px;
+    height: 450px;
 }

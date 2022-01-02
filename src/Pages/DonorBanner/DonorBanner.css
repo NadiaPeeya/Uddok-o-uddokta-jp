@@ -36,7 +36,7 @@
         width: 100%;
     }
     .donor-next-section{
-        margin-top: -400px;
+        margin-top: -600px;
     }
 
   }
@@ -47,7 +47,20 @@
         width: 100%;
     }
  .donor-next-section{
-        margin-top: -500px;
+        margin-top: -450px;
+    }
+
+
+  }
+  
+  
+  @media (max-width: 375px){
+ 
+    .donor-form{
+        width: 100%;
+    }
+ .donor-next-section{
+        margin-top: -150px;
     }
 
 

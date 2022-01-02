@@ -17,7 +17,7 @@ const WhatWeAre = () => {
                 <div className='whatweare-text'>
 
 
-<Typography variant="h3" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'start', color: '#354252'}}>
+<Typography variant="h3" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'start', color: '#0D6EFD'}}>
           What We Believe
   
       </Typography>

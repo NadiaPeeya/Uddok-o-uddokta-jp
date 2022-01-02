@@ -16,6 +16,7 @@
 .about{
     margin-top: -70px;
     margin-bottom: -9px;
+    padding: 100px 0px 100px 0px;
    
 }
 
@@ -34,7 +35,7 @@
   @media (max-width: 580px){
     .about{
       
-        margin-top: -550px;
+        margin-top: 10px;
         margin-bottom: 20px;
        }
        .img-about{
@@ -47,5 +48,6 @@
        }
   }
   
+
   
   

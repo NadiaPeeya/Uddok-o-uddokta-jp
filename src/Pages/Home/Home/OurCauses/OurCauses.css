@@ -19,12 +19,16 @@
 }
 .causes-div{
   background-color: #F6FBFF;
-  margin-top: 0px;
-  height: 950px;
-  display: flex;
+ 
+  /* height: 950px; */
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  padding: 100px 0px 100px 0px;
 
+}
+.causes-style{
+  padding: 100px 0px 100px 0px;
 }
 .causes-head{
   color: #354252;
@@ -41,7 +45,7 @@
   .causes-slider{
     
   
-      margin-top:10px;
+      margin-top:80px;
   
       
   
