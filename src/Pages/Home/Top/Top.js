@@ -49,7 +49,7 @@ const Top = () => {
     <Grid item xs={2} sm={4} md={4} >
      <div className="col">
       <h2 className="fw-bolder text-primary my-2">ウッドグ オ ウッドクタ日本</h2>
-      <h3 className='main-name-english fw-bolder mt-2'></h3>
+      <h3 className='main-name-english fw-bolder mt-2'>UDDOG O UDDOKTA JAPAN</h3>
      </div>
  
     </Grid>

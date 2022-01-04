@@ -24,12 +24,21 @@ const Navigation = () => {
         if(window.scrollY >= 200 || window.scrollY >= 500){
             document.getElementById('scroll-navbar-width').style.width= '100%';
             ;
+       
           }
        
            else if(window.scrollY <= 200){
                 document.getElementById('scroll-navbar-width').style.width= '90%';
                 ;
           }
+          if(window.scrollY >= 600){
+            document.getElementById('scroll-navbar-width').style.boxShadow= '0px 5px 10px white';
+            ;
+          }
+          else if(window.scrollY <= 200){
+            document.getElementById('scroll-navbar-width').style.boxShadow= '0px 5px 10px rgba(0, 0, 0, 0.493)';
+            ;
+      }
        
     }
 
@@ -48,6 +57,7 @@ const Navigation = () => {
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#OurMission"> <span className='style-nav'>SERVICES</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>JOIN US</span></Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav'>EVENTS & NEWS</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav'>BLOG</span></Nav.Link>
 
 
  {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission"><span className='style-nav'>BLOG</span></Nav.Link> */}

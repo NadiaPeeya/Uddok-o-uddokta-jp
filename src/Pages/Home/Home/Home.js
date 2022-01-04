@@ -44,9 +44,9 @@ const Home = () => {
        <Top></Top>
         <Navigation></Navigation>
         <AutoBannerImg></AutoBannerImg>
-        <TopSection></TopSection>
+        {/* <TopSection></TopSection> */}
        <WhatWeAre></WhatWeAre>
-       <AreYouReady></AreYouReady>
+       {/* <AreYouReady></AreYouReady> */}
        <OurCauses></OurCauses> 
        
     
