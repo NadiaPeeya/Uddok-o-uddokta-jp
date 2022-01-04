@@ -20,15 +20,15 @@ const LatestNews = () => {
     return (
         <div data-aos="zoom-in-up" id="LatestNews" className='LatestNews-div'>
   <Container className="LatestNews-style"  sx={{ flexGrow: 1, height: '750px', mt: '15px' }}>       
-        <div className='text-style mt-5 pt-5'>
+        <div className='text-style'>
        
             <h1 className='h-text lates-news-h1'>Latest News & Events</h1>
         </div>
         
-        <Grid className="LatestNews mt-5 pt-5"  container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Grid className="LatestNews"  container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         
           <Grid item xs={2} sm={4} md={4}>
-            <Card sx={{ maxWidth: 550}}>
+            <Card sx={{ maxWidth: 450}}>
     <Card.Img variant="top" height={300} src={img1} />
     <Card.Body>
     <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '700'}} gutterBottom variant="p" component="div">
@@ -43,7 +43,7 @@ const LatestNews = () => {
 
             </Grid>
             <Grid item xs={2} sm={4} md={4}>
-            <Card sx={{ maxWidth: 550}}>
+            <Card sx={{ maxWidth: 450}}>
     <Card.Img variant="top" height={300} src={img2} />
     <Card.Body>
     <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '700'}} gutterBottom variant="p" component="div">
@@ -58,7 +58,7 @@ const LatestNews = () => {
 
             </Grid>
             <Grid item xs={2} sm={4} md={4}>
-            <Card sx={{ maxWidth: 550}}>
+            <Card sx={{ maxWidth: 450}}>
     <Card.Img variant="top" height={270} src={img3} />
     <Card.Body>
     <Typography sx={{textAlign: 'left',  color: '#354252', fontWeight: '700'}} gutterBottom variant="p" component="div">

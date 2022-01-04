@@ -1,140 +1,60 @@
-.Initiatives-slider{
-    font-family: 'Cambria';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin-top: -50px;
-}
-.slider-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      height: 400px;
-    /* width: 90%; */
-   
-    color: #fff;
-    margin: 0 15px;
-    font-size: 4em;
-}
-.Initiatives-div{
-  /* background-color: #ede7f6; */
-  margin-top: 0px;
-  height: 950px;
+
+.social-media-initiatives{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+}
+.initiatives-box{
+  border: 1px solid white;
+  height: 268px;
+  width: 90%;
+  padding: 10px 10px 15px;
+  background-color: #f7fafe;
+  box-shadow: 5px 5px 5px whitesmoke;
+  border-radius: 5px;
+  margin: auto;
 
 }
-.Initiatives-head{
-  color: #354252;
-  text-align: left;
-  
+.entrepreneurial-text{
+  font-size: 52px;
 }
-.text-style{
-
+.initiative-section{
+  height: 958px;
+  padding: 100px 0px;
 }
-.Initiatives-slider{
-    font-family: 'Cambria';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin-top: -50px;
+.initiatives-text-style{
+ margin-top: 0px;
 }
-.slider-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      height: 400px;
-    width: 100%;
-   
-    color: #fff;
-    margin: 0 15px;
-    font-size: 4em;
-}
-.Initiatives-div{
-  background-color: #F6FBFF;
-  margin-top: 0px;
-  height: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.Initiatives-head{
-  color: #354252;
-  text-align: left;
-  
-}
-.text-style{
-
-}
-.Initiatives-slider{
-    font-family: 'Cambria';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin-top: -50px;
-}
-.slider-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      height: 400px;
-    width: 90%;
-   
-    color: #fff;
-    margin: 0 15px;
-    font-size: 4em;
-}
-.Initiatives-div{
-  background-color: #F6FBFF;
-  margin-top: 0px;
-  height: 950px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.Initiatives-head{
-  color: #354252;
-  text-align: left;
-  
-}
-.text-style{
-
-}
-/* .card-initiatives{
-    background-color: #05152e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 900;
-} */
-
-.slider-inside{
-   box-shadow: 10px 10px 10px gray;
-   width: 290px;
-
-
-   
-}
-.slider-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(88, 3, 3);
-    height: 60px;
-}
-.slider-inside:hover{
-transform: scale(1.05);
-
-
-
-}
-.slider-box:hover{
+.initiatives-img{
+ margin: auto;
  
+}
+.initiative-section{
+  margin-top: -50px;
+}
+.initiatives-div{
+ 
+}
+.facebook{
+  color: blue;
+  font-size: 28px;
+}
+.fa-pager{
+  color: pink;
+  font-size: 52;
+}
+.website{
+  color: #1EB3AE;
+  font-size: 28px;
+}
+.youtube{
+  color: brown;
+  font-size: 28px;
+}
+.instagram{
+  color: rgb(206, 34, 69);
+  font-size: 28px;
+}
+.twitter{
+  color: rgb(38, 133, 170);
+  font-size: 28px;
 }

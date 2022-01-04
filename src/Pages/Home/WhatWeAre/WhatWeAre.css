@@ -14,7 +14,7 @@
     align-items:center;
 }
 .about{
-    margin-top: -70px;
+    margin-top: 0px;
     margin-bottom: -9px;
     padding: 100px 0px 100px 0px;
    
@@ -23,7 +23,7 @@
 @media (max-width: 1036px){
     .about{
       
-     margin-top: -900px;
+     margin-top: 0px;
      margin-bottom: 320px;
     }
     .img-about{
@@ -35,8 +35,8 @@
   @media (max-width: 580px){
     .about{
       
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-top: -50px;
+        margin-bottom: 0px;
        }
        .img-about{
            margin-right: 0px;

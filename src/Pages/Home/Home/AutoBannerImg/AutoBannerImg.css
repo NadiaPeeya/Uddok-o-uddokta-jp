@@ -21,61 +21,61 @@
 }
 .autobannerimg-1{
     height: 100vh;
-    background: url('../../../../images/today2.jpg');
-    /* background-color: #5a5b5d;
-    background-blend-mode: multiply; */
-    background-color: #aaaeb3;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.autobannerimg-2{
-    height: 100vh;
-    background: url('https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2019/10/10180930/UN-goal-5-gender-equality.png');
+    background: url('../../../../images/finalSlide1.png');
     /* background-color: #5a5b5d;
     background-blend-mode: multiply; */
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+}
+.autobannerimg-2{
+    height: 100vh;
+    background: url('../../../../images/finalSlide2.png');
+    /* background-color: #5a5b5d;
+    background-blend-mode: multiply; */
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
  
  
 }
 .autobannerimg-3{
     height: 100vh;
-    background: url('https://www.unwater.org/app/uploads/2019/04/UN0286416.jpg');
+    background: url('../../../../images/finalSlide3.png');
     /* background-color: #5a5b5d;
     background-blend-mode: multiply; */
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 
 }
 .autobannerimg-4{
     height: 100vh;
-    background: url('https://www.ifc.org/wps/wcm/connect/4fe3120f-b13c-4653-8d7a-8c4755d0e1c3/Bangladesh-garment-industry-1920x960.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-4fe3120f-b13c-4653-8d7a-8c4755d0e1c3-nyP7yjN');
-    /* background-color: #5a5b5d;
-    background-blend-mode: multiply; */
-    background-color: #aaaeb3;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-.autobannerimg-5{
-    height: 85vh;
-    background: url('https://www.bd.undp.org/content/dam/undp/sdg/articles-covers/giving-a-voice-to-women-survivors-in-guatemala.png');
+    background: url('../../../../images/finalSlide4.png');
     /* background-color: #5a5b5d;
     background-blend-mode: multiply; */
     /* background-color: #aaaeb3;
     background-blend-mode: multiply; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+
+}
+.autobannerimg-5{
+    height: 100vh;
+    background: url('../../../../images/finalSlide5.png');
+    /* background-color: #5a5b5d;
+    background-blend-mode: multiply; */
+    /* background-color: #aaaeb3;
+    background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
   
 }
@@ -85,28 +85,42 @@
 @media (max-width: 1036px){
     .autobanner{
       
-    
-        margin-top: 5px;
-        
-    
-    }
- 
-  
-  }
-  
-  @media (max-width: 580px){
-    .autobanner{
-      
-    
-        margin-top: 30px;
-     
-        
+    margin-top: -400px;
+       
     
     }
- 
-    .autobannerimg-2{
+    .autobannerimg-1{
+        margin-top: -230px;
+        margin-bottom: -240px;
         height: 100vh;
-   
+        background: url('../../../../images/finalSlide1.png');
+        /* background-color: #5a5b5d;
+        background-blend-mode: multiply; */
+        /* background-color: #aaaeb3;
+        background-blend-mode: multiply; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .autobannerimg-2{
+        margin-top: -230px;
+        margin-bottom: -240px;
+        height: 100vh;
+        background: url('../../../../images/finalSlide2.png');
+        /* background-color: #5a5b5d;
+        background-blend-mode: multiply; */
+        /* background-color: #aaaeb3;
+        background-blend-mode: multiply; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+     
+     
+    }
+    .autobannerimg-3{
+        margin-top: -230px;
+        margin-bottom: -240px;
+        height: 100vh;
         background: url('../../../../images/finalSlide3.png');
         /* background-color: #5a5b5d;
         background-blend-mode: multiply; */
@@ -114,46 +128,49 @@
         background-blend-mode: multiply; */
         background-repeat: no-repeat;
         background-size: contain;
-        /* background-position: center; */
-     
-     
+        background-position: center;
+    
     }
-.autobannerimg-3{
-    height: 100vh;
-    background: url('https://www.unwater.org/app/uploads/2019/04/UN0286416.jpg');
-    /* background-color: #5a5b5d;
-    background-blend-mode: multiply; */
-    /* background-color: #aaaeb3;
-    background-blend-mode: multiply; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-.autobannerimg-4{
-    height: 100vh;
-    background: url('https://www.ifc.org/wps/wcm/connect/4fe3120f-b13c-4653-8d7a-8c4755d0e1c3/Bangladesh-garment-industry-1920x960.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-4fe3120f-b13c-4653-8d7a-8c4755d0e1c3-nyP7yjN');
-    /* background-color: #5a5b5d;
-    background-blend-mode: multiply; */
-    background-color: #aaaeb3;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-.autobannerimg-5{
-    height: 100vh;
-    background: url('https://www.bd.undp.org/content/dam/undp/sdg/articles-covers/giving-a-voice-to-women-survivors-in-guatemala.png');
-    /* background-color: #5a5b5d;
-    background-blend-mode: multiply; */
-    /* background-color: #aaaeb3;
-    background-blend-mode: multiply; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    .autobannerimg-4{
+        margin-top: -230px;
+        margin-bottom: -240px;
+        height: 100vh;
+        background: url('../../../../images/finalSlide4.png');
+        /* background-color: #5a5b5d;
+        background-blend-mode: multiply; */
+        /* background-color: #aaaeb3;
+        background-blend-mode: multiply; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    
+    }
+    .autobannerimg-5{
+        margin-top: -230px;
+        margin-bottom: -240px;
+        height: 100vh;
+        background: url('../../../../images/finalSlide5.png');
+        /* background-color: #5a5b5d;
+        background-blend-mode: multiply; */
+        /* background-color: #aaaeb3;
+        background-blend-mode: multiply; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      
+    }
+  }
   
-}
+  @media (max-width: 580px){
+    .autobanner{
+      
+    
+        margin-top: -50px;
+     
+        
+    
+    }
+ 
 
 }
   

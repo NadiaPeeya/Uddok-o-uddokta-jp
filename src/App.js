@@ -21,6 +21,7 @@ import InvestorForm from './Pages/InvestorForm/InvestorForm';
 import MentorForm from './Pages/MentorForm/MentorForm';
 import MemberForm from './Pages/MemberForm/MemberForm';
 
+
 AOS.init();
 function App() {
 

@@ -1,0 +1,21 @@
+.AreYouReady{
+    height: 500px;
+    padding: 51px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/volunteer.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+.areyouready-text{
+    text-align: center;
+}
+.style-member{
+    color: white;
+}
+.style-member-1{
+    border: 1px solid white;
+}

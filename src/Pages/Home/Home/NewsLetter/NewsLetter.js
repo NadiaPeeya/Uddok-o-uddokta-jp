@@ -4,7 +4,7 @@ import './NewsLetter.css'
 
 const NewsLetter = () => {
     return (
-        <div data-aos="zoom-in-up" className='newsLetter'>
+        <div data-aos="zoom-in-up" className='newsLetter container'>
             <Container className='newsletter-1'>
                 <div className='my-4 py-4'>
                 <p className='text-white'>What's new?</p>
