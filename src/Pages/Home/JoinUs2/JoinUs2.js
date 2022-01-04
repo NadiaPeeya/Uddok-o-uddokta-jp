@@ -22,7 +22,8 @@ const JoinUs2 = () => {
     //     .then(data => setJoinSectors(data))
     // }, [])
     return (
-      <div className='joinus2 mb-5 py-5'>
+      <div className='join-section-top'>
+<div className='joinus2'>
        <div className='my-5 joinus2-text'>
          <h1 className='h-text mt-5'>Join Us</h1>
          <p className='text-pera text-black-50'>We are working for the betterment of society.
@@ -130,6 +131,8 @@ Anyone is welcome to join with us to create more positive impact. You can play y
  
  </Grid>
       </div>
+      </div>
+      
        
     );
 };

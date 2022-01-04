@@ -55,9 +55,9 @@ const Home = () => {
        <WhatHaveCount></WhatHaveCount>
         <AboutBanner></AboutBanner>
        <JoinUs2></JoinUs2> 
-       
-       <LatestNews></LatestNews> 
        <Initiatives></Initiatives> 
+       <LatestNews></LatestNews> 
+       
       <NewsLetter></NewsLetter>
        <Footer></Footer>
    

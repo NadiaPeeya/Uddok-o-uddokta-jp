@@ -21,9 +21,12 @@
 
   height: 958px;
   padding: 100px 0px;
-  margin-top: -10px;
-}
 
+}
+.top-initiatives{
+  margin-top: 400px;
+  
+}
 .initiatives-text-style{
  margin-top: 0px;
 }
