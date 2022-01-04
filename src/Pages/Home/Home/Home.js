@@ -49,13 +49,15 @@ const Home = () => {
        <AreYouReady></AreYouReady>
        <OurCauses></OurCauses> 
        
-      <Initiatives></Initiatives>
+    
        <OurMission></OurMission> 
        <Donation2></Donation2>    
        <WhatHaveCount></WhatHaveCount>
         <AboutBanner></AboutBanner>
        <JoinUs2></JoinUs2> 
-       <LatestNews></LatestNews>  
+       
+       <LatestNews></LatestNews> 
+       <Initiatives></Initiatives> 
       <NewsLetter></NewsLetter>
        <Footer></Footer>
    
