@@ -51,7 +51,7 @@ const Initiatives = () => {
             </div>
           
             <div className='initiatives-text-style'>
-            <h3 className='my-3'>Erisa Limited</h3>
+            <h4 className='my-3'>Erisa Limited</h4>
             <div className='social-media-initiatives'>
             <i class="fab fa-facebook facebook"></i>
             <i class="fas fa-pager website"></i>
@@ -70,9 +70,10 @@ const Initiatives = () => {
             </div>
           
             <div className='initiatives-text-style'>
-            <h3 className='my-3'>Erisa Limited</h3>
+            <h4 className='my-3'>Sanrin Global Ltd
+</h4>
             <div className='social-media-initiatives'>
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook facebook"></i>
             <i class="fas fa-pager website"></i>
             <i class="fab fa-youtube youtube"></i>
             <i class="fab fa-instagram-square instagram"></i>
@@ -89,9 +90,9 @@ const Initiatives = () => {
             </div>
          
             <div className='initiatives-text-style'>
-            <h3 className='my-3'>Erisa Limited</h3>
+            <h4 className='my-3'>Zhumka Bangladesh </h4>
             <div className='social-media-initiatives'>
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook facebook"></i>
             <i class="fas fa-pager website"></i>
             <i class="fab fa-youtube youtube"></i>
             <i class="fab fa-instagram-square instagram"></i>
@@ -108,9 +109,9 @@ const Initiatives = () => {
             </div>
          
             <div className='initiatives-text-style'>
-            <h3 className='my-3'>Erisa Limited</h3>
+            <h4 className='my-3'>Misaki</h4>
             <div className='social-media-initiatives'>
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook facebook"></i>
             <i class="fas fa-pager website"></i>
             <i class="fab fa-youtube youtube"></i>
             <i class="fab fa-instagram-square instagram"></i>
@@ -129,9 +130,10 @@ const Initiatives = () => {
             </div>
          
             <div className='initiatives-text-style'>
-            <h3 className='my-3'>Erisa Limited</h3>
+            <h4 className='my-3'>Lesd It Solution
+</h4>
             <div className='social-media-initiatives'>
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook facebook"></i>
             <i class="fas fa-pager website"></i>
             <i class="fab fa-youtube youtube"></i>
             <i class="fab fa-instagram-square instagram"></i>
@@ -150,9 +152,9 @@ const Initiatives = () => {
             </div>
          
             <div className='initiatives-text-style'>
-            <h3 className='my-3'>Erisa Limited</h3>
+            <h4 className='my-3'>M I International Ltd</h4>
             <div className='social-media-initiatives'>
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook facebook"></i>
             <i class="fas fa-pager website"></i>
             <i class="fab fa-youtube youtube"></i>
             <i class="fab fa-instagram-square instagram"></i>
