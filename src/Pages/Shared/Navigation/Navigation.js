@@ -31,7 +31,7 @@ const Navigation = () => {
                 document.getElementById('scroll-navbar-width').style.width= '90%';
                 ;
           }
-          if(window.scrollY >= 600){
+          if(window.scrollY >= 700){
             document.getElementById('scroll-navbar-width').style.boxShadow= '0px 5px 10px white';
             ;
           }
