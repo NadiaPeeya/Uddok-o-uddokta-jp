@@ -52,7 +52,7 @@ const Footer = () => {
         <h3 className='text-primary fw-bolder '>ウッドグ オ ウッドクタ日本
 
 </h3> 
-<h5 className='text-primary fw-bolder'></h5> 
+<h5 className='text-primary fw-bolder'>UDDOG O UDDOKTA JAPAN</h5> 
 </div>
         {/* <h2 className="fw-bolder text-color-change"> Uddok O Uddokta </h2> */}
         <p className="fw-bold text-color-change"> <span className='fw-bolder'>Adress:</span> Shinjuku Park Tower N30F,</p> 
@@ -110,15 +110,15 @@ const Footer = () => {
 
 
 <div className='col-md-3 footer-socials'>
-      <p className="fw-bold fs-3"><Card.Link className='link-color-change' target="_blank" href="https://www.facebook.com/uddogouddoktajapan/"><i class="fab fa-facebook text-color-change"></i></Card.Link></p>
+      <p className="fw-bold fs-3"><Card.Link className='link-color-change' target="_blank" href="https://www.facebook.com/uddogouddoktajapan/"><i class="fab fa-facebook footer-facebook text-color-change"></i></Card.Link></p>
          <p className="fw-bold fs-4"><Card.Link target="_blank" className='link-color-change' href="https://www.linkedin.com/company/uujapan
-"><i class="fab fa-linkedin text-color-change"></i></Card.Link>
+"><i class="fab fa-linkedin footer-linkdin text-color-change"></i></Card.Link>
 </p>
-<p className="fw-bold fs-4"><Card.Link className='link-color-change' target="_blank" href="https://www.youtube.com/channel/UCiwNJcJlDcDJg4I8XKz0XTQ"><i class="fab fa-youtube text-color-change"></i></Card.Link></p>
-<p className="fw-bold fs-4"> <Card.Link className='link-color-change' target="_blank" href="https://www.twitter.com/OUddog/"><i class="fab fa-twitter-square text-color-change"></i></Card.Link></p> 
+<p className="fw-bold fs-4"><Card.Link className='link-color-change' target="_blank" href="https://www.youtube.com/channel/UCiwNJcJlDcDJg4I8XKz0XTQ"><i class="fab fa-youtube footer-youtube text-color-change"></i></Card.Link></p>
+<p className="fw-bold fs-4"> <Card.Link className='link-color-change' target="_blank" href="https://www.twitter.com/OUddog/"><i class="fab fa-twitter-square footer-twitter text-color-change"></i></Card.Link></p> 
   <p className="fw-bold  fs-4"><Card.Link className='link-color-change' target="_blank" href="https://www.instagram.com/uu_japan_official/?utm_medium=copy_link"
 
-><i class="fab fa-instagram-square text-color-change"></i></Card.Link></p> 
+><i class="fab fa-instagram-square footer-instagram text-color-change"></i></Card.Link></p> 
 
 </div>
 </div>

@@ -19,7 +19,7 @@
 }
 .causes-div{
   background-color: #F6FBFF;
- 
+  margin-top: -150px;
   /* height: 950px; */
   /* display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@
   
 }
 .text-style{
-
+ margin-top: -130px;
 }
 
 
