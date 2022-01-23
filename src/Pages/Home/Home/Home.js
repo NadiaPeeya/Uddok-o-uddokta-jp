@@ -29,6 +29,7 @@ import Donation2 from '../Donation2/Donation2';
 import JoinUs2 from '../JoinUs2/JoinUs2';
 import TopSection from '../../TopSection/TopSection';
 import AreYouReady from '../../AreYouReady/AreYouReady';
+import NewsAndEvents from '../NewsAndEvents/NewsAndEvents';
 
 
 
@@ -46,6 +47,7 @@ const Home = () => {
         <AutoBannerImg></AutoBannerImg>
         {/* <TopSection></TopSection> */}
        <WhatWeAre></WhatWeAre>
+    
        {/* <AreYouReady></AreYouReady> */}
        <OurCauses></OurCauses> 
        
@@ -56,9 +58,10 @@ const Home = () => {
         <AboutBanner></AboutBanner>
        <JoinUs2></JoinUs2> 
        <Initiatives></Initiatives> 
-       <LatestNews></LatestNews> 
-       
+       {/* <LatestNews></LatestNews>  */}
+       <NewsAndEvents></NewsAndEvents>
       <NewsLetter></NewsLetter>
+    
        <Footer></Footer>
    
 

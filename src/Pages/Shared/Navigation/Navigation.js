@@ -6,41 +6,37 @@ import { HashLink } from 'react-router-hash-link';
 
 import './Navigation.css';
 import img from '../../../images/logo.png'
+import { NavLink } from 'react-router-dom';
+import  Button  from '@mui/material/Button';
+
+import Box from '@mui/material/Box';
+import useAuth from '../../../hooks/useAuth';
 
 
 const Navigation = () => {
-    // const [colorChange, setColorchange] = useState(false);
-    // const changeNavbarColor = () =>{
-    //    if(window.scrollY >= 80){
-    //      setColorchange(true);
-    //    }
-    //    else{
-    //      setColorchange(false);
-    //    }
-    // };
-    // window.addEventListener('scroll', changeNavbarColor);
+const {user, logOut} = useAuth();
       
-    window.onscroll = function(){
-        if(window.scrollY >= 200 || window.scrollY >= 500){
-            document.getElementById('scroll-navbar-width').style.width= '100%';
-            ;
+    // window.onscroll = function(){
+    //     if(window.scrollY >= 200 || window.scrollY >= 500){
+    //         document.getElementById('scroll-navbar-width').style.width= '100%';
+    //         ;
        
-          }
+    //       }
        
-           else if(window.scrollY <= 200){
-                document.getElementById('scroll-navbar-width').style.width= '90%';
-                ;
-          }
-          if(window.scrollY >= 700){
-            document.getElementById('scroll-navbar-width').style.boxShadow= '0px 5px 10px white';
-            ;
-          }
-          else if(window.scrollY <= 200){
-            document.getElementById('scroll-navbar-width').style.boxShadow= '0px 5px 10px rgba(0, 0, 0, 0.493)';
-            ;
-      }
+    //       //  else if(window.scrollY <= 200){
+    //       //       document.getElementById('scroll-navbar-width').style.width= '90%';
+                
+    //       // }
+    //       // if(window.scrollY >= 700){
+    //       //   document.getElementById('scroll-navbar-width').style.boxShadow= '0px 5px 10px white';
+    //       //   ;
+    //       // }
+    //       else if(window.scrollY <= 200){
+    //         document.getElementById('scroll-navbar-width').style.boxShadow= '0px 5px 10px rgba(0, 0, 0, 0.493)';
+    //         ;
+    //   }
        
-    }
+    // }
 
 
 
@@ -60,11 +56,34 @@ const Navigation = () => {
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav'>BLOG</span></Nav.Link>
 
 
- {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#mission"><span className='style-nav'>BLOG</span></Nav.Link> */}
+{/* 
+ 
+ {
+                      user?.email ?
+                      <Box className="style-nav hover-underline-animation">
+                       
+  <Button className="style-nav hover-underline-animation" onClick={logOut} color="inherit">Logout</Button>
+                      </Box>   
+                    
+                      :
+                        <NavLink className="style-nav hover-underline-animation" style={{textDecoration: 'none', color: 'white'}} to="/login">
+                        <Button className='style-nav' color="inherit">Login</Button>
+                        </NavLink>
+                  }
+  */}
 
- {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>CONTACT US</span> </Nav.Link> */}
 
-
+  {
+    user?.email?  <Box className="style-nav hover-underline-animation">
+                       
+  <Button className="style-nav hover-underline-animation" onClick={logOut} color="inherit">Logout</Button>
+                      </Box>    :
+<Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/login">
+ <span className='style-nav'>LOGIN</span>
+ </Nav.Link>
+  }
+ 
+ 
 </Navbar.Collapse>
 
 </Navbar>
