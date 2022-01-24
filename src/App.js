@@ -25,6 +25,8 @@ import Register from './Pages/Login/Register/Register';
 import AuthProvider from './contexts/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import ViewMoreEvents from './Pages/ViewMoreEvents/ViewMoreEvents';
+import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
+import SubscriberUser from './Pages/Dashboard/SubscriberUser/SubscriberUser';
 
 
 
@@ -90,6 +92,12 @@ function App() {
           <Route path="/register">
           <Register/>
           </Route>
+          <PrivateRoute path="/dashboard">
+          <Dashboard/>
+          </PrivateRoute>
+          <PrivateRoute path="/subscriberUser">
+          <SubscriberUser/>
+          </PrivateRoute>
           <Route path="/MemberForm">
           <MemberForm/>
           </Route>

@@ -75,7 +75,7 @@ const {user, logOut} = useAuth();
 
   {
     user?.email?  <Box className="style-nav hover-underline-animation">
-                       
+      
   <Button className="style-nav hover-underline-animation" onClick={logOut} color="inherit">Logout</Button>
                       </Box>    :
 <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/login">

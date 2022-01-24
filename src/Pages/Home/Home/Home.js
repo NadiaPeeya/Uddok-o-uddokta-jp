@@ -58,7 +58,7 @@ const Home = () => {
         <AboutBanner></AboutBanner>
        <JoinUs2></JoinUs2> 
        <Initiatives></Initiatives> 
-       {/* <LatestNews></LatestNews>  */}
+     
        <NewsAndEvents></NewsAndEvents>
       <NewsLetter></NewsLetter>
     

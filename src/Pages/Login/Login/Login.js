@@ -59,15 +59,16 @@ const Login = () => {
           isLoading && <CircularProgress />
       }
    
-      {
-          authError && <Alert severity="error">{authError}</Alert>
-      }
+    
       </form>
       <Button onClick={handleGoogleSignIn} sx={{width: '75%', m: 1}} 
                             type="submit"
                             variant="contained">Sign In With Google</Button>
                             <br />
                             <Link sx={{width: "75%", textDecoration: 'none'}} to="/register">New User? Please Register</Link>
+                            {
+          authError && <Alert severity="error">This Email does not exists</Alert>
+      }
                             
   </Grid>
   <Grid item xs={12} md={6}>
