@@ -5,7 +5,7 @@ import './BlogBanner.css'
 const BlogBanner = () => {
     return (
         <Card className="bg-dark text-white blog-banner">
-        <Card.Img src="https://i.ibb.co/MkVqS6d/cover-image-2.jpg" alt="Card image" />
+        <Card.Img src='https://i.ibb.co/9rYdgW0/img-slider-2-1.jpg' alt="Card image" />
         <Card.ImgOverlay>        
         </Card.ImgOverlay>
       </Card>
