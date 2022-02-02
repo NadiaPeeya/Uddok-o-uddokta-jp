@@ -15,7 +15,7 @@ const BlogItem = () => {
     const {id} = useParams();
 
     useEffect(()=>{
-        const url = `http://localhost:5000/blogs/${id}`
+        const url = `https://dry-inlet-45409.herokuapp.com/blogs/${id}`
         fetch(url)
         .then(res => res.json())
         .then(data => setSingleBlog(data));
