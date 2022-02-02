@@ -11,7 +11,7 @@ const BlogPage = (props) => {
     <Col>
     <div>
     <div className='img-blog'>
-    <img src={img} alt="" />
+    <img width="100%" src={img} alt="" />
     </div>
     <div className='single-blog'>
     <p>{date}</p>
