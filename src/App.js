@@ -27,6 +27,9 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import ViewMoreEvents from './Pages/ViewMoreEvents/ViewMoreEvents';
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 import SubscriberUser from './Pages/Dashboard/SubscriberUser/SubscriberUser';
+import Blog from './Pages/Blog/Blog';
+import BlogItem from './Pages/Blog/BlogItem/BlogItem';
+
 
 
 
@@ -101,13 +104,12 @@ function App() {
           <Route path="/MemberForm">
           <MemberForm/>
           </Route>
-   
-          {/* <Route path="/register">
-          <Register/>
+          <Route path="/blogs">
+          <Blog/>
           </Route>
-          <Route path="/dashboard">
-          <Dashboard/>
-          </Route> */}
+          <Route path="/blogItem/:id">
+          <BlogItem/>
+          </Route>
           <Route path="/">
             <Home />
           </Route>

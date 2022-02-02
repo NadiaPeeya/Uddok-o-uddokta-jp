@@ -11,6 +11,7 @@ import  Button  from '@mui/material/Button';
 
 import Box from '@mui/material/Box';
 import useAuth from '../../../hooks/useAuth';
+import { display } from '@mui/system';
 
 
 const Navigation = () => {
@@ -53,7 +54,7 @@ const {user, logOut} = useAuth();
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#OurMission"> <span className='style-nav'>SERVICES</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>JOIN US</span></Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav'>EVENTS & NEWS</span></Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav'>BLOG</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/blogs"><span className='style-nav'>BLOG</span></Nav.Link>
 
 
 {/* 
@@ -76,7 +77,8 @@ const {user, logOut} = useAuth();
   {
     user?.email?  <Box className="style-nav hover-underline-animation">
       
-  <Button className="style-nav hover-underline-animation" onClick={logOut} color="inherit">Logout</Button>
+  <Button className="style-nav hover-underline-animation" color="inherit">{user.displayName} <button onClick={logOut}><i class="fas fa-sign-in-alt"></i></button>
+     </Button>
                       </Box>    :
 <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/login">
  <span className='style-nav'>LOGIN</span>

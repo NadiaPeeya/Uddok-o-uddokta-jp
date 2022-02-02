@@ -25,7 +25,7 @@ const NewsAndEvents = () => {
     const [newsEvents, setNewsEvents] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/newsEvents')
+        fetch('https://dry-inlet-45409.herokuapp.com/newsEvents')
         .then(res => res.json())
         .then(data => setNewsEvents(data))
     }, [])

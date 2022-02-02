@@ -12,7 +12,7 @@ const NewsLetter = () => {
         const newUser = { email: email }
     
         // send data to the server
-        fetch('http://localhost:5000/users', {
+        fetch('https://dry-inlet-45409.herokuapp.com/users', {
           method: 'POST',
           headers: {
             'content-type': 'application/json'

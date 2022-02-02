@@ -6,7 +6,7 @@ import Subscribe from './Subscribe/Subscribe';
 const SubscriberUser = () => {
     const [subscribeUsers, setSubscribeUser] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://dry-inlet-45409.herokuapp.com/users')
         .then(res => res.json())
         .then(data => setSubscribeUser(data));
     },[])

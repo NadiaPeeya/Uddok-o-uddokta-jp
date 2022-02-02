@@ -45,7 +45,7 @@ const useFirebase = () => {
 
    const saveUser = (email, displayName, method)=> {
      const user = {email, displayName};
-     fetch('http://localhost:5000/email', {
+     fetch('https://dry-inlet-45409.herokuapp.com/email', {
        method: method,
        headers: {
          'content-type': 'application/json'
@@ -85,7 +85,7 @@ const useFirebase = () => {
      }
 
      useEffect(()=> {
-       fetch(`http://localhost:5000/email/${user.email}`)
+       fetch(`https://dry-inlet-45409.herokuapp.com/email/${user.email}`)
        .then(res => res.json())
        .then(data => setAdmin(data.admin))
      }, [user.email])
@@ -116,7 +116,7 @@ const useFirebase = () => {
             setIsLoading(false);
           });
           return () => unsubscribe
-     }, [])
+     }, [auth])
      return {
          user,
          admin,

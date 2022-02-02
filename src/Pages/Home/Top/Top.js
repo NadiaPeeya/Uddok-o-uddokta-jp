@@ -33,13 +33,13 @@ const Top = () => {
     </Col>
     <Col className='mail-to'>
     <div>
-    <img width="70%" src={img2}/>
+    <img width="35%" src={img2}/>
 {/* 
     <i class="far fa-envelope"></i> */}
     </div>
     <div className='mail-text my-2'>
         <p className='fw-bolder text-secondary'><span className='email'> 
-            </span> info.uujp@gmail.com</p>
+            </span>contact@uddogouddokta.jp</p>
        {/* <p sx={{}} className='text-white'>info.uujp@gmail.com</p> */}
     </div>
     </Col>

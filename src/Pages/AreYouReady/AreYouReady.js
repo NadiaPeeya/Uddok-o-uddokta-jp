@@ -49,7 +49,7 @@ Email: "info.uujp@gmail.com"
 
     },
     {
-        id: 1,
+        id: 3,
         img: "https://i.ibb.co/HTk7xHW/news1.jpg",
         description: "Annual Conference 2022: 50 Years of Japan-Bangladesh relationship and opportunities for future collaboration",
         img1: "https://i.ibb.co/z22c2ZK/newsEve3.jpg" ,
