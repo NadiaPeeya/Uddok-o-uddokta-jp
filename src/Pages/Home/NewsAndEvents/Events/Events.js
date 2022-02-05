@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Grid, Typography } from '@mui/material';
-import { Card, Nav } from 'react-bootstrap';
+import { Card} from 'react-bootstrap';
 import './Events.css'
-import { HashLink } from 'react-router-hash-link';
+
 import { Link } from 'react-router-dom';
 const Events = (props) => {
     const {_id, img, description} = props.newsEvent;
@@ -20,7 +20,7 @@ const Events = (props) => {
 
                      {/* <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/NewsBanner1"><span className='style-nav'>View More</span></Nav.Link>
 </Button> */}
-<Link to={`/newsEvents/viewMore/${_id}`}><button>View More</button></Link>
+<Link to={`/newsEvents/viewMore/${_id}`}><Button style={{textDecoration: 'none'}}>View More</Button></Link>
 
     </Card.Body>
  

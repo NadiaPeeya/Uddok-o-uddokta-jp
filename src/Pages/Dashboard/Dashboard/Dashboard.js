@@ -25,14 +25,14 @@ import {
     useRouteMatch
   } from "react-router-dom";
 import { Button } from '@mui/material';
-import Subscribe from '../SubscriberUser/Subscribe/Subscribe';
-import DashboardHome from '../DashboardHome/DashboardHome';
+
 import MakeAdmin from './MakeAdmin/MakeAdmin';
 import AddBlog from '../AddBlog/AddBlog';
 import useAuth from '../../../hooks/useAuth';
 import AdminRoute from './../../Login/AdminRoute/AdminRoute';
-
-  
+import ManageBlog from '../ManageBlog/ManageBlog';
+import EditBlog from './../EditBlog/EditBlog';
+import BlogPageEdit from '../EditBlog/BlogPageEdit/BlogPageEdit';
 
 const drawerWidth = 200;
 
@@ -55,10 +55,12 @@ function Dashboard(props) {
       {
           admin && <Box>
               
-              <Link to={`${url}/subscriberUser`}><Button color="inherit">SubscriberUser</Button></Link>
+      <Link to={`${url}/subscriberUser`}><Button color="inherit">SubscriberUser</Button></Link>
       <Link to={`${url}/makeAdmin`}><Button color="inherit">Make Admin</Button></Link>
       <br />
       <Link to={`${url}/AddBlog`}><Button color="inherit">Add Blog</Button></Link>
+      <Link to={`${url}/manageBlog`}><Button color="inherit">Manage Blog</Button></Link>
+      {/* <Link to={`${url}/editBlog`}><Button color="inherit">Edit Blog</Button></Link> */}
           </Box>
       }
  
@@ -143,6 +145,20 @@ function Dashboard(props) {
         <AdminRoute path={`${path}/addBlog`}>
        <AddBlog></AddBlog>
         </AdminRoute>
+        <AdminRoute path={`${path}/manageBlog`}>
+       <ManageBlog></ManageBlog>
+        </AdminRoute>
+        <AdminRoute path={`${path}/editBlog`}>
+       <EditBlog></EditBlog>
+        </AdminRoute>
+        {/* <AdminRoute path={`${path}editBlogPage/:id`}>
+     <EditBlogPage></EditBlogPage>
+        </AdminRoute> */}
+     <AdminRoute path= {`${path}/editBlogPage/:id`}>
+       <BlogPageEdit></BlogPageEdit>
+     </AdminRoute>
+
+   
       </Switch>
        
       </Box>

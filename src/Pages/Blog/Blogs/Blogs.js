@@ -15,8 +15,6 @@ const Blogs = () => {
     return (
        <Container className='my-5'>
 <Grid container spacing={2}>
-
-
    {
        blogs.map(blog =><SingleBlog key={blog._id} blog={blog}></SingleBlog>)
    }
