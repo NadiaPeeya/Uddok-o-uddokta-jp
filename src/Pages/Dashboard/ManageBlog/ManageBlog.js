@@ -17,7 +17,7 @@ const ManageBlog = () => {
     const [allBlogs, setAllBlogs] = useState([])
     const [success, setSucsess] = useState(false);
     useEffect(() => {
-        fetch('http://localhost:5000/blogs', {
+        fetch('https://dry-inlet-45409.herokuapp.com/blogs', {
             headers: {
                 'authorization': `Bearer ${token}`
             }

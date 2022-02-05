@@ -19,7 +19,7 @@ const AddBlog = () => {
         setBlogAdded(false);
         e.preventDefault();
         
-        fetch('http://localhost:5000/blogs', {
+        fetch('https://dry-inlet-45409.herokuapp.com/blogs', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

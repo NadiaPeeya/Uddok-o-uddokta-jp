@@ -6,7 +6,7 @@ const BlogPageEdit = () => {
     const [blogPageEdit, setBlogPageEdit] = useState({})
     const {id} = useParams();
     useEffect(()=>{
-        const url = `http://localhost:5000/dashboard/editBlog/editBlogPage/${id}`
+        const url = `https://dry-inlet-45409.herokuapp.com/dashboard/editBlog/editBlogPage/${id}`
         fetch(url)
         .then(res => res.json())
         .then(data => setBlogPageEdit(data));
