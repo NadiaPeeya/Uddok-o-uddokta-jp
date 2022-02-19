@@ -29,7 +29,7 @@ import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 import SubscriberUser from './Pages/Dashboard/SubscriberUser/SubscriberUser';
 import Blog from './Pages/Blog/Blog';
 import BlogItem from './Pages/Blog/BlogItem/BlogItem';
-
+import HistoryAndProfile from './Pages/HistoryAndProfile/HistoryAndProfile'
 
 
 
@@ -91,6 +91,9 @@ function App() {
           </Route>
           <Route path="/login">
           <Login/>
+          </Route>
+          <Route path="/history and profile">
+          <HistoryAndProfile/>
           </Route>
           <Route path="/register">
           <Register/>

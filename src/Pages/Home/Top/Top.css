@@ -6,32 +6,21 @@
 .change-part{
    margin-top: -55px;
 }
-.top1{
-  /* background-color: #141823;
-  background-color: #181f30; */
-}
+
 .number{
     text-align: center;
     margin-top: 0px;
 }
-/* .call{
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-   
-   
+
+.fa-envelope{
+  color: rgb(46, 182, 228);
+  font-size: 16px;
+  margin: 5px;
 }
-.call-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    border: 1px solid black;
-} */
 
 .call-us{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
 }
@@ -128,30 +117,14 @@
     font-weight: bolder;
  
 }
-  /* .icon-class{
-    color: brown;
-    font-size: 36px;
-    padding: 5px;
-    margin-right: 5px;
-    
-  } */
+ 
 
-  /* @media (max-width: 600px){
-    .top-uddokta{
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
-    }
-  
-} */
+
 
 .top-uddokta{
   margin-bottom: 10px;
 }
-/* @media only screen and (min-width: 768px) {
-    .top-uddokta{
-        display: block;
-    }
-} */
+
 
 
 

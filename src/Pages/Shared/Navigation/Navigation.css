@@ -26,6 +26,13 @@
 
 
 }
+.double-link{
+  color: #0D6EFD;
+ font-weight: 900; 
+
+ transition: 5s;
+
+}
 
 .style-nav:hover{
  border-bottom-width:0mm;
@@ -34,6 +41,8 @@
 
  
 }
+
+
 
 .uddok-o-uddokta{
 

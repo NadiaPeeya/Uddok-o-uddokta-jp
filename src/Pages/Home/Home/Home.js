@@ -30,6 +30,7 @@ import JoinUs2 from '../JoinUs2/JoinUs2';
 import TopSection from '../../TopSection/TopSection';
 import AreYouReady from '../../AreYouReady/AreYouReady';
 import NewsAndEvents from '../NewsAndEvents/NewsAndEvents';
+import Payment from '../Payment/Payment';
 
 
 
@@ -53,7 +54,7 @@ const Home = () => {
        
     
        <OurMission></OurMission> 
-       <Donation2></Donation2>    
+     <Payment></Payment>   
        <WhatHaveCount></WhatHaveCount>
         <AboutBanner></AboutBanner>
        <JoinUs2></JoinUs2> 

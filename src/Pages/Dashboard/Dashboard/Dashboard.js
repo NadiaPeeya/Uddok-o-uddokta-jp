@@ -22,7 +22,8 @@ import {
     Route,
     Link,
     useParams,
-    useRouteMatch
+    useRouteMatch,
+    NavLink
   } from "react-router-dom";
 import { Button } from '@mui/material';
 
@@ -31,147 +32,167 @@ import AddBlog from '../AddBlog/AddBlog';
 import useAuth from '../../../hooks/useAuth';
 import AdminRoute from './../../Login/AdminRoute/AdminRoute';
 import ManageBlog from '../ManageBlog/ManageBlog';
-import EditBlog from './../EditBlog/EditBlog';
-import BlogPageEdit from '../EditBlog/BlogPageEdit/BlogPageEdit';
+import { Logout, Person } from '@mui/icons-material';
+import DashboardHome from './../DashboardHome/DashboardHome';
 
-const drawerWidth = 200;
+
+const drawerWidth = 170;
 
 function Dashboard(props) {
-  const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
-  let { path, url } = useRouteMatch();
-  const {admin} = useAuth();
-  const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
-  };
+    const { window } = props;
+    const [mobileOpen, setMobileOpen] = React.useState(false);
+    let { path, url } = useRouteMatch();
+    const { admin, user, logOut } = useAuth();
 
-  const drawer = (
-    <div> 
-     
-      <Toolbar />
-      <Divider />
-     
-      <Link to={`${url}`}><Button color="inherit">Dashboard</Button></Link>
-      {
-          admin && <Box>
-              
-      <Link to={`${url}/subscriberUser`}><Button color="inherit">SubscriberUser</Button></Link>
-      <Link to={`${url}/makeAdmin`}><Button color="inherit">Make Admin</Button></Link>
-      <br />
-      <Link to={`${url}/AddBlog`}><Button color="inherit">Add Blog</Button></Link>
-      <Link to={`${url}/manageBlog`}><Button color="inherit">Manage Blog</Button></Link>
-      {/* <Link to={`${url}/editBlog`}><Button color="inherit">Edit Blog</Button></Link> */}
-          </Box>
-      }
- 
-      
-    </div>
-  );
+    const handleDrawerToggle = () => {
+        setMobileOpen(!mobileOpen);
+    };
 
-  const container = window !== undefined ? () => window().document.body : undefined;
-
-  return (
-    <Box sx={{ display: 'flex' }}>
-      <CssBaseline />
-      <AppBar
-        position="fixed"
-        sx={{
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
-          ml: { sm: `${drawerWidth}px` },
-        }}
-      >
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            DASHBOARD
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Box
-        component="nav"
-        sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
-        aria-label="mailbox folders"
-      >
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-        <Drawer
-          container={container}
-          variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
-          }}
-          sx={{
-            display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-          }}
-        >
-          {drawer}
-        </Drawer>
-        <Drawer
-          variant="permanent"
-          sx={{
-            display: { xs: 'none', sm: 'block' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-          }}
-          open
-        >
-          {drawer}
-        </Drawer>
-      </Box>
-      <Box
-        component="main"
-        sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
-      >
-        <Toolbar />
-        <Switch>
-        <Route exact path={path}>
+    const drawer = (
+        <Box style={{ backgroundColor: 'rgb(35, 34, 34)', height: '100%' }}>
+            <Toolbar />
+            <Divider />
+            <div>
            
-        </Route>
-        <AdminRoute path={`${path}/subscriberUser`}>
-       <SubscriberUser></SubscriberUser>
-        </AdminRoute>
-        <AdminRoute path={`${path}/makeAdmin`}>
-       <MakeAdmin></MakeAdmin>
-        </AdminRoute>
-        <AdminRoute path={`${path}/addBlog`}>
-       <AddBlog></AddBlog>
-        </AdminRoute>
-        <AdminRoute path={`${path}/manageBlog`}>
-       <ManageBlog></ManageBlog>
-        </AdminRoute>
-        <AdminRoute path={`${path}/editBlog`}>
-       <EditBlog></EditBlog>
-        </AdminRoute>
-        {/* <AdminRoute path={`${path}editBlogPage/:id`}>
-     <EditBlogPage></EditBlogPage>
-        </AdminRoute> */}
-     <AdminRoute path= {`${path}/editBlogPage/:id`}>
-       <BlogPageEdit></BlogPageEdit>
-     </AdminRoute>
+                
+                 {admin && <Box>
+               
+                    <NavLink style={{ display: 'block', marginTop: 3, textDecoration: 'none', color: 'white' }} to='/home'>
+                    <Button sx={{ color:'whtie'  }} color="inherit">Home Page</Button>
+                </NavLink>
+                    <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/makeAdmin`}>
+                        <Button sx={{ color:'whtie'  }} color="inherit">Make Admin</Button>
+                    </NavLink>
+                    <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/addBlogs`}>
+                        <Button sx={{ color:'whtie' }} color="inherit">Add Blog</Button>
+                    </NavLink>
+                    <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/manageBlogs`}>
+                        <Button sx={{ color:'whtie'  }} color="inherit">Manage Blogs</Button>
+                    </NavLink>
 
-   
-      </Switch>
-       
-      </Box>
-    </Box>
-  );
+
+                </Box>}
+            </div>
+        </Box>
+    );
+
+    const container = window !== undefined ? () => window().document.body : undefined;
+
+    return (
+        <Box sx={{ display: 'flex', hight: '100%' }}>
+            <CssBaseline />
+            <AppBar
+                position="fixed"
+                sx={{
+                    width: { sm: `calc(100% - ${drawerWidth}px)` },
+                    ml: { sm: `${drawerWidth}px` },
+                    backgroundColor: 'rgb(35, 34, 34)',
+                    paddingY:1,
+                   
+                }}
+            >
+                <Toolbar>
+                    <IconButton
+                        color="inherit"
+                        aria-label="open drawer"
+                        edge="start"
+                        onClick={handleDrawerToggle}
+                        sx={{ mr: 2, display: { sm: 'none' } }}
+                    >
+                        <MenuIcon />
+                    </IconButton>
+                    <Typography variant="h5" component="div" sx={{ flexGrow: 1, color: "D3BDBD" }}>
+                       UDDOG O UDDOKTA JAPAN
+                    </Typography>
+                    {
+                        user?.email &&
+                            <Box>
+                                <Typography variant="h6" sx={{ display: 'inline', backgroundColor: 'white', color: '#2c2727', borderBottom: '3px solid aliceBlue', borderRadius: '10px', padding: '9px', marginY: '3px' }}>
+                                    <Person /> {user.displayName}
+                                </Typography>
+                                <Button
+                                    sx={{ backgroundColor: 'rgb(35, 34, 34)', color: '#D3BDBD',m:2 }} variant="contained"
+                                    onClick={logOut}
+                                    color="inherit"><Logout></Logout></Button>
+                            </Box>
+                          
+                    }
+                   
+                </Toolbar>
+
+            </AppBar>
+            <Box
+                component="nav"
+                sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+                aria-label="mailbox folders"
+            >
+           
+                <Drawer
+                    container={container}
+                    variant="temporary"
+                    open={mobileOpen}
+                    onClose={handleDrawerToggle}
+                    ModalProps={{
+                        keepMounted: true, // Better open performance on mobile.
+                    }}
+                    sx={{
+                        display: { xs: 'block', sm: 'none' },
+                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                    }}
+                >
+                    {drawer}
+                </Drawer>
+                <Drawer
+                    variant="permanent"
+                    sx={{
+                        display: { xs: 'none', sm: 'block' },
+                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                    }}
+                    open
+                >
+                    {drawer}
+                </Drawer>
+            </Box>
+            <Box
+                component="main"
+                sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
+            >
+                <Toolbar />
+                <Switch>
+
+
+                    <Route exact path={path}>
+                       <DashboardHome></DashboardHome>
+                    </Route>
+
+              
+
+                  
+
+                    <AdminRoute path={`${path}/makeAdmin`}>
+                        <MakeAdmin></MakeAdmin>
+                    </AdminRoute>
+                    
+                    <AdminRoute path={`${path}/addBlogs`}>
+                      <AddBlog></AddBlog>
+                    </AdminRoute>
+                    <AdminRoute path={`${path}/manageBlogs`}>
+                    <ManageBlog></ManageBlog>
+                    </AdminRoute>
+
+
+                </Switch>
+            </Box>
+        </Box>
+    );
 }
 
 Dashboard.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window: PropTypes.func,
+    /**
+     * Injected by the documentation to work in an iframe.
+     * You won't need it on your project.
+     */
+    window: PropTypes.func,
 };
 
 export default Dashboard;

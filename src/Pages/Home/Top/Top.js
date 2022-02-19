@@ -9,6 +9,8 @@ import { HashLink } from 'react-router-hash-link';
 import Button from '@mui/material/Button';
 import languageImg from '../../../images/language-translation-and-linguistics-icon-vector-14239078.jpeg'
 import img3 from '../../../images/phoneblue.png'
+import CallIcon from '@mui/icons-material/Call';
+import MailIcon from '@mui/icons-material/Mail';
 
 const Top = () => {
        
@@ -22,24 +24,22 @@ const Top = () => {
     <Container>
   <Row className='my-2'>
     <Col className="call-us">
-    <div>
-    <img width="35%" src={img3}/>
-    </div>
-    <div className='call-text my-2'>
+
+   
  
-        <p className='fw-bolder text-secondary'>+818096668105</p>
+    <div style={{display: 'flex'}} className='call-text my-2'>
+    <CallIcon style={{ color: '#0D6EFD', margin: '2px'}}></CallIcon>
+        <small className='fw-bolder text-secondary'>+818096668105</small>
       
     </div>
     </Col>
     <Col className='mail-to'>
-    <div>
-    <img width="35%" src={img2}/>
-{/* 
-    <i class="far fa-envelope"></i> */}
-    </div>
-    <div className='mail-text my-2'>
-        <p className='fw-bolder text-secondary'><span className='email'> 
-            </span>contact@uddogouddokta.jp</p>
+
+    <div style={{display: 'flex'}} className='mail-text my-2'>
+        
+    <MailIcon style={{ color: '#0D6EFD', margin: '2px'}}></MailIcon>
+        <small className='fw-bolder text-secondary'><span className='email'> 
+            </span>contact@uddogouddokta.jp</small>
        {/* <p sx={{}} className='text-white'>info.uujp@gmail.com</p> */}
     </div>
     </Col>

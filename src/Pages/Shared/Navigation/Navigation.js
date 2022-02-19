@@ -1,13 +1,16 @@
 import React, { useState, Fragment} from 'react';
-
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import Fade from '@mui/material/Fade';
 import { Container,  Navbar, Nav } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
-
+import { NavHashLink } from 'react-router-hash-link';
 
 import './Navigation.css';
 import img from '../../../images/logo.png'
 import { NavLink } from 'react-router-dom';
-import  Button  from '@mui/material/Button';
+
 
 import Box from '@mui/material/Box';
 import useAuth from '../../../hooks/useAuth';
@@ -38,7 +41,14 @@ const {user, logOut} = useAuth();
     //   }
        
     // }
-
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const open = Boolean(anchorEl);
+    const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+    };
+    const handleClose = () => {
+      setAnchorEl(null);
+    };
 
 
     return (
@@ -49,7 +59,37 @@ const {user, logOut} = useAuth();
 <Navbar.Toggle />
 <Navbar.Collapse className="justify-content-end">
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#home"> <span className='style-nav' >HOME</span></Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#aboutUs"> <span className='style-nav'>ABOUT US</span> </Nav.Link>
+ {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#aboutUs"> <span className='style-nav'>ABOUT US</span> </Nav.Link> */}
+ <div>
+ <Nav.Link className="style-nav hover-underline-animation"    id="fade-button"
+        aria-controls={open ? 'fade-menu' : undefined}
+        aria-haspopup="true"
+        aria-expanded={open ? 'true' : undefined}
+        onClick={handleClick} as={HashLink} to="/home#specialCauses">
+     
+     
+      
+       <span className='style-nav fw-bolder double-link'>ABOUT US</span>
+      </Nav.Link>
+      
+      <Menu
+        // id="fade-menu"
+        MenuListProps={{
+          'aria-labelledby': 'fade-button',
+        }}
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        TransitionComponent={Fade}
+      >
+        <MenuItem onClick={handleClose}><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/history and profile"><span className='style-nav'>History and Profile</span></Nav.Link></MenuItem>
+        <MenuItem onClick={handleClose}>Board and Team</MenuItem>
+        <MenuItem onClick={handleClose}>Advisors and Mentors </MenuItem>
+        <MenuItem onClick={handleClose}>Members and Partners</MenuItem>
+        <MenuItem onClick={handleClose}>Interns and Volunteers  
+</MenuItem>
+      </Menu>
+    </div>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#specialCauses"> <span className='style-nav'>SOCIAL CAUSES</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#OurMission"> <span className='style-nav'>SERVICES</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>JOIN US</span></Nav.Link>
@@ -57,38 +97,22 @@ const {user, logOut} = useAuth();
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/blogs"><span className='style-nav'>BLOG</span></Nav.Link>
 
 
-{/* 
- 
- {
-                      user?.email ?
-                      <Box className="style-nav hover-underline-animation">
-                       
-  <Button className="style-nav hover-underline-animation" onClick={logOut} color="inherit">Logout</Button>
-                      </Box>   
-                    
-                      :
-                        <NavLink className="style-nav hover-underline-animation" style={{textDecoration: 'none', color: 'white'}} to="/login">
-                        <Button className='style-nav' color="inherit">Login</Button>
-                        </NavLink>
-                  }
-  */}
 
 
   {
-    user?.email?  <Box className="style-nav hover-underline-animation">
-      
-  <Button className="style-nav hover-underline-animation" color="inherit">{user.displayName} <button onClick={logOut}><i class="fas fa-sign-in-alt"></i></button>
-     </Button>
-                      </Box>    :
-<Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/login">
- <span className='style-nav'>LOGIN</span>
+    user?.email &&  <Box className="style-nav hover-underline-animation">
+      <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/dashboard">
+ <span className='style-nav'>DASHBOARD</span>
  </Nav.Link>
+
+                      </Box>  
   }
  
  
 </Navbar.Collapse>
 
 </Navbar>
+
 
 
 

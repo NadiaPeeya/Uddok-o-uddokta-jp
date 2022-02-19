@@ -3,6 +3,7 @@ import { Container, Row, Col, FormLabel as Label } from 'react-bootstrap';
 import Grid from '@mui/material/Grid';
 
 import './Donation.css';
+import { TextField } from '@mui/material';
 
 
 const Donation = () => {
@@ -37,7 +38,17 @@ sustainable development.</p>
     <h3>Billing Address</h3>
    <div className='form-table container'>
    <Label className='label-field' htmlFor="fname"><i className="fa fa-user"></i> Full Name</Label>
-     <input className='input-field' type="text" id="fname" name="firstname" placeholder="John M. Doe" />
+   <TextField
+        id="standard-multiline-static"
+        name="message"
+        label="Leave a message"
+        sx={{ width: '70%', my: 1 }}
+        onBlur=''
+        multiline
+        rows={8}
+        
+        variant="standard"
+    />
      <Label className='label-field' htmlFor="email"><i className="fa fa-envelope"></i> Email</Label>
      <input className='input-field' type="text" id="email" name="email" placeholder="john@example.com"/>
      <Label className='label-field' htmlFor="adr"><i className="fa fa-address-card-o"></i> Address</Label>
