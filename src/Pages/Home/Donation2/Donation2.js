@@ -18,7 +18,7 @@ const Donation2 = () => {
     return (
         <div data-aos="zoom-in-up" id="donation2" className='donation-section container'>
       <div className="row donation-start my-5 py-5">
-          <div className="col-md-6 donate-inside-text">
+          <div className="col-md-6 col-sm-12 donate-inside-text">
            <div className='container'>
            <h1 className='text-white fw-bolder h-donation'>Donate for Sustainable 
              Social Impacts</h1>
@@ -35,7 +35,7 @@ sustainable development.</p>
 
           </div>
     
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
           <form onSubmit=''>
                <div className="row container payment-form py-5">
                    <div className="col-md-6 form-table container">

@@ -65,7 +65,7 @@ const {user, logOut} = useAuth();
         aria-controls={open ? 'fade-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
-        onClick={handleClick} as={HashLink} to="/home#specialCauses">
+        onClick={handleClick} as={HashLink} >
      
      
       
@@ -83,10 +83,10 @@ const {user, logOut} = useAuth();
         TransitionComponent={Fade}
       >
         <MenuItem onClick={handleClose}><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/history and profile"><span className='style-nav'>History and Profile</span></Nav.Link></MenuItem>
-        <MenuItem onClick={handleClose}>Board and Team</MenuItem>
-        <MenuItem onClick={handleClose}>Advisors and Mentors </MenuItem>
-        <MenuItem onClick={handleClose}>Members and Partners</MenuItem>
-        <MenuItem onClick={handleClose}>Interns and Volunteers  
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/board and team"><span className='style-nav'>Board and Team</span></Nav.Link> </MenuItem>
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/advisor and mentors"><span className='style-nav'>Advisors and Mentors </span></Nav.Link> </MenuItem>
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/members and partners"><span className='style-nav'>Members and Partners</span></Nav.Link> </MenuItem>
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/interns and volunteers"><span className='style-nav'>Interns and Volunteers</span></Nav.Link>  
 </MenuItem>
       </Menu>
     </div>

@@ -38,8 +38,7 @@ const OurMission = () => {
                <p className='text-black-50 p2-text'>Japan -Bangladesh relationship was established on 10 February 1972. In 2022 It will reach 50 years. Japan is already recognized as the best friendly country for Bangladesh considering diplomatic relations and foreign aid. We believe that this relationship will be stronger and more impactful in near future. Japanese ideology for industry and social development always inspires us and we want to make it more impactful for the young generations. On this remarkable occasion, we would like to publish a hardcopy book to make an archive in one book bringing some remarkable stories of this relationship as well as stories of successful Bangladeshi entrepreneurs in Japan.This will be a notable souvenir to show the 50 years' achievements of Japan-Bangladesh relationships as well as the future opportunities to move forward.
                <br />
                <br />
-              <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/research"><span className='style-nav'>View More</span></Nav.Link>
-</Button>
+   
                </p>
                 </div>
             </div>
@@ -59,8 +58,7 @@ const OurMission = () => {
                <p className='text-black-50 p2-text'>In August 2019, 2020, we organized an online seminar during the COVID19 pandemic on “How to Start an Entrepreneurship: It Business with Japan”. One successful Bangladeshi IT entrepreneur conducted the session from his own experiences. It was a guideline for newcomers to start their IT business in Japan or with Japan from home country. This will be our regular activity. In future we will arrange more seminar like this on different industry. In 2020 we also organized 10 online interview session with 10 young entrepreneurs. Whose are working in different business sectors in Japan and Bangladesh. These sessions were helpful for them to create net networks, to find out new opportunities, to gather information for business development, as well as it was helpful for newcomers to expand their knowledge from experienced person. 
                <br />
                <br />
-               <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/Training"><span className='style-nav'>View More</span></Nav.Link>
-</Button>
+    
                </p>
                 </div>
             </div>
@@ -82,8 +80,7 @@ const OurMission = () => {
 
                <br />
                <br />
-               <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/Consulting"><span className='style-nav'>View More</span></Nav.Link>
-</Button>
+
                
                </p>
                 </div>
@@ -108,8 +105,7 @@ const OurMission = () => {
 
                <br />
                <br />
-               <Button><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/Funding"><span className='style-nav'>View More</span></Nav.Link>
-</Button>
+       
                </p>
                 </div>
             </div>

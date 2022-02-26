@@ -54,7 +54,7 @@ const Home = () => {
        
     
        <OurMission></OurMission> 
-     <Payment></Payment>   
+     <Donation2></Donation2> 
        <WhatHaveCount></WhatHaveCount>
         <AboutBanner></AboutBanner>
        <JoinUs2></JoinUs2> 

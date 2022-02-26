@@ -30,6 +30,10 @@ import SubscriberUser from './Pages/Dashboard/SubscriberUser/SubscriberUser';
 import Blog from './Pages/Blog/Blog';
 import BlogItem from './Pages/Blog/BlogItem/BlogItem';
 import HistoryAndProfile from './Pages/HistoryAndProfile/HistoryAndProfile'
+import BoardAndTeam from './Pages/BoardAndTeam/BoardAndTeam';
+import AdvisorAndMentors from './Pages/AdvisorAndMentors/AdvisorAndMentors';
+import MembersAndPartners from './Pages/MembersAndPartners/MembersAndPartners';
+import InternsAndVolunteers from './Pages/InternsAndVolunteers/InternsAndVolunteers';
 
 
 
@@ -94,6 +98,18 @@ function App() {
           </Route>
           <Route path="/history and profile">
           <HistoryAndProfile/>
+          </Route>
+          <Route path="/advisor and mentors">
+          <AdvisorAndMentors/>
+          </Route>
+          <Route path="/members and partners">
+          <MembersAndPartners/>
+          </Route>
+          <Route path="/Interns and Volunteers">
+          <InternsAndVolunteers/>
+          </Route>
+          <Route path="/board and team">
+         <BoardAndTeam/>
           </Route>
           <Route path="/register">
           <Register/>

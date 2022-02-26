@@ -49,10 +49,10 @@ const Footer = () => {
     
     <Col xs={{ order: 12 }} className="footer-styling">
         <div className='mb-4'> 
-        <h3 className='text-primary fw-bolder '>ウッドグ オ ウッドクタ日本
+        <h3 className='text-white fw-bolder '>ウッドグ オ ウッドクタ日本
 
 </h3> 
-<h5 className='text-primary fw-bolder'>UDDOG O UDDOKTA JAPAN</h5> 
+<h5 className='text-white fw-bolder'>UDDOG O UDDOKTA JAPAN</h5> 
 </div>
         {/* <h2 className="fw-bolder text-color-change"> Uddok O Uddokta </h2> */}
         <p className="fw-bold text-color-change"> <span className='fw-bolder'>Adress:</span> Shinjuku Park Tower N30F,</p> 
@@ -62,7 +62,8 @@ const Footer = () => {
         
 <p className="fw-bold text-color-change">Tokyo 163-1030, Japan</p>
 
-        <p className="fw-bold text-color-change">  <span className='fw-bolder'>Email:</span> info@uddogouddokta.jp</p>
+        <p className="fw-bold text-color-change">  <span className='fw-bolder'>Email:</span> contact@uddogouddokta.jp
+</p>
         <p className="fw-bold text-color-change"> <span className='fw-bolder'>Phone:</span> +81-80-9666-8105</p>
     </Col>
     <Col xs={{ order: 1 }}>
