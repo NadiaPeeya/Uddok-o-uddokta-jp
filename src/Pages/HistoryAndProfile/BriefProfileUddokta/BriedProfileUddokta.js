@@ -46,7 +46,7 @@ const BriedProfileUddokta = () => {
 </Typography>
         <Box sx={{ width: '100%', display: { xs: 'none', md: 'block' } }}>
             <TableContainer component={Paper}>
-                <Table sx={{border: '' , boxShadow: '5px 5px 50px gray'}} aria-label=" List">
+                <Table sx={{border: '' , boxShadow: '0px 0px 50px red'}} aria-label=" List">
                     <TableHead>
                         <TableRow>
 

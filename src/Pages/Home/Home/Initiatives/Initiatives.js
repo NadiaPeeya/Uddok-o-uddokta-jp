@@ -110,7 +110,10 @@ const Initiatives = () => {
       <div className='top-initiatives'>
  <div data-aos="zoom-in-up" className='initiative-section container'>
         <div className='initiatives-div mb-5 pb-3'>
-          <h1 className='entrepreneurial-text text-primary'>Entrepreneurial Initiatives </h1>
+        <Typography variant="h4" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'center', color: '#0D6EFD'}}>
+        Entrepreneurial Initiatives
+      </Typography>
+          
           <p className='text-black-50'>We are closely working with new and existing entrepreneurs for their organizational development as well as for social development. <br /> They have taken our various services at different times. We wish them continued success and more impact on society.
 </p>  
         </div>

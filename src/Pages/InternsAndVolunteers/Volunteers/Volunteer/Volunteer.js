@@ -11,25 +11,25 @@ const Volunteer = (props) => {
     const {img, name , work} = props.volunteer;
     return (
       
-             <Grid className='mx-auto' container xs={12} md={3}>
-    <Card sx={{ maxWidth: 265 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="200"
-        image={img}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="body1" component="div">
-         {name}
-        </Typography>
-        <Typography variant="body" color="text.secondary">
-        {work}
-        </Typography>
-      </CardContent>
-    
-    </Card>
-  </Grid>
+      <Grid xs={12} md={3}>
+      <Card sx={{ maxWidth: 300, height: '100%' }}>
+        <CardMedia
+          component="img"
+          alt="green iguana"
+          height="300"
+          image={img}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {name}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+           {work}
+          </Typography>
+        </CardContent>
+      
+      </Card>
+    </Grid>
     
     );
 };

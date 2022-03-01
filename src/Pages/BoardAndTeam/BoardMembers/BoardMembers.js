@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './BoardMembers.css'
-import { Container } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import { useEffect } from 'react';
 import BoardMember from './BoardMember/BoardMember';
@@ -82,8 +82,14 @@ const BoardMembers = () => {
                </div>
        <Container>
            <div className='my-5'>
-               <h1 className='text-primary py-5'>Board Members</h1>
-               <Grid container spacing={6}>
+               
+<Typography variant="h4" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'center', color: '#0D6EFD', marginBottom: 5}}>
+
+    <span className='my-5 py-5'>Board Members</span>
+
+      </Typography>
+             
+               <Grid container spacing={4}>
                {
                    boardMembers.map(boardMember =><BoardMember boardMember={boardMember}></BoardMember> )
                }

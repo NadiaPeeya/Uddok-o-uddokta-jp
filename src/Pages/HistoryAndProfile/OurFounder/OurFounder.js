@@ -5,8 +5,10 @@ const OurFounder = () => {
     return (
         <div>
             <div className='mt-5 , pt-5'>
-             <Typography style={{color:'rgb(13, 110, 253)', marginBottom: '45px'}} variant="h3" gutterBottom component="div">
-        Our Founder
+            <Typography variant="h4" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'center', color: '#0D6EFD', marginBottom: 5}}>
+          <span className='my-5 py-5'>Our Founder
+  </span>
+          
       </Typography>
       <Container>
 <Grid container spacing={6} style={{}}>

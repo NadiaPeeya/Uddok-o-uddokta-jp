@@ -1,4 +1,4 @@
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import Intern from './Intern/Intern';
 
@@ -34,8 +34,13 @@ const Interns = () => {
     },[])
     return (
         <div className='my-5'>
-            <h1 className='text-primary'>INTERNS AND VOLUNTEERS
-</h1>
+            
+
+<Typography variant="h4" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'center', color: '#0D6EFD'}}>
+INTERNS
+  
+      </Typography>
+
 <p className='text-secondary'>Interns: 1st Intake (October 2021 to March 2022)
 
 </p> 

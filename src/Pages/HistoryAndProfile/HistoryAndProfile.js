@@ -19,7 +19,7 @@ const HistoryAndProfile = () => {
            <OriginContent></OriginContent>
            <Origin2></Origin2>
            <BriedProfileUddokta></BriedProfileUddokta>
-           <OriginTabs></OriginTabs>
+      
            <OurFounder></OurFounder>
            <Footer></Footer>
            

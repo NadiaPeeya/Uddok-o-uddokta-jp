@@ -2,15 +2,19 @@ import React from 'react';
 import Footer from '../Shared/Footer/Footer';
 import Navigation from '../Shared/Navigation/Navigation';
 import MemberPartners from './MemberParteners/MemberPartners';
+import Partners from './MemberParteners/Partners/Partners';
 
-import PartnerTabs from './MemberParteners/Partners/PartnerTabs/PartnerTabs';
+
 
 const MembersAndPartners = () => {
     return (
         <div>
             <Navigation></Navigation>
            <MemberPartners></MemberPartners>
-           <PartnerTabs></PartnerTabs>
+     <Partners
+     ></Partners>
+
+
             <Footer></Footer>
         </div>
     );

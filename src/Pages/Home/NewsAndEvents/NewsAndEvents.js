@@ -1,4 +1,4 @@
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -33,8 +33,11 @@ const NewsAndEvents = () => {
         <div data-aos="zoom-in-up" id="LatestNews" className='LatestNews-div'>
         <Container className="LatestNews-style"  sx={{ flexGrow: 1, height: '750px', mt: '15px' }}>       
               <div className='text-style'>
-             
-                  <h1 className='h-text lates-news-h1'>Latest News & Events</h1>
+              <Typography variant="h4" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'center', color: '#0D6EFD'}}>
+              Latest News & Events
+      </Typography>
+
+                  
               </div>
      <Grid container spacing={2}>
 

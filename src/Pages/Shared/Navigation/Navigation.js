@@ -58,7 +58,7 @@ const {user, logOut} = useAuth();
 <Navbar.Brand style={{marginLeft: '-45px'}} className="uddok-o-uddokta" href="#home"> <img width="40%" src={img} alt="" /></Navbar.Brand>
 <Navbar.Toggle />
 <Navbar.Collapse className="justify-content-end">
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#home"> <span className='style-nav' >HOME</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#home"> <span className='style-nav text-size' >HOME</span></Nav.Link>
  {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#aboutUs"> <span className='style-nav'>ABOUT US</span> </Nav.Link> */}
  <div>
  <Nav.Link className="style-nav hover-underline-animation"    id="fade-button"
@@ -69,7 +69,7 @@ const {user, logOut} = useAuth();
      
      
       
-       <span className='style-nav fw-bolder double-link'>ABOUT US</span>
+       <span className='style-nav fw-bolder double-link text-size'>ABOUT US</span>
       </Nav.Link>
       
       <Menu
@@ -82,19 +82,19 @@ const {user, logOut} = useAuth();
         onClose={handleClose}
         TransitionComponent={Fade}
       >
-        <MenuItem onClick={handleClose}><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/history and profile"><span className='style-nav'>History and Profile</span></Nav.Link></MenuItem>
-        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/board and team"><span className='style-nav'>Board and Team</span></Nav.Link> </MenuItem>
-        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/advisor and mentors"><span className='style-nav'>Advisors and Mentors </span></Nav.Link> </MenuItem>
-        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/members and partners"><span className='style-nav'>Members and Partners</span></Nav.Link> </MenuItem>
-        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/interns and volunteers"><span className='style-nav'>Interns and Volunteers</span></Nav.Link>  
+        <MenuItem onClick={handleClose}><Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/history and profile"><span className='style-nav text-size-menu'>History and Profile</span></Nav.Link></MenuItem>
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/board and team"><span className='style-nav text-size-menu'>Board and Team</span></Nav.Link> </MenuItem>
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/advisor and mentors"><span className='style-nav text-size-menu'>Advisors and Mentors </span></Nav.Link> </MenuItem>
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/members and partners"><span className='style-nav text-size-menu'>Members and Partners</span></Nav.Link> </MenuItem>
+        <MenuItem onClick={handleClose}> <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/interns and volunteers"><span className='style-nav text-size-menu'>Interns and Volunteers</span></Nav.Link>  
 </MenuItem>
       </Menu>
     </div>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#specialCauses"> <span className='style-nav'>SOCIAL CAUSES</span> </Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#OurMission"> <span className='style-nav'>SERVICES</span> </Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav'>JOIN US</span></Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav'>EVENTS & NEWS</span></Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/blogs"><span className='style-nav'>BLOG</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#specialCauses"> <span className='style-nav text-size'>SOCIAL CAUSES</span> </Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#OurMission"> <span className='style-nav text-size'>SERVICES</span> </Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav text-size'>JOIN US</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav text-size'>EVENTS & NEWS</span></Nav.Link>
+ <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/blogs"><span className='style-nav text-size'>BLOG</span></Nav.Link>
 
 
 
@@ -102,7 +102,7 @@ const {user, logOut} = useAuth();
   {
     user?.email &&  <Box className="style-nav hover-underline-animation">
       <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/dashboard">
- <span className='style-nav'>DASHBOARD</span>
+ <span className='style-nav text-size'>DASHBOARD</span>
  </Nav.Link>
 
                       </Box>  

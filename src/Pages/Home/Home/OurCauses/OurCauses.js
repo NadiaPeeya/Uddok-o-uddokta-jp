@@ -27,7 +27,10 @@ const OurCauses = () => {
 
 
               <div id="specialCauses" className='text-style'>   
-            <h1  className='h-text'>Social Causes</h1>
+              <Typography variant="h4" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'center', color: '#0D6EFD'}}>
+          SOCIAL CAUSES
+  
+      </Typography>
             <div className='text-div'>
             <p className='text-black-50'>Entrepreneurship is our tool to solve social problems in a sustainable way. <br /> There are so many social causes we can work on.  We are moving <br /> forward one by one. Currently we are working on followings.
 </p>

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { ButtonGroup as Button, Container, Form } from 'react-bootstrap';
 import './NewsLetter.css'
+import { height } from '@mui/system';
 
 const NewsLetter = () => {
    
@@ -47,8 +48,8 @@ const NewsLetter = () => {
                   
       <form onSubmit={handleAddUser}>
       
-        <input type="email" ref={emailRef} name="" id="" placeholder="Email" />
-        <input type="submit" value="Subscribe" />
+        <input style={{width: '100%' , marginBottom: 15}} type="email" ref={emailRef} name="" id="" placeholder="Email" />
+        <input type="submit"  value="Subscribe" />
       </form>
 
                

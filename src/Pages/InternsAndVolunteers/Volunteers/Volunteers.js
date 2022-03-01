@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { Grid } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import Volunteer from './Volunteer/Volunteer';
 
 
@@ -15,20 +15,30 @@ const Volunteers = () => {
          .then(data => setVolunteers(data))
     },[])
     return (
-        <div className='mx-auto container'>
-           <h1 className='text-primary'>Volunteers: 2020-2021 {volunteers.length}
-</h1> 
-<Container className='my-5'>
-<Grid container spacing={0}>
+      <Container>
+ <div className='my-5'>
+ <Typography variant="h4" component="div" gutterBottom sx={{fontFamily: 'cambria', fontWeight: 600, textAlign: 'center', color: '#0D6EFD'}}>
+Volunteers
+  
+      </Typography>
 
-  {
-  volunteers.map(volunteer => <Volunteer volunteer={volunteer}></Volunteer>)
+<p className='text-secondary'>Volunteers: 1st Intake (2020-2021)
+)
+
+</p> 
+<Container className='my-5'>
+<Grid container spacing={4}>
+
+{
+volunteers.map(volunteer => <Volunteer volunteer={volunteer}></Volunteer>)
 }
 </Grid>
 
 </Container>
 
-        </div>
+  </div>
+      </Container>
+     
     );
 };
 
