@@ -6,12 +6,13 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
+import './Volunteer.css'
 
 const Volunteer = (props) => {
     const {img, name , work} = props.volunteer;
     return (
       
-      <Grid xs={12} md={3}>
+      <Grid className='volunteer' container xs={12} md={3}>
       <Card sx={{ maxWidth: 300, height: '100%' }}>
         <CardMedia
           component="img"

@@ -10,7 +10,7 @@ import { Grid } from '@mui/material';
 const Intern = (props) => {
     const {name, img, section} = props.intern;
     return (
-        <Grid xs={12} md={4}>
+        <Grid container xs={12} md={4}>
     <Card sx={{ maxWidth: 345, height: '100%' }}>
       <CardMedia
         component="img"

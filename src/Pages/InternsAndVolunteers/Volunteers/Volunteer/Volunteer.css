@@ -1,0 +1,13 @@
+.volunteer{
+  
+}
+
+@media (max-width: 375px){
+    .volunteer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      
+    }
+  
+  }

@@ -1,3 +1,4 @@
+import { Grid } from '@mui/material';
 import React from 'react';
 import Footer from '../Shared/Footer/Footer';
 import Navigation from '../Shared/Navigation/Navigation';
@@ -13,7 +14,8 @@ import OurFounder from './OurFounder/OurFounder';
 const HistoryAndProfile = () => {
     return (
         <div>
-            <Top></Top>
+     
+        <Top></Top>
             <Navigation></Navigation>
            <OriginBanner></OriginBanner>
            <OriginContent></OriginContent>
@@ -22,6 +24,8 @@ const HistoryAndProfile = () => {
       
            <OurFounder></OurFounder>
            <Footer></Footer>
+      
+      
            
         </div>
     );

@@ -14,20 +14,6 @@ const MemberPartners = () => {
     },[])
    
     return (
-//         <div>
-//             <h1 className='my-5 text-primary'> MEMBERS  </h1>
-//  <Container>
-//  <Grid container spacing={4}>
-
-//   {
-//         members.map(member=><OurMember member={member}></OurMember>)
-//     }
-// </Grid>
-//  </Container>
-//backgroundColor: 'rgb(35, 34, 34)' 
-  
-//         </div>
-
 
 <>
 <Container  className='my-5 py-5'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Grid, Typography } from '@mui/material';
 import img from '../../../images/Capture.PNG'
+import './Origin2.css'
 const Origin2 = () => {
     return (
         <div className='origin-content' style={{marginBottom:'50px'}}>
