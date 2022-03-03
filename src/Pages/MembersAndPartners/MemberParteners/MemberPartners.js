@@ -19,7 +19,7 @@ const MemberPartners = () => {
 <Container  className='my-5 py-5'>
 
 <Typography variant="h3" sx={{ width: '100%', fontWeight: 600, paddingY: '30px', fontSize:{xs:'22px', md:"32px"}, color: 'rgb(35, 34, 34)', backgroundColor: 'gray', border: '1px solid gray', borderRadius: '5px 5px 0px 0px' }}> MEMBERS</Typography>
-<Box sx={{ width: '100%', display: { xs: 'none', md: 'block' } }}>
+<Box sx={{ width: '100%', display: { xs: 'block', md: 'block' } }}>
     <TableContainer component={Paper} style={{boxShadow: '10px 10px 5px gray', backgroundColor: 'rgb(35, 34, 34)', borderRadius: '0px 0px 50px 50px' , padding: '25px' }}>
         <Table sx={{}} aria-label=" List">
             <TableHead>
@@ -70,12 +70,6 @@ const MemberPartners = () => {
                             gap: { xs: 1 },
                         }}
                     >
-
-                    
-                      
-                     
-                    
-
                     </TableRow>
                 ))}
             </TableBody>

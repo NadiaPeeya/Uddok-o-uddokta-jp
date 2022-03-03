@@ -20,7 +20,7 @@ const Origin2 = () => {
         </Grid>
 
         <Grid item xs={12} md={6}>
-            <div style={{height: '500px', display: 'flex' ,justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{height: '', display: 'flex' ,justifyContent: 'center', alignItems: 'center'}}>
             <img width="100%" src={img} alt="" />
             </div>
         

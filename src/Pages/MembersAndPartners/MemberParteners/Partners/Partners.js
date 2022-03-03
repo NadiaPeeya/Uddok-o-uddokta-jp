@@ -22,7 +22,7 @@ const Partners = () => {
      <Container>
 
      <Typography variant="h1" sx={{ width: '100%', fontWeight: 500, paddingY: '30px', fontSize:{xs:'18px', md:"32px"}, color: 'white', backgroundColor: 'rgb(35, 34, 34)' }}>PARTNERS</Typography>
-        <Box sx={{ width: '100%', display: { xs: 'none', md: 'block' } }}>
+        <Box sx={{ width: '100%', display: { xs: 'block', md: 'block' } }}>
             <TableContainer component={Paper} className="table-partners">
                 <Table sx={{}} aria-label=" List">
                     <TableHead>

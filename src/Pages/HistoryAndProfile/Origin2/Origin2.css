@@ -1,3 +1,13 @@
 .origin-content{
     
 }
+
+
+@media (max-width: 575px){
+
+    .origin-content{
+        margin-top: 450px;
+    }
+  
+  }
+  
