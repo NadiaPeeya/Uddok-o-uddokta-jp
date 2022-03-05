@@ -13,7 +13,7 @@ const ConsultingBanner = () => {
 </div>
 <div className="carousel-inner">
  <div className="carousel-item consultingBannerimg active">
-   {/*<img src="" className="d-block w-100" alt="..."/> */}
+
    <div className="carousel-caption d-none d-md-block">
    <div className="banner-text mx-auto">
              <div className="looped-text">
@@ -34,7 +34,7 @@ const ConsultingBanner = () => {
    </div>
  </div>
  <div className="carousel-item consultingBannerimg-2">
-   {/*<img src="" className="d-block w-100" alt="..."/> */}
+  
    <div className="carousel-caption d-none d-md-block">
    <div className="banner-text mx-auto">
              <div className="looped-text">
@@ -55,7 +55,7 @@ const ConsultingBanner = () => {
    </div>
  </div>
  <div className="carousel-item consultingBannerimg-3">
-   {/*<img src="" className="d-block w-100" alt="..."/> */}
+
    <div className="carousel-caption d-none d-md-block">
    <div className="banner-text mx-auto">
              <div className="looped-text">
