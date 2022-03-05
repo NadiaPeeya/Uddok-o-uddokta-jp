@@ -12,7 +12,7 @@ import Paper from '@mui/material/Paper';
 const Partners = () => {
     const [partners, setPartners] = useState([])
     useEffect(()=> {
-        fetch('./Partners.json')
+        fetch('./partners2.json')
         .then(res => res.json())
         .then(data => setPartners(data))
     }, [])
@@ -24,7 +24,7 @@ const Partners = () => {
      <Typography variant="h1" sx={{ width: '100%', fontWeight: 500, paddingY: '30px', fontSize:{xs:'18px', md:"32px"}, color: 'white', backgroundColor: 'rgb(35, 34, 34)' }}>PARTNERS</Typography>
         <Box sx={{ width: '100%', display: { xs: 'block', md: 'block' } }}>
             <TableContainer component={Paper} className="table-partners">
-                <Table sx={{}} aria-label=" List">
+                <Table sx={{ display: { xs: 'block', md: 'block' }}} aria-label=" List">
                     <TableHead>
                         <TableRow>
 

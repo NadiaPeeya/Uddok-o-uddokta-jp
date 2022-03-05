@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Container, Grid } from '@mui/material';
-import founder from '../../../images/founderForhad.jpeg'
+import founder from '../../../images/Photo-Forhad.png'
 
 const OurFounder = () => {
     return (
@@ -19,7 +19,7 @@ const OurFounder = () => {
         <Grid item xs={12} md={6}>
        
      
-    <div style={{marginTop: '10px'}}>
+    <div style={{marginTop: '30px'}}>
     <Typography style={{color:'rgb(13, 110, 253)', textAlign: 'left'}} variant="h6" gutterBottom component="div">
         FORHAD HOSSAIN
       </Typography>
