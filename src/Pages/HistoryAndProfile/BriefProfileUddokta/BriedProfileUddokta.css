@@ -1,3 +1,13 @@
 .brief-profile{
-    margin-top: 300px;
+    margin-top: 250px;
 }
+
+
+@media (max-width: 375px){
+    .brief-profile{
+        margin-top: 700px;
+    }
+  
+    }
+  
+  

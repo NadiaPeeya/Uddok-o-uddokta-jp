@@ -29,7 +29,7 @@ const BriedProfileUddokta = () => {
     return (
         <div className='brief-profile'>
             <Container className='my-5'>
-            <Typography variant="subtitle1" sx={{ width: '100%', fontWeight: 500, paddingY: '30px', fontSize:{xs:'12px', md:"22px"}, color: 'white', backgroundColor: 'rgb(35, 34, 34)' }}>BRIEF PROFILE OF UDDOG OF UDDOKTA JAPAN ASSOCIATION
+            <Typography variant="subtitle1" sx={{ width: '100%', fontWeight: 500, paddingY: '30px', fontSize:{xs:'12px', md:"22px"}, color: 'white', backgroundColor: 'rgb(35, 34, 34)', }}>BRIEF PROFILE OF UDDOG OF UDDOKTA JAPAN ASSOCIATION
 </Typography>
         <Box sx={{ width: '100%', display: { xs: 'block', md: 'block' } }}>
             <TableContainer sx={{ width: '100%', display: { xs: 'block', md: 'block' } }} component={Paper}>
@@ -38,7 +38,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}} align="left">Registered Name </TableCell>
-                            <TableCell align="center">一般社団法人UDDOG O UDDOKTA JAPAN</TableCell>
+                            <TableCell align="left">一般社団法人UDDOG O UDDOKTA JAPAN</TableCell>
                             
 
                         </TableRow>
@@ -47,7 +47,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', m: 2, fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Organizing Day</TableCell>
-                            <TableCell align="center">01 January 2020</TableCell>
+                            <TableCell align="left">01 January 2020</TableCell>
                             
 
                         </TableRow>
@@ -56,7 +56,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left"> Charter Day </TableCell>
-                            <TableCell align="center">18 December 2020</TableCell>
+                            <TableCell align="left">18 December 2020</TableCell>
                             
 
                         </TableRow>
@@ -65,7 +65,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Registration No</TableCell>
-                            <TableCell align="center">0111-05-009635</TableCell>
+                            <TableCell align="left">0111-05-009635</TableCell>
                             
 
                         </TableRow>
@@ -74,7 +74,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Location</TableCell>
-                            <TableCell align="center">Tokyo, Japan </TableCell>
+                            <TableCell align="left">Tokyo, Japan </TableCell>
                             
 
                         </TableRow>
@@ -83,7 +83,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Nature Of Organization</TableCell>
-                            <TableCell align="center">A social organization in Japan to promote and support  entrepreneurship management, success and sustainability</TableCell>
+                            <TableCell align="left">A social organization in Japan to promote and support  entrepreneurship management, success and sustainability</TableCell>
                             
 
                         </TableRow>
@@ -92,7 +92,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Legal Entity</TableCell>
-                            <TableCell align="center">Registered as Ippan shadan hojin ( 一般社団法人 = general incorporated association) in Japan </TableCell>
+                            <TableCell align="left">Registered as Ippan shadan hojin ( 一般社団法人 = general incorporated association) in Japan </TableCell>
                             
 
                         </TableRow>
@@ -101,7 +101,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Vision</TableCell>
-                            <TableCell align="center">To accumulate entrepreneurs for sustainable accomplishments</TableCell>
+                            <TableCell align="left">To accumulate entrepreneurs for sustainable accomplishments</TableCell>
                             
 
                         </TableRow>
@@ -110,7 +110,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Mission  </TableCell>
-                            <TableCell align="justify">
+                            <TableCell align="left">
                             <ul>
                                 <li>To assist on building knowledge and skills about entrepreneurship
 </li>
@@ -134,14 +134,18 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Beneficiary Groups </TableCell>
-                            <TableCell align="justify">
-                                <p>1.Any foreign nationals who want to start a business in Japan </p>
-                                <p>2.Japanese people who want to invest in foreign startups or to contribute in achieving SDG Goals
- </p>
-                                <p>3.Who want to do business from their home country with Japan
- </p>
-                                <p>4. Unprivileged communities in developing or underdeveloped countries, to help them become micro entrepreneurs
- </p>
+                            <TableCell align="left">
+                               
+                               <ul>
+                                   <li>Any foreign nationals who want to start a business in Japan</li>
+                                   <li>Japanese people who want to invest in foreign startups or to contribute in achieving SDG Goals</li>
+                                   <li>Who want to do business from their home country with Japan</li>
+                                   <li>Unprivileged communities in developing or underdeveloped countries, to help them become micro entrepreneurs</li>
+                               </ul>
+
+                                
+                                
+ 
                           
                             </TableCell>
                             
@@ -152,7 +156,7 @@ const BriedProfileUddokta = () => {
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px',backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}  align="left">Major Services</TableCell>
-                            <TableCell align="justify">
+                            <TableCell align="left">
 
                                   <p> <span className='fw-bold'> A. Knowledge Support: </span> <br />
 Research, Training, Seminar, Individual Counseling to make entrepreneurs become efficient and successful. To work with various authorities to increase <br /> the scope of entrepreneurship learning and practice. 
@@ -175,21 +179,24 @@ To arrange capital support for entrepreneurship startups, stand ups and stays up
                         <TableRow>
 
                             <TableCell style={{borderRight: '1px solid gray', fontWeight: '900', fontSize: '16px', backgroundColor: 'rgb(35, 34, 34)', color: 'white'}}   align="left">Specific Service for the Members</TableCell>
-                            <TableCell  align="justify"> 
-                            
-                            
-                          <p>1.Delivering training on entrepreneurship/business </p>  
-<p>2.Individual counseling to the entrepreneurs</p>  
-<p>3. Supporting newcomers to make all necessary documents for starting business in Japan</p> 
- <p>4. Provide legal counseling for business operations in Japan </p>
-<p>5. Rendering help in business fund/capital sourcing</p>
-<p>6. Regular counseling & training on capital management</p>
-<p>7. Help to enhance the eligibility of the workers</p>
-<p>8. Render help in accounts management in business </p>
-<p>9. Regular supervision for the continuity of the profit of the business </p>
-<p>10. Assuring the benefit of using technology & modern/updated business policy </p>
-<p>11. Joint effort for market development for sustainable benefits </p>
+                            <TableCell  align="left"> 
 
+                            <ul>
+                                <li>Delivering training on entrepreneurship/business </li>
+                                <li>Individual counseling to the entrepreneurs</li>
+                                <li>Provide legal counseling for business operations in Japan</li>
+                                <li>Rendering help in business fund/capital sourcing</li>
+                                <li> Regular counseling & training on capital management</li>
+                                <li>Help to enhance the eligibility of the workers</li>
+                                <li>Render help in accounts management in business </li>
+                                <li>Regular supervision for the continuity of the profit of the business </li>
+                                <li>Assuring the benefit of using technology & modern/updated business policy</li>
+                                <li>Joint effort for market development for sustainable benefits</li>
+                                
+                            </ul>
+                            
+                            
+                         
 </TableCell>
                             
 
