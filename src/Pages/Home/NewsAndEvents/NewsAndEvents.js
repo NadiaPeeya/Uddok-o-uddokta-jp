@@ -39,7 +39,7 @@ const NewsAndEvents = () => {
 
                   
               </div>
-     <Grid container spacing={2}>
+     <Grid container spacing={6}>
 
 {
     newsEvents.map(newsEvent =><Events key={newsEvent.id} newsEvent= {newsEvent}></Events> )
