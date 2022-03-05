@@ -8,7 +8,7 @@ import Paper from '@mui/material/Paper';
 const MemberPartners = () => {
     const [members, setMembers] = useState([]);
     useEffect(()=>{
-        fetch('./members.json')
+        fetch('./members2.json')
         .then(res => res.json())
         .then(data=> setMembers(data))
     },[])
