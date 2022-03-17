@@ -60,9 +60,9 @@ function Dashboard(props) {
                     <NavLink style={{ display: 'block', marginTop: 3, textDecoration: 'none', color: 'white' }} to='/home'>
                     <Button sx={{ color:'whtie'  }} color="inherit">Home Page</Button>
                 </NavLink>
-                    <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/makeAdmin`}>
+                    {/* <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/makeAdmin`}>
                         <Button sx={{ color:'whtie'  }} color="inherit">Make Admin</Button>
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/addBlogs`}>
                         <Button sx={{ color:'whtie' }} color="inherit">Add Blog</Button>
                     </NavLink>
@@ -169,9 +169,9 @@ function Dashboard(props) {
 
                   
 
-                    <AdminRoute path={`${path}/makeAdmin`}>
+                    {/* <AdminRoute path={`${path}/makeAdmin`}>
                         <MakeAdmin></MakeAdmin>
-                    </AdminRoute>
+                    </AdminRoute> */}
                     
                     <AdminRoute path={`${path}/addBlogs`}>
                       <AddBlog></AddBlog>
