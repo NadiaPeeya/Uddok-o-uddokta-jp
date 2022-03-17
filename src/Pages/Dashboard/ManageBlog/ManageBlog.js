@@ -32,9 +32,9 @@ const ManageBlog = () => {
 
     const handleDelete = id => {
         setSucsess(false);
-        if (window.confirm('Are you sure you want to delete this bike from database?')) {
+        if (window.confirm('Are you sure you want to delete this blogs from database?')) {
 
-            const url = `http://localhost:5000/blogs/${id}`
+            const url = `https://dry-inlet-45409.herokuapp.com/blogs/${id}`
             fetch(url, {
                 method: 'DELETE',
                 headers: {

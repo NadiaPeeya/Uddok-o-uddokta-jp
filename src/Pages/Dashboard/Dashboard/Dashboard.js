@@ -63,6 +63,9 @@ function Dashboard(props) {
                     {/* <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/makeAdmin`}>
                         <Button sx={{ color:'whtie'  }} color="inherit">Make Admin</Button>
                     </NavLink> */}
+                         <NavLink style={{ display: 'block', marginTop: 3, textDecoration: 'none', color: 'white' }} to='/blogs'>
+                    <Button sx={{ color:'whtie'  }} color="inherit">Blogs</Button>
+                </NavLink>
                     <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/addBlogs`}>
                         <Button sx={{ color:'whtie' }} color="inherit">Add Blog</Button>
                     </NavLink>
