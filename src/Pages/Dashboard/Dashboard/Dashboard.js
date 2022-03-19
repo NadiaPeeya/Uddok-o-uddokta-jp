@@ -6,34 +6,26 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import MailIcon from '@mui/icons-material/Mail';
+
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import SubscriberUser from '../SubscriberUser/SubscriberUser';
+
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
-    useParams,
     useRouteMatch,
     NavLink
   } from "react-router-dom";
 import { Button } from '@mui/material';
 
-import MakeAdmin from './MakeAdmin/MakeAdmin';
 import AddBlog from '../AddBlog/AddBlog';
 import useAuth from '../../../hooks/useAuth';
 import AdminRoute from './../../Login/AdminRoute/AdminRoute';
 import ManageBlog from '../ManageBlog/ManageBlog';
 import { Logout, Person } from '@mui/icons-material';
-import DashboardHome from './../DashboardHome/DashboardHome';
+
 
 
 const drawerWidth = 170;
@@ -191,10 +183,7 @@ function Dashboard(props) {
 }
 
 Dashboard.propTypes = {
-    /**
-     * Injected by the documentation to work in an iframe.
-     * You won't need it on your project.
-     */
+  
     window: PropTypes.func,
 };
 

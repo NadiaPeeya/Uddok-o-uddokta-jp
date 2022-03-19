@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Table } from '@mui/material';
-import { Alert, Button, Link, TableContainer, Typography } from '@mui/material';
+import { TableContainer, Typography } from '@mui/material';
 
-import TableBody from '@mui/material/TableBody';
+
 import TableCell from '@mui/material/TableCell';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import ModeEditIcon from '@mui/icons-material/ModeEdit';
-
-import { DeleteForeverOutlined } from '@mui/icons-material';
 import { Box } from '@mui/system';
 
 import './BriedProfileUddokta.css'

@@ -6,62 +6,6 @@ import { useEffect } from 'react';
 import BoardMember from './BoardMember/BoardMember';
 import { Card } from 'react-bootstrap';
 
-const boardMembers = [
-    {
-     img: 'https://scontent.fdac39-1.fna.fbcdn.net/v/t1.6435-9/87813274_10221409419609556_4984182300011921408_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGr9kIj8e2PZ2zSa2ULI5hOZmITJnHO5MhmYhMmcc7kyF_NhlKIv2MvUOGBBMwbxY0wKulLdFknrnoF2Iv6mwcI&_nc_ohc=WuIIVnbZE2cAX-T1gTk&_nc_ht=scontent.fdac39-1.fna&oh=00_AT952GA30xrNfIbYrJGJ9NlLUSLItHshSUkM84lYLwHpJQ&oe=623EDD90',
-     name: 'Forhad Hossain',
-     work: 'Representative Director, President & CEO',
-     facebook: 'https://www.linkedin.com/company/uujapan',
-     instagram: 'https://www.linkedin.com/company/uujapan',
-     linkedin: 'https://www.linkedin.com/company/uujapan'
-
-
-    },
-    {
-     img: 'https://scontent.fdac39-1.fna.fbcdn.net/v/t1.6435-9/87813274_10221409419609556_4984182300011921408_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGr9kIj8e2PZ2zSa2ULI5hOZmITJnHO5MhmYhMmcc7kyF_NhlKIv2MvUOGBBMwbxY0wKulLdFknrnoF2Iv6mwcI&_nc_ohc=WuIIVnbZE2cAX-T1gTk&_nc_ht=scontent.fdac39-1.fna&oh=00_AT952GA30xrNfIbYrJGJ9NlLUSLItHshSUkM84lYLwHpJQ&oe=623EDD90',
-     name: 'Forhad Hossain',
-     work: 'Representative Director, President & CEO',
-     facebook: 'https://www.linkedin.com/company/uujapan',
-     instagram: 'https://www.linkedin.com/company/uujapan',
-     linkedin: 'https://www.linkedin.com/company/uujapan'
-
-
-
-    },
-    {
-     img: 'https://scontent.fdac39-1.fna.fbcdn.net/v/t1.6435-9/87813274_10221409419609556_4984182300011921408_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGr9kIj8e2PZ2zSa2ULI5hOZmITJnHO5MhmYhMmcc7kyF_NhlKIv2MvUOGBBMwbxY0wKulLdFknrnoF2Iv6mwcI&_nc_ohc=WuIIVnbZE2cAX-T1gTk&_nc_ht=scontent.fdac39-1.fna&oh=00_AT952GA30xrNfIbYrJGJ9NlLUSLItHshSUkM84lYLwHpJQ&oe=623EDD90',
-     name: 'Forhad Hossain',
-     work: 'Representative Director, President & CEO',
-     facebook: 'https://www.linkedin.com/company/uujapan',
-     instagram: 'https://www.linkedin.com/company/uujapan',
-     linkedin: 'https://www.linkedin.com/company/uujapan'
-
-
-
-    },
-    {
-     img: 'https://scontent.fdac39-1.fna.fbcdn.net/v/t1.6435-9/87813274_10221409419609556_4984182300011921408_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGr9kIj8e2PZ2zSa2ULI5hOZmITJnHO5MhmYhMmcc7kyF_NhlKIv2MvUOGBBMwbxY0wKulLdFknrnoF2Iv6mwcI&_nc_ohc=WuIIVnbZE2cAX-T1gTk&_nc_ht=scontent.fdac39-1.fna&oh=00_AT952GA30xrNfIbYrJGJ9NlLUSLItHshSUkM84lYLwHpJQ&oe=623EDD90',
-     name: 'Forhad Hossain',
-     work: 'Representative Director, President & CEO',
-     facebook: 'https://www.linkedin.com/company/uujapan',
-     instagram: 'https://www.linkedin.com/company/uujapan',
-     linkedin: 'https://www.linkedin.com/company/uujapan'
-
-
-
-    },
-    {
-     img: 'https://scontent.fdac39-1.fna.fbcdn.net/v/t1.6435-9/87813274_10221409419609556_4984182300011921408_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGr9kIj8e2PZ2zSa2ULI5hOZmITJnHO5MhmYhMmcc7kyF_NhlKIv2MvUOGBBMwbxY0wKulLdFknrnoF2Iv6mwcI&_nc_ohc=WuIIVnbZE2cAX-T1gTk&_nc_ht=scontent.fdac39-1.fna&oh=00_AT952GA30xrNfIbYrJGJ9NlLUSLItHshSUkM84lYLwHpJQ&oe=623EDD90',
-     name: 'Forhad Hossain',
-     work: 'Representative Director, President & CEO',
-     facebook: 'https://www.linkedin.com/company/uujapan',
-     instagram: 'https://www.linkedin.com/company/uujapan',
-     linkedin: 'https://www.linkedin.com/company/uujapan'
-
-
-
-    }
-]
 
 
 const BoardMembers = () => {

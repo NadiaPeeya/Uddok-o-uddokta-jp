@@ -1,13 +1,6 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import { Card } from 'react-bootstrap';
-import { textAlign } from '@mui/system';
-import Container from '@mui/material/Container';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';

@@ -36,7 +36,7 @@ const CheckoutForm = () => {
       }
         e.preventDefault();
         
-        fetch('http://localhost:5000/donation', {
+        fetch('https://dry-inlet-45409.herokuapp.com/donation', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
