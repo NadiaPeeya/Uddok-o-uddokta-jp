@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Top from '../Home/Top/Top';
-import Footer from '../Shared/Footer/Footer';
+
 import Navigation from '../Shared/Navigation/Navigation';
 import EventBanner from './EventBanner/EventBanner';
 import EventPage from './EventPage/EventPage';

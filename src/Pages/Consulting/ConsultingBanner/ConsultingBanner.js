@@ -1,6 +1,6 @@
 import React from 'react';
 import TextLoop from "react-text-loop";
-import { Link } from 'react-router-dom';
+
 import './ConsultingBanner.css'
 
 const ConsultingBanner = () => {

@@ -1,16 +1,16 @@
-import { Alert, Button, Link, Table, TableContainer, Typography } from '@mui/material';
+import { Alert, Button, Table, TableContainer, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import ModeEditIcon from '@mui/icons-material/ModeEdit';
+
 
 import { DeleteForeverOutlined } from '@mui/icons-material';
 import { Box } from '@mui/system';
 import useAuth from './../../../hooks/useAuth';
-import { NavLink } from 'react-bootstrap';
+
 
 const ManageBlog = () => {
     const { token } = useAuth();
@@ -34,7 +34,7 @@ const ManageBlog = () => {
         setSucsess(false);
         if (window.confirm('Are you sure you want to delete this blogs from database?')) {
 
-            const url = `https://dry-inlet-45409.herokuapp.com/blogs/${id}`
+            const url = `https://dry-inlet-45409.herokuapp.com/${id}`
             fetch(url, {
                 method: 'DELETE',
                 headers: {
