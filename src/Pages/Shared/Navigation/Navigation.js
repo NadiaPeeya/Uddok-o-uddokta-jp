@@ -45,7 +45,8 @@ const {user, logOut} = useAuth();
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
       setAnchorEl(event.currentTarget);
-    };
+    }; 
+    
     const handleClose = () => {
       setAnchorEl(null);
     };
