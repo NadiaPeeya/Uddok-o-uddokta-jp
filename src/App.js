@@ -34,6 +34,8 @@ import BoardAndTeam from './Pages/BoardAndTeam/BoardAndTeam';
 import AdvisorAndMentors from './Pages/AdvisorAndMentors/AdvisorAndMentors';
 import MembersAndPartners from './Pages/MembersAndPartners/MembersAndPartners';
 import InternsAndVolunteers from './Pages/InternsAndVolunteers/InternsAndVolunteers';
+import Event from './Pages/Event/Event';
+import ViewConferenceForm from './Pages/Event/ViewConferenceForm/ViewConferenceForm';
 
 
 
@@ -125,6 +127,12 @@ function App() {
           </Route>
           <Route path="/blogs">
           <Blog/>
+          </Route>
+          <Route path="/viewConferenceForm">
+          <ViewConferenceForm/>
+          </Route>
+          <Route path="/annualconference2022">
+          <Event/>
           </Route>
           <Route path="/blogItem/:id">
           <BlogItem/>

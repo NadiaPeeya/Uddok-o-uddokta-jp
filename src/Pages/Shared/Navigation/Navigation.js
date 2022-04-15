@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Fade from '@mui/material/Fade';
-import { Container,  Navbar, Nav } from 'react-bootstrap';
+import { Container,  Navbar, Nav, Dropdown } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import { NavHashLink } from 'react-router-hash-link';
 
@@ -52,6 +52,8 @@ const {user, logOut} = useAuth();
     };
 
 
+
+
     return (
    
      <Navbar id="scroll-navbar-width" style={{height: '100px', width: "90%" , mb: '-3px'}} className="change-color" collapseOnSelect expand="lg" fixed="top" >
@@ -94,11 +96,23 @@ const {user, logOut} = useAuth();
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#specialCauses"> <span className='style-nav text-size'>SOCIAL CAUSES</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#OurMission"> <span className='style-nav text-size'>SERVICES</span> </Nav.Link>
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#joinUs"> <span className='style-nav text-size'>JOIN US</span></Nav.Link>
- <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav text-size'>EVENTS & NEWS</span></Nav.Link>
+ {/* <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/home#LatestNews"><span className='style-nav text-size'>EVENTS & NEWS</span></Nav.Link> */}
+
+ 
+
+ <Dropdown className="style-nav hover-underline-animation">
+  <Dropdown.Toggle  className='style-nav fw-bolder double-link text-size'  variant="transparent" id="dropdown-basic">
+   <span >EVENTS & NEWS</span>
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu>
+  <Nav.Link className="style-nav " as={HashLink} to="/annualconference2022"><span className='style-nav text-size-menu'>Annual Conference 2022</span></Nav.Link>
+ 
+  </Dropdown.Menu>
+
+</Dropdown>
+
  <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/blogs"><span className='style-nav text-size'>BLOG</span></Nav.Link>
-
-
-
 
   {
     user?.email &&  <Box className="style-nav hover-underline-animation">
