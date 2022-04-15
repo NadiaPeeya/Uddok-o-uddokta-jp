@@ -50,7 +50,7 @@ Supported by: Toshiba International Foundation
                                <h5 className='text-danger'>To attend this conference please register at the following link, registration is free!
 </h5>
 <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/viewConferenceForm">
- <span className='style-nav text-size'>View Form</span>
+ <span className='style-nav text-size'>Register Now</span>
  </Nav.Link>
 
                            </div>
