@@ -83,7 +83,7 @@ Supported by: Toshiba International Foundation
                             <TableCell align="left">
 
                                 <h6 className='text-danger'>To publish your profile and your business profile in above mentioned directory please submit following form: 
-                                <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/viewConferenceForm">
+                                <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/EntrepreneurialDirectory">
  <span className='style-nav text-size'>View Form</span>
  </Nav.Link>
 

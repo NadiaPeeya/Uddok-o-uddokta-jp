@@ -36,6 +36,7 @@ import MembersAndPartners from './Pages/MembersAndPartners/MembersAndPartners';
 import InternsAndVolunteers from './Pages/InternsAndVolunteers/InternsAndVolunteers';
 import Event from './Pages/Event/Event';
 import ViewConferenceForm from './Pages/Event/ViewConferenceForm/ViewConferenceForm';
+import EntrepreneurialDirectory from './Pages/Event/EntrepreneurialDirectory/EntrepreneurialDirectory';
 
 
 
@@ -127,6 +128,9 @@ function App() {
           </Route>
           <Route path="/blogs">
           <Blog/>
+          </Route>
+          <Route path="/EntrepreneurialDirectory">
+          <EntrepreneurialDirectory/>
           </Route>
           <Route path="/viewConferenceForm">
           <ViewConferenceForm/>
