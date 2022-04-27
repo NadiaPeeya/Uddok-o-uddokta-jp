@@ -19,7 +19,7 @@ const BoardMembers = () => {
         <>
         <div className='origin'>
         <Card  className="container text-white blog-banner ">
-               <Card.Img className='origin' src='https://scontent.fdac39-1.fna.fbcdn.net/v/t1.6435-9/124870166_155905849568321_8887183799574785898_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFGxbx2fg5l0InmErvl_5KGvvbhNos5T_O-9uE2izlP8xg9fvNssQ6We4JH4qfIc088TD1pnkJxb_sMHH8VWsgB&_nc_ohc=V1Dv3WYRn1UAX88tDC9&_nc_ht=scontent.fdac39-1.fna&oh=00_AT-pS0IVQDDiqdESgLOARQI5gPfGeXM2E-Vpyqc9je7lhQ&oe=623DEA6B' alt="Card image" />
+               <Card.Img className='origin' src='https://i.ibb.co/KLKbswG/142728334-210251047467134-7881869320876743472-n.jpg' alt="Card image" />
                <Card.ImgOverlay>        
                </Card.ImgOverlay>
              </Card>
