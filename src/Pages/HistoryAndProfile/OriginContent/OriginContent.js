@@ -1,16 +1,17 @@
 import React from 'react';
 import { Container, Grid, Typography, Box } from '@mui/material';
 import './OriginContent.css'
+import img from '../../../images/UddoktaFounder.jpg'
 
 const OriginContent = () => {
     return (
-        <div className='origin-content'>
+        <div className='origin-content mt-5'>
  <Container>
 <Grid container spacing={6}>
         <Grid item xs={12} md={6} style={{ xs: {marginTop: '-350px'}}}>
-         <img className='img-history' width="100%" src="https://scontent.fdac39-1.fna.fbcdn.net/v/t1.6435-9/142429978_210252747466964_5990932837962479632_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeGzZWSVxsLtNLcBOJJ83bMPGaTeQSwN7dEZpN5BLA3t0U2nBOQQuPH6BANgYy1EHJpebx_bJ5Ywm3Ag0txdlPAw&_nc_ohc=Ko8fMfqp1VkAX_xVXvo&_nc_ht=scontent.fdac39-1.fna&oh=00_AT8F9WEsa88sn-yyApLmhwI9T-8hlcuq_a_STZ5QRZGgeg&oe=623DBAD1" alt="" />
+         <img className='img-history' width="85%" src={img} alt="" />
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid className='mt-5 pt-5' item xs={12} md={6}>
         <Typography style={{textAlign: 'left', color: '#0D6EFD', fontWeight: '600'}} variant="h6" gutterBottom component="div">
         NAME OF ORGANIZATION
       </Typography>

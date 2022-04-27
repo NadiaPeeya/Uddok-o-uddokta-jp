@@ -4,10 +4,11 @@ import Paper from '@mui/material/Paper';
 import { Container, Nav } from 'react-bootstrap';
 import './AnnualConference2022.css'
 import { HashLink } from 'react-router-hash-link';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const AnnualConference2022 = () => {
     return (
-        <div className='container anualconferenceTable'>
+        <div className='container anualconferenceTable brief-detail'>
                   <div className='brief-profile'>
             <Container>
             <Typography variant="subtitle1" sx={{ width: '100%', fontWeight: 500, paddingY: '30px', fontSize:{xs:'12px', md:"22px"}, color: 'white', backgroundColor: 'rgb(35, 34, 34)', }}>UUJP Annual Conference 2022: 50 Years of Japan-Bangladesh 
@@ -50,7 +51,7 @@ Supported by: Toshiba International Foundation
                                <h5 className='text-danger'>To attend this conference please register at the following link, registration is free!
 </h5>
 <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/viewConferenceForm">
- <span className='style-nav text-size'>Register Now</span>
+ <span className='style-nav text-size'>Register Now <ArrowForwardIcon/></span>
  </Nav.Link>
 
                            </div>
@@ -84,7 +85,7 @@ Supported by: Toshiba International Foundation
 
                                 <h6 className='text-danger'>To publish your profile and your business profile in above mentioned directory please submit following form: 
                                 <Nav.Link className="style-nav hover-underline-animation" as={HashLink} to="/EntrepreneurialDirectory">
- <span className='style-nav text-size'>View Form</span>
+ <span className='style-nav text-size'>View Form <ArrowForwardIcon/></span>
  </Nav.Link>
 
                                 </h6>

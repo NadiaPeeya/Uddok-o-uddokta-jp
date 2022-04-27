@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../../Shared/Navigation/Navigation';
+import Iframe from 'react-iframe'
 import Top from './../../Home/Top/Top';
 
 const ViewConferenceForm = () => {
@@ -7,8 +8,14 @@ const ViewConferenceForm = () => {
         <div>
             <Top></Top>
             <Navigation></Navigation>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIxnnQWcUdM9pG4bHrJ1mqGSebHScl5OP50IiPWdkjWnDkXw/viewform" className='donor-form' width="100%" height="2454" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+           
+            <Iframe url="https://docs.google.com/forms/d/e/1FAIpQLSeIxnnQWcUdM9pG4bHrJ1mqGSebHScl5OP50IiPWdkjWnDkXw/viewform?embedded=true"
+        width="100%"
+        height="450px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"/>
         </div>
     );
 };

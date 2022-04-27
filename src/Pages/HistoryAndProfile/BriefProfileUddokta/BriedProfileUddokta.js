@@ -24,7 +24,8 @@ const BriedProfileUddokta = () => {
         .then(data => setAllData(data))
     },[])
     return (
-        <div className='brief-profile'>
+           <div className='brief-uddokta'>
+<div className='brief-profile'>
             <Container className='my-5'>
             <Typography variant="subtitle1" sx={{ width: '100%', fontWeight: 500, paddingY: '30px', fontSize:{xs:'12px', md:"22px"}, color: 'white', backgroundColor: 'rgb(35, 34, 34)', }}>BRIEF PROFILE OF UDDOG OF UDDOKTA JAPAN ASSOCIATION
 </Typography>
@@ -208,6 +209,8 @@ To arrange capital support for entrepreneurship startups, stand ups and stays up
             </Container>
             
         </div>
+           </div>
+        
     );
 };
 
