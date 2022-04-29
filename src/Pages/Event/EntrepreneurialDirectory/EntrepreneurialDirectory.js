@@ -7,7 +7,10 @@ const EntrepreneurialDirectory = () => {
         <div>
             <Top></Top>
             <Navigation></Navigation>
+            <div className='conference-form mt-2'>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScSbkZBVdslBElVQqC5ypi3neTeXQZfsQLmpXTTotUE6MvQUQ/viewform?embedded=true" className='donor-form' width="100%" height="2454" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+         
         </div>
     );
 };

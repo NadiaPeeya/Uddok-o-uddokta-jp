@@ -1,0 +1,17 @@
+
+@media (max-width: 1036px){
+  
+   .conference-form{
+     display: block;
+   }
+  
+  }
+  
+  @media (max-width: 580px){
+     .conference-form{
+       background-color: cornsilk;
+       margin-top: 150px;
+       display: inline-block;
+   }
+  }
+  
