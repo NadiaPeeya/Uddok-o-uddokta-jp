@@ -1,0 +1,9 @@
+.opening{
+    /* background-image: url('https://img.freepik.com/free-photo/paper-texture-colorful-abstract-background_53876-98401.jpg?t=st=1653461377~exp=1653461977~hmac=efcdabcf5c9715d21de99bf5dbc88a59afba1bf014068a1552bbf5c346a4565b&w=996'); */
+    background-image: url('https://img.freepik.com/free-photo/vibrant-blue-watercolor-painting-background_53876-148110.jpg?w=900&t=st=1653469463~exp=1653470063~hmac=ddeb81a1db65ecc65c835ebc44d6c4055c580be836e6a051c2a358018a9fc056');
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+
+}

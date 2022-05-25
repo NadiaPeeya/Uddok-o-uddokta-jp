@@ -1,0 +1,87 @@
+.registration-link{
+border: 1px solid white;
+background-color: rgba(103, 97, 97, 0.247);
+background-color: white;
+padding: 50px;
+margin: 40px;
+font-size: 18px;
+
+font-weight: 700;
+box-shadow: 0px 1px 1px;
+height: 150px;
+width: 320px;
+}
+.registration-link a{
+    text-decoration: none;
+}
+.registration-box{
+
+    padding: 30px;
+   height: 250px;
+   width: 250px;
+    transition: 0.2s;
+}
+
+.registration-box:hover{
+  transform: scale(1.05);
+}
+.button-row{
+  /* margin: 50px;
+  
+  padding: 50px; */
+  /* margin: 50px; */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.details-of-reg{
+  padding: 0px;
+  margin: 0px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* margin: 20px; */
+
+ background-image: url('https://img.freepik.com/free-photo/glittery-star-confetti-colorful-abstract-pastel-watercolor-background_53876-98173.jpg?w=996&t=st=1653482192~exp=1653482792~hmac=980182098b159f7ccd577d8fe3fee42586b76cc6461a2e4d23c814738bdf9eb2');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+padding: 50px;
+ background-blend-mode: darken;
+ position: relative;
+ 
+}
+
+
+
+  
+@media (max-width: 580px){
+  .details-of-reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .mobile-responsive-det{
+    margin-right: 10px;
+  
+  }
+  .registration-box{
+    padding: 2px;
+  }
+
+}
+@media (max-width: 375px){
+  .details-of-reg{
+    margin-right: 15px;
+    padding-right: 15px;
+  }
+   .mobile-responsive-det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

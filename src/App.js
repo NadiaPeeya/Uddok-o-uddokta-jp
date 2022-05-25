@@ -37,6 +37,9 @@ import InternsAndVolunteers from './Pages/InternsAndVolunteers/InternsAndVolunte
 import Event from './Pages/Event/Event';
 import ViewConferenceForm from './Pages/Event/ViewConferenceForm/ViewConferenceForm';
 import EntrepreneurialDirectory from './Pages/Event/EntrepreneurialDirectory/EntrepreneurialDirectory';
+import ConferenceDetail from './Pages/Event/ConferenceDetail/ConferenceDetail';
+import ProgramDetails from './Pages/Event/ProgramDetails/ProgramDetails';
+import PlannarySession1 from './Pages/Event/PlannarySession1/PlannarySession1';
 
 
 
@@ -134,6 +137,15 @@ function App() {
           </Route>
           <Route path="/viewConferenceForm">
           <ViewConferenceForm/>
+          </Route>
+          <Route path="/conferenceDetail">
+          <ConferenceDetail/>
+          </Route>
+          <Route path="/plenarySession1">
+          <PlannarySession1/>
+          </Route>
+          <Route path="/programDetails">
+          <ProgramDetails/>
           </Route>
           <Route path="/annualconference2022">
           <Event/>

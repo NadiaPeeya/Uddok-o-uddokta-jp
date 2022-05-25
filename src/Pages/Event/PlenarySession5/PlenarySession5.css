@@ -1,0 +1,18 @@
+.plenary5{
+   
+        padding: 50px;
+    
+        margin-top: 10px;
+         /* background-image: url('https://img.freepik.com/free-photo/light-blue-watercolor-textured-background_53876-155875.jpg?w=1060'); */
+         background-image: url('https://img.freepik.com/free-photo/abstract-pink-textured-background_53876-162916.jpg?w=900');
+         /* background-image: url('https://img.freepik.com/free-photo/glittery-star-confetti-colorful-abstract-pastel-watercolor-background_53876-98173.jpg?w=900&t=st=1653478132~exp=1653478732~hmac=58bd75dc0602d776643e6856d06e09280d6c4c0b1b2119588e69154372473094'); */
+         background-repeat: no-repeat;
+         background-color: rgba(255, 254, 254, 0.304);
+         position: relative;
+         background-blend-mode: normal;
+         background-size: cover;
+         /* background-position-x: center; */
+         background-size: cover;
+         padding: 5px;
+
+}

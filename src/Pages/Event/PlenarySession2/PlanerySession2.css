@@ -1,0 +1,16 @@
+
+
+.plenary2{
+   padding: 50px;
+
+   margin-top: 10px;
+    background-image: url('https://img.freepik.com/free-photo/colorful-smoky-watercolor-textured-background_53876-101802.jpg?w=996&t=st=1653472864~exp=1653473464~hmac=a62ee8a73b5b8345c4c7d6b0b43c805bf6e8c185964baebd4270ed4b37be0878');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 254, 254, 0.605);
+    position: relative;
+    background-blend-mode: multiply;
+    background-size: cover;
+    /* background-position-x: center; */
+    background-size: cover;
+    padding: 5px;
+}

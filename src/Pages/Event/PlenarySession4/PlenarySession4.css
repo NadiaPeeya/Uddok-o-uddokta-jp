@@ -1,0 +1,16 @@
+.plenary4{
+    padding: 50px;
+
+    margin-top: 10px;
+     /* background-image: url('https://img.freepik.com/free-photo/light-blue-watercolor-textured-background_53876-155875.jpg?w=1060'); */
+     background-image: url('https://img.freepik.com/free-photo/paper-texture-colorful-abstract-background_53876-98401.jpg?w=900&t=st=1653479116~exp=1653479716~hmac=02fef603f754257cd42bf2a7e95dbabdfb6e05310cf293ea6a2a669eb4792066');
+     /* background-image: url('https://img.freepik.com/free-photo/glittery-star-confetti-colorful-abstract-pastel-watercolor-background_53876-98173.jpg?w=900&t=st=1653478132~exp=1653478732~hmac=58bd75dc0602d776643e6856d06e09280d6c4c0b1b2119588e69154372473094'); */
+     background-repeat: no-repeat;
+     background-color: rgba(255, 254, 254, 0.304);
+     position: relative;
+     background-blend-mode: normal;
+     background-size: cover;
+     /* background-position-x: center; */
+     background-size: cover;
+     padding: 5px;
+}

@@ -1,0 +1,9 @@
+.session1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.speaker1{
+   height: 100%;
+   width: 100%;
+}

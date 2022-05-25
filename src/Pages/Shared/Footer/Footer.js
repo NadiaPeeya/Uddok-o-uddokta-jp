@@ -55,12 +55,7 @@ const Footer = () => {
 <h5 className='text-white fw-bolder'>UDDOG O UDDOKTA JAPAN</h5> 
 </div>
         {/* <h2 className="fw-bolder text-color-change"> Uddok O Uddokta </h2> */}
-        <p className="fw-bold text-color-change"> <span className='fw-bolder'>Adress:</span> Shinjuku Park Tower N30F,</p> 
-        <p className="fw-bold text-color-change">
-        3-7-1 Nishishinjuku,Shinjuku-ku,
-        </p >
-        
-<p className="fw-bold text-color-change">Tokyo 163-1030, Japan</p>
+        <p className="fw-bold text-color-change"> <span className='fw-bolder'>Adress:</span> Level 15, Fukuoka Tenjin Fukoku Seimei Building , 1-9-17 Tenjin Chuo-ku, Fukuoka, <br /> Japan 810-0001 </p>
 
         <p className="fw-bold text-color-change">  <span className='fw-bolder'>Email:</span> contact@uddogouddokta.jp
 </p>

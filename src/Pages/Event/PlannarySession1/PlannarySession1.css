@@ -1,0 +1,16 @@
+.plenary-session1{
+  
+}
+.plenary1{
+    margin-top: -40px;
+    /* background-image: url('https://img.freepik.com/free-photo/paper-texture-colorful-abstract-background_53876-98401.jpg?w=900&t=st=1653468570~exp=1653469170~hmac=16f3d4133aac9a1f791d020aebfe7661f064cb6b9047b70362ef4664f055fd2b'); */
+    background-image: url('https://img.freepik.com/free-photo/vibrant-purple-watercolor-painting-background_53876-145046.jpg?w=900&t=st=1653469111~exp=1653469711~hmac=9dba6d5fe3c3dd2315cf2deb31ddab01bdd3ecbba6f680674d3032b644f7686b');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 254, 254, 0.605);
+    position: relative;
+    background-blend-mode: multiply;
+    background-size: cover;
+    /* background-position-x: center; */
+    background-size: cover;
+    padding: 5px;
+}
