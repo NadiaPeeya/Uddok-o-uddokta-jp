@@ -1,7 +1,7 @@
 .registration-link{
 border: 1px solid white;
 background-color: rgba(103, 97, 97, 0.247);
-background-color: white;
+background-color: whitesmoke;
 padding: 50px;
 margin: 40px;
 font-size: 18px;
@@ -15,7 +15,7 @@ width: 320px;
     text-decoration: none;
 }
 .registration-box{
-
+  /* box-shadow: 5px 5px 5px gray; */
     padding: 30px;
    height: 250px;
    width: 250px;
