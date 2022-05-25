@@ -96,7 +96,7 @@ const openingSession = [
         photo:'https://i.ibb.co/NSHQD1D/Forhad-Hossain-2.png',
         name: 'Mr. Forhad Hossain',
         affiliation: 'President, Uddog o Uddokta Japan Association',
-        designation: 'Chief Guest',
+        designation: 'President',
         topic: 'Introduction of UUJP'
 
     },
@@ -104,7 +104,7 @@ const openingSession = [
         photo:'https://i.ibb.co/DbLCrDf/MM-Raihan.jpg',
         name: 'Mr. M M Raihan',
         affiliation: 'Vice President, Uddog o Uddokta Japan Association',
-        designation: 'Chief Guest',
+        designation: 'Moderator',
         topic: ''
 
     },
