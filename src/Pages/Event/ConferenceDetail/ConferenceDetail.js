@@ -30,8 +30,9 @@ const ConferenceDetail = () => {
     </Grid>
     <Grid item xs={12} sm={12} md={4} >
     <Col className='registration-box'>
-        <h6 className='registration-link text-primary'><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeIxnnQWcUdM9pG4bHrJ1mqGSebHScl5OP50IiPWdkjWnDkXw/viewform"></a> View Pdf </h6>
+        <h6 className='registration-link'><a target="_blank" href="https://drive.google.com/file/d/1F1cfPjJsV1o0YxEp-X3rNXzRmdbumSRa/view?usp=sharing">Program schedule pdf  </a>  </h6>
         </Col>
+    
     </Grid>
 
 </Grid>
