@@ -8,7 +8,7 @@ const AnnualEventBanner2022 = () => {
         <div>
                    <div className='annual-banner-uujp'>
  <Card  className="text-white">
-        <Card.Img className='' src={img} alt="Card image" />
+        <Card.Img className='' src="" alt="Card image" />
         <Card.ImgOverlay>        
         </Card.ImgOverlay>
       </Card>

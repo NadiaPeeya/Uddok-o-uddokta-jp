@@ -14,36 +14,36 @@ const speaker5 = [
     {
         photo: '',
         name: 'TBD',
-        designation: 'Resource Person 2',
+        designation: 'Resource Person',
         affiliation: '',
         topic: ''
     },
     {
         photo: '',
-        name: 'TBD',
-        designation: 'Resource Person 2',
-        affiliation: '',
+        name: 'Prof. Dr. Munim Kumar Barai',
+        designation: 'Resource Person',
+        affiliation: 'Professor, Ritsumeikan Asia Pacific University, Japan',
         topic: ''
     },
     {
         photo: '',
         name: 'Dr Bishnu Kumar Adhikary',
-        designation: 'Speaker 1',
-        affiliation: 'Associate Professor at Doshisha Business School',
+        designation: 'Speaker',
+        affiliation: 'Associate Professor, Doshisha University, Japan',
         topic: 'Startup finance (venture capital, crowd funding, others)'
     },
     {
         photo: '',
         name: 'TBD',
-        designation: 'Speaker 2',
+        designation: 'Speaker',
         affiliation: '',
         topic: ''
     },
     {
         photo: '',
-        name: 'Dr Farhad Haque',
-        designation: 'Speaker 3',
-        affiliation: 'PhD from Harvard Bunisess school, Author-Entrepreneurship in Plain English',
+        name: 'Dr. Farhad Haque',
+        designation: 'Speaker',
+        affiliation: 'Author, Entrepreneurship in Plain English',
         topic: 'Steps to start an entrepreneurship'
     },
 ]

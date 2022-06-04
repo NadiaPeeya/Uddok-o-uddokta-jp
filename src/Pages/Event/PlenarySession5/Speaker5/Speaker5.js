@@ -5,7 +5,7 @@ import './Speaker5.css'
 const Speaker5 = (props) => {
     const {id, schedule, name, affiliation, designation, photo} = props.speaker5;
     return (
-      <Grid xs={12} sm={12} md={3} className="session1 p-3">
+      <Grid xs={12} sm={12} md={4} className="session1 p-3">
       {/* <Card style={{ width: '20rem', height:"100%" }}>
         <Card.Img variant="top" height="65%" src={photo} />
         <Card.Body>
@@ -18,12 +18,12 @@ const Speaker5 = (props) => {
         </Card.Body>
       </Card> */}
       
-      <Card className='session2' sx={{ maxWidth: 245 , borderRadius:'50px'}}>
+      <Card className='session2 p-2' sx={{ maxWidth: 320 , borderRadius:'50px'}}>
               <CardActionArea className=''>
                 <CardMedia 
                   className='image-customize'
                   component="img"
-                  height="230"
+                  height="280"
                   image={photo}
                   alt="green iguana"
                 />

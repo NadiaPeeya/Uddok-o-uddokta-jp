@@ -7,24 +7,17 @@ const openingSession = [
     {   
         photo:'',
         name: 'Mr. Tipu Munshi',
-        affiliation: 'Ministry of Commerce, Bangladesh',
-        designation: 'Chief Guest',
+        affiliation: 'Minister, Ministry of Commerce, Bangladesh',
+        designation: 'Chief Guest(Proposed)',
         topic: 'speech'
 
     },
-    {   
-        photo:'',
-        name: 'All',
-        affiliation: '',
-        designation: 'Directory Opening',
-        topic: 'Announce by Chief Guest'
-
-    },
+    
     {   
         photo:'',
         name: 'Mr. ITO Naoki',
         affiliation: 'Ambassador Japan to Bangladesh',
-        designation: 'Special Guest',
+        designation: 'Special Guest(Proposed)',
         topic: 'speech'
 
     },
@@ -32,26 +25,26 @@ const openingSession = [
         photo:'',
         name: 'Mr. Shahabuddin Ahmed',
         affiliation: 'Ambassador of Bangladesh to Japan',
-        designation: 'Special Guest',
+        designation: 'Special Guest(Proposed)',
         topic: 'speech'
 
     },
     {   
         photo:'',
         name: 'Mr. Keisuke Omori',
-        affiliation: 'President, Toshiba International Foundation',
+        affiliation: 'President, Toshiba International Foundation, Japan',
         designation: 'Guest of Honor',
         topic: 'speech'
 
     },
-    {   
-        photo:'',
-        name: 'TBD',
-        affiliation: 'JICA',
-        designation: 'Guest of Honor',
-        topic: 'speech'
+    // {   
+    //     photo:'',
+    //     name: 'TBD',
+    //     affiliation: 'JICA, Bangladesh',
+    //     designation: 'Guest of Honor',
+    //     topic: 'speech'
 
-    },
+    // },
     {   
         photo:'https://i.ibb.co/pbL64Mn/A-H-M-Ahsan.jpg',
         name: 'Mr. A.H.M. Ahsan',
@@ -63,7 +56,7 @@ const openingSession = [
     {   
         photo:'',
         name: 'Mr. Md. Jashim Uddin',
-        affiliation: 'President, FBCCI',
+        affiliation: 'President, FBCCI, Bangladesh',
         designation: 'Guest of Honor',
         topic: 'speech'
 
@@ -71,7 +64,7 @@ const openingSession = [
     {   
         photo:'https://i.ibb.co/tLv5Hy3/Yuji-Ando.jpg',
         name: 'Mr. Yuji Ando',
-        affiliation: 'Country Representative, JETRO, Dhaka',
+        affiliation: 'Country Representative, JETRO, Bangladesh',
         designation: 'Guest of Honor',
         topic: 'speech'
 
@@ -79,11 +72,20 @@ const openingSession = [
     {   
         photo:'https://i.ibb.co/rvhfkvW/Shariar-Hossain.jpg',
         name: 'Mr. Shariar Hossain',
-        affiliation: '',
+        affiliation: 'Managing Director, Deloitte Japan',
         designation: 'Advisor UUJP',
         topic: 'speech'
 
     },
+
+    {
+        photo: '',
+        name: 'Dr. Ashir Ahmed',
+        affiliation: 'Associate Professor, Kyushu University, Japan',
+        designation: 'Advisor, UUJP AC2022',
+        topic: 'Speech'
+    },
+
     {   
         photo:'',
         name: 'Dr. Rafiqul Islam',
@@ -113,8 +115,8 @@ const openingSession = [
 const OpeningSession = () => {
     return (
         <div data-aos="zoom-in-up" className='opening'>
-            <div className='plenary-session1 container my-5 p-3'>
-            <h1 className='text-primary fw-bold mt-2 pt-2'>Opening Session </h1>
+            <div className='plenary-session1 container my-5 p-5'>
+            <h1 className='text-coloring fw-bold mt-3 pt-3'>Opening Session </h1>
          
             <Container className='my-4'>
 

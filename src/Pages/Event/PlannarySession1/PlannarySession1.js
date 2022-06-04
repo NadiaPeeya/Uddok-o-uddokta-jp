@@ -17,7 +17,7 @@ const speaker = [
         photo:"https://i.ibb.co/KWLf0d7/Abdullah-Al-Masud-Khan.jpg",
         schedule:1,
         name:'Dr Abdullah Al Masud Khan, Ph.D',
-        affiliation:'Researcher, Tokyo Medical and Dental University',
+        affiliation:'Researcher, Tokyo Medical and Dental University, Japan',
         designation:'Moderator',
         topic: ''
         },
@@ -34,9 +34,9 @@ const speaker = [
         id:3,
         photo:"",
         schedule:1,
-        name:'Dr Abdullah Al Masud Khan, Ph.D',
-        affiliation:'Vice Chairman & CEO-EPB, Bangladesh',
-        designation:'Moderator',
+        name:'Mr. A.H.M. Ahsan',
+        affiliation:'Vice Chairman & CEO, Export Promotion Bureau, Bangladesh',
+        designation:'Resource Person(Proposed)',
         topic: ''
         },
     {
@@ -46,32 +46,24 @@ const speaker = [
         name:'TBD',
         affiliation:'',
         designation:'Speaker',
-        topic: 'Speech'
+        topic: 'Japan-Bangladesh diplomatic relationship '
         },
         {
         id:2,
         photo:"",
         schedule:1,
         name:'Mr. Syed Nasir Ershad',
-        affiliation:'',
-        designation:'Speaker',
-        topic: 'h'
+        affiliation:'Economic Minister, Bangladesh Embassy, Japan',
+        designation:'Speaker(Proposed)',
+        topic: 'Japan-Bangladesh economic relationship, achivement and future prospect'
         },
-        {
-        id:2,
-        photo:"",
-        schedule:1,
-        name:'TBD',
-        affiliation:'Economic Minister, Bangladesh Embassy Japan',
-        designation:'Speaker',
-        topic: 'Speech'
-        },
+    
         {
         id:6,
         photo:"https://i.ibb.co/HhXq0Pd/Abu-Mukhles-Alamgir-Hossain.jpg",
         schedule:1,
         name:'Mr. Abu Mukhles Alamgir Hossain',
-        affiliation:'Director (Fair and Display)-Current Charge Export Promotion Bureau',
+        affiliation:'Director (Fair and Display)-Current Charge, Export Promotion Bureau, Bangladesh',
         designation:'Speaker',
         topic: 'Japan-Bangladesh Export/Import Scenario and Future Prospect'
         },
@@ -88,9 +80,9 @@ const PlannarySession1 = () => {
     //     .then(data => setSpeaker(data))
     // })
     return (
-        <div className='plenary1'>
+        <div data-aos="zoom-in-up" className='plenary1'>
 <div className='plenary-session1 container'>
-            <h2 className='text-primary fw-bold mt-5 pt-3'>Plenary Session 1: Japan-Bangladesh 50 Years Relationship <br /> <span className='py-2 my-2'> 13:00-14:00 JST</span> </h2>
+            <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 1: Japan-Bangladesh 50 Years Relationship <br /> <span className='py-2 my-2'> 13:00-14:00 JST</span> </h2>
          
             <Container className='my-5'>
 

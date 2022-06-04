@@ -5,7 +5,7 @@ import './OpneningSpeaker.css'
 const OpeningSpeaker = (props) => {
     const {name, affiliation, designation, photo} = props.openingSession;
     return (
-        <Grid xs={12} sm={12} md={3} className="session1 p-3 container">
+        <Grid xs={12} sm={12} md={4} className="session1 p-3 container">
         {/* <Card style={{ width: '20rem', height:"100%" }}>
           <Card.Img variant="top" height="65%" src={photo} />
           <Card.Body>
@@ -18,7 +18,7 @@ const OpeningSpeaker = (props) => {
           </Card.Body>
         </Card> */}
         
-        <Card className='session2' sx={{ maxWidth: 300, borderRadius:'50px' }}>
+        <Card className='session2 p-1' sx={{ maxWidth: 320, borderRadius:'50px' }}>
               <CardActionArea>
                 <CardMedia 
                   className='image-customize'

@@ -7,43 +7,43 @@ import './PlenarySession3.css'
 const session3 = [
     {   
         photo: '',
-        name: '',
+        name: 'Dr. Mehruba Mona',
         designation: 'moderator',
-         affiliation:'',
+         affiliation:'Assistant Professor, Okayama University, Japan',
          topic: ''
     },
      {
          photo: '',
-         name: 'Japanese-TBD',
-         designation: 'Resource Person-1',
-         affiliation: '',
+         name: 'Prof. Dr. A B M Shahidul Islam',
+         designation: 'Resource Person',
+         affiliation: 'Professor & Chairman, Department of Marketing, University of Dhaka BoT Member, Eastern University, Bangladesh',
          topic: ''
 
      },
      {
         photo: '' ,
-        name: '',
-        designation: 'Resource Person-2',
+        name: 'TBD',
+        designation: 'Resource Person',
         affiliation: '',
         topic: ''
      },
      {
          photo: '',
          name: 'Ms. Yamashita Haruka',
-         designation: 'Speaker1',
-         affiliation: 'Executive Director, Ritzy Ichiba'
+         designation: 'Speaker',
+         affiliation: 'Executive Director, Ritzy Ichiba, Japan'
      },
      {
          photo: 'https://i.ibb.co/yR07tYn/Samira-Hossain-Mili.png',
          name: 'Ms. Samira Hossain Mili',
-         designation: 'Speaker2',
-         affiliation: 'Managing Director, Sanrin Global Ltd.'
+         designation: 'Speaker',
+         affiliation: 'Managing Director, Sanrin Japan Corporation, Japan'
      },
      {
          photo: 'https://i.ibb.co/4NnR2dq/Shailaju-Kasaju.jpg',
          name: 'Ms. Shailaja Kasaju',
-         designation: 'Speaker 3',
-         affiliation: 'Country Director, Uddog o Uddokta Nepal'
+         designation: 'Speaker',
+         affiliation: 'Country Director, Uddog o Uddokta, Nepal'
      }
 
 
@@ -54,7 +54,7 @@ const PlenarySession3 = () => {
     return (
         <div data-aos="zoom-in-up" className='plenary3'>
         <div className='plenary-session1 container'>
-                    <h2 className='text-primary fw-bold mt-5 pt-3'>Plenary Session 3:Emerging Youth and Women Entrepreneurs </h2>
+                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 3:Emerging Youth and Women Entrepreneurs </h2>
                  
                     <Container className='my-5'>
 
