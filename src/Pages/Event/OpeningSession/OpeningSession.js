@@ -116,7 +116,7 @@ const OpeningSession = () => {
     return (
         <div data-aos="zoom-in-up" className='opening'>
             <div className='plenary-session1 container my-5 p-5'>
-            <h1 className='text-coloring fw-bold mt-3 pt-3'>Opening Session </h1>
+            <h2 className='text-coloring fw-bold mt-4 pt-4'>Opening Session <br /> 12:00-13:00 JST </h2>
          
             <Container className='my-4'>
 

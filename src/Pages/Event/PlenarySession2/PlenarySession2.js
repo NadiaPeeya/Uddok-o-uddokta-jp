@@ -63,7 +63,7 @@ const PlenarySession2 = () => {
     return (
         <div data-aos="zoom-in-up" className='plenary2'>
         <div className='plenary-session1 container'>
-                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 2: SDGs and Entrepreneurship:Japan-Bangladesh  <br /> <span className='py-2 my-2'> 13:00-14:00 JST</span> </h2>
+                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 2: SDGs and Entrepreneurship:Japan-Bangladesh  <br /> <span className='py-2 my-2'> 14:00-15:00 JST </span> </h2>
                  
                     <Container className='my-5'>
  

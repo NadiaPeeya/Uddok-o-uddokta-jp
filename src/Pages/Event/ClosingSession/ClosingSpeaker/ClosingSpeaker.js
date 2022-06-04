@@ -17,13 +17,13 @@ const ClosingSpeaker = (props) => {
           </Card.Body>
         </Card> */}
         
-        <Card className='session2 p-2' sx={{ maxWidth: 520, borderRadius:'50px' }}>
+        <Card className='session2 p-2' sx={{ maxWidth: 400, borderRadius:'50px' }}>
               <CardActionArea>
                 <CardMedia 
                   className='image-customize'
                   radius="rounded"
                   component="img"
-                  height="260"
+                  height="340"
                   image={photo}
                   alt="green iguana"
                 />

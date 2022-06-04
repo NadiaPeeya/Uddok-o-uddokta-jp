@@ -4,14 +4,14 @@ import OrganizingCommittee from './OrganizingCommittee/OrganizingCommittee';
 
 const organizingCommittee = [
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/bLfTzkW/Forhad-Hossain-2-1.png',
         name: 'Forhad Hossain',
         designation: 'Chairman',
 
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/ZJQq5k3/MM-Raihan-1.jpg',
         name: 'M M Raihan',
         designation: 'Secretary',
 
@@ -25,28 +25,28 @@ const organizingCommittee = [
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/0MRYQcT/Shirin-Jahan.jpg',
         name: 'Shirin Jahan',
         designation: 'Communication Chair',
 
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/Zg210Zs/Samira-Hossain-Mili-1.png',
         name: 'Samira Hossain Mili',
         designation: 'Tresurer',
 
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/DrM5LGV/Shailaju-Kasaju-1.jpg',
         name: 'Shailaja Kasaju',
         designation: 'Logistics Chair',
 
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/whGPG9N/Monir-Hossain.jpg',
         name: 'Monir Hossain',
         designation: 'Publication Chair',
 
@@ -95,29 +95,29 @@ const organizingCommittee = [
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/k4zksxm/Md-Sakayet-Hossain.jpg',
         name: 'Md. Sakayet Hossain',
         designation: 'Member',
 
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/z4mYJT4/Tahmid-Tazwar-Khan.jpg',
         name: 'Tahmid Tazwar',
         designation: 'Member',
 
 
     },
     {   
-        photo: '',
-        name: 'Nadia',
+        photo: 'https://i.ibb.co/w0P2t7Y/Jobayer-Hossain-Chowdhury.jpg',
+        name: 'Jobayer Hossain Chowdhury',
         designation: 'Member',
 
 
     },
     {   
-        photo: '',
-        name: 'Arnob',
+        photo: 'https://i.ibb.co/QPbJW6j/Nadia-Binte-Peeya.jpg',
+        name: 'Nadia Binte Rahman Peeya',
         designation: 'Member',
 
 

@@ -14,6 +14,7 @@ import PlenarySession3 from './PlenarySession3/PlenarySession3';
 import PlenarySession4 from './PlenarySession4/PlenarySession4';
 import PlenarySession5 from './PlenarySession5/PlenarySession5';
 import ProgramDetails from './ProgramDetails/ProgramDetails';
+import EventStarting from './EventStarting/EventStarting';
 
 
 
@@ -22,7 +23,8 @@ const Event = () => {
         <>
          <Top></Top>
        <Navigation></Navigation>
-       <AnnualEventBanner2022></AnnualEventBanner2022>
+       <EventStarting></EventStarting>
+    
        {/* <ProgramDetails></ProgramDetails> */}
        <ConferenceDetail></ConferenceDetail>
        <OpeningSession></OpeningSession>

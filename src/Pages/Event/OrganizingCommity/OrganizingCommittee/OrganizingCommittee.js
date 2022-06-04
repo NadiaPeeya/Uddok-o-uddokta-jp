@@ -24,7 +24,7 @@ const OrganizingCommittee = (props) => {
                   className='image-customize'
                   radius="rounded"
                   component="img"
-                  height="260"
+                  height="300"
                   image={photo}
                   alt="green iguana"
                 />

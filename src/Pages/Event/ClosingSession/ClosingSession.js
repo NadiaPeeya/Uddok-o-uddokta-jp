@@ -11,7 +11,7 @@ const closingSpeaker = [
          
      },
      {
-        photo: '',
+        photo: 'https://i.ibb.co/0MRYQcT/Shirin-Jahan.jpg',
         name: 'Ms. Shirin Jahan',
         affiliation: 'Executive Director, Uddog o Uddokta, Bangladesh',
         designation: 'ED, UUBD'

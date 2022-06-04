@@ -24,12 +24,12 @@ const SpeakerSession1 = (props) => {
         </Card.Body>
       </Card> */}
       
-      <Card className='session2' sx={{ maxWidth: 325 , borderRadius:'50px' }}>
+      <Card className='session2 p-2' sx={{ maxWidth: 320 , borderRadius:'50px' }}>
               <CardActionArea className=''>
                 <CardMedia 
                   className='image-customize'
                   component="img"
-                  height="280"
+                  height="310"
                   image={photo}
                   alt="green iguana"
                 />
