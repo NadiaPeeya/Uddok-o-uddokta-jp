@@ -110,7 +110,7 @@ const organizingCommittee = [
     },
     {   
         photo: 'https://i.ibb.co/w0P2t7Y/Jobayer-Hossain-Chowdhury.jpg',
-        name: 'Jobayer Hossain Chowdhury',
+        name: 'Md. Jobayer Hossain Chowdhury',
         designation: 'Member',
 
 

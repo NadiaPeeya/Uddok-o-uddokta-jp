@@ -17,6 +17,20 @@ const closingSpeaker = [
         designation: 'ED, UUBD'
          
      },
+     {
+        photo: '',
+        name: 'Mr. Forhad Hossain',
+        affiliation: '',
+        designation: ''
+         
+     },
+     {
+        photo: '',
+        name: 'M M Raihan',
+        affiliation: '',
+        designation: ''
+         
+     },
 ]
 
 const ClosingSession = () => {

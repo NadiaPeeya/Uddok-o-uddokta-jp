@@ -5,7 +5,8 @@ import './EventStarting.css'
 
 const EventStarting = () => {
     return (
-        <>
+        <> <div className='event-starting'>
+<div>
         <div className='my-4'>
                 <h2 className='text-coloring'>Uddog o Uddokta Japan: Annual Conference 2022</h2>
                 <br />
@@ -33,6 +34,10 @@ const EventStarting = () => {
         </Grid>
             </div>
             
+        
+        </div>
+        
+        </div>
             
         </>
         
