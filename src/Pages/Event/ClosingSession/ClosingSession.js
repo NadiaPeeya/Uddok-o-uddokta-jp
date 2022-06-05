@@ -18,17 +18,17 @@ const closingSpeaker = [
          
      },
      {
-        photo: '',
+        photo: 'https://i.ibb.co/gghFdFq/Forhad-Hossain-2-2.png',
         name: 'Mr. Forhad Hossain',
-        affiliation: '',
-        designation: ''
+        affiliation: 'President, Uddog o Uddokta Japan Association',
+        designation: 'President'
          
      },
      {
-        photo: '',
+        photo: 'https://i.ibb.co/rHdxxHB/MM-Raihan-2.jpg',
         name: 'M M Raihan',
-        affiliation: '',
-        designation: ''
+        affiliation: 'Vice President, Uddog o Uddokta Japan Association',
+        designation: 'Moderator'
          
      },
 ]

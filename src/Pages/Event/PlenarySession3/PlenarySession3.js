@@ -6,14 +6,14 @@ import './PlenarySession3.css'
 
 const session3 = [
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/WWWn449/Dr-Mehruba-Mona.jpg',
         name: 'Dr. Mehruba Mona',
         designation: 'moderator',
          affiliation:'Assistant Professor, Okayama University, Japan',
          topic: ''
     },
      {
-         photo: '',
+         photo: 'https://i.ibb.co/Hny683f/Prof-Dr-A-B-M-Shahidul-Islam.jpg',
          name: 'Prof. Dr. A B M Shahidul Islam',
          designation: 'Resource Person',
          affiliation: 'Professor & Chairman, Department of Marketing, University of Dhaka BoT Member, Eastern University, Bangladesh',
@@ -54,7 +54,7 @@ const PlenarySession3 = () => {
     return (
         <div data-aos="zoom-in-up" className='plenary3'>
         <div className='plenary-session1 container'>
-                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 3:Emerging Youth and Women Entrepreneurs <br /> 15:00-16:00 JST </h2>
+                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 3: Emerging Youth and Women Entrepreneurs <br /> 15:00-16:00 JST </h2>
                  
                     <Container className='my-5'>
 

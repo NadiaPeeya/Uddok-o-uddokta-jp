@@ -12,6 +12,14 @@ const openingSession = [
         topic: 'speech'
 
     },
+    {   
+        photo:'',
+        name: 'Mr. Shahabuddin Ahmed',
+        affiliation: 'Ambassador of Bangladesh to Japan',
+        designation: 'Special Guest(Proposed)',
+        topic: 'speech'
+
+    },
     
     {   
         photo:'',
@@ -21,16 +29,9 @@ const openingSession = [
         topic: 'speech'
 
     },
+  
     {   
-        photo:'',
-        name: 'Mr. Shahabuddin Ahmed',
-        affiliation: 'Ambassador of Bangladesh to Japan',
-        designation: 'Special Guest(Proposed)',
-        topic: 'speech'
-
-    },
-    {   
-        photo:'',
+        photo:'https://i.ibb.co/zZJS7F2/Keisuke-omori.jpg',
         name: 'Mr. Keisuke Omori',
         affiliation: 'President, Toshiba International Foundation, Japan',
         designation: 'Guest of Honor',
@@ -69,6 +70,14 @@ const openingSession = [
         topic: 'speech'
 
     },
+
+    {
+        photo: 'https://i.ibb.co/HtQq2fY/Dr-Ashir-Ahmed.jpg',
+        name: 'Dr. Ashir Ahmed',
+        affiliation: 'Associate Professor, Kyushu University, Japan',
+        designation: 'Advisor, UUJP AC2022',
+        topic: 'Speech'
+    },
     {   
         photo:'https://i.ibb.co/rvhfkvW/Shariar-Hossain.jpg',
         name: 'Mr. Shariar Hossain',
@@ -78,13 +87,7 @@ const openingSession = [
 
     },
 
-    {
-        photo: '',
-        name: 'Dr. Ashir Ahmed',
-        affiliation: 'Associate Professor, Kyushu University, Japan',
-        designation: 'Advisor, UUJP AC2022',
-        topic: 'Speech'
-    },
+ 
 
     {   
         photo:'',

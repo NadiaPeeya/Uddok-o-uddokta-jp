@@ -39,7 +39,7 @@ const speaker4 = [
         topic: ''
     },
     {
-        photo: 'https://i.ibb.co/BBnfP1z/Muhammad-Solayman-Hossain.jpg',
+        photo: 'https://i.ibb.co/WxPcfCm/285028100-1172384986850046-687788624970214725-n.jpg',
         name: 'Mr Muhammad Solayman Hossain',
         designation: 'Speaker',
         affiliation: 'Founder, Sara Creations Co., Ltd., Japan',
@@ -52,7 +52,7 @@ const PlenarySession4 = () => {
     return (
         <div data-aos="zoom-in-up" className='plenary4'>
         <div className='plenary-session1 container'>
-                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 4: Story of Failures <br /> 16:00 to 17:00 </h2>
+                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 4: Story of Failures <br /> 16:00 to 17:00 JST</h2>
      
         <Container className='my-5'>
 

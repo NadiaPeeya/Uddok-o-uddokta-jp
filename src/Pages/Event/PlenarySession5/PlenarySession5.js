@@ -19,14 +19,14 @@ const speaker5 = [
         topic: ''
     },
     {
-        photo: '',
+        photo: 'https://i.ibb.co/tcFdmyq/Munim-Kumar-Barai.jpg',
         name: 'Prof. Dr. Munim Kumar Barai',
         designation: 'Resource Person',
         affiliation: 'Professor, Ritsumeikan Asia Pacific University, Japan',
         topic: ''
     },
     {
-        photo: '',
+        photo: 'https://i.ibb.co/znvXb2B/Dr-Bishnu-Kumar-Adhikary.jpg',
         name: 'Dr Bishnu Kumar Adhikary',
         designation: 'Speaker',
         affiliation: 'Associate Professor, Doshisha University, Japan',
@@ -40,7 +40,7 @@ const speaker5 = [
         topic: ''
     },
     {
-        photo: '',
+        photo: 'https://i.ibb.co/GF4RMRv/Dr-Farhad-Haque.jpg',
         name: 'Dr. Farhad Haque',
         designation: 'Speaker',
         affiliation: 'Author, Entrepreneurship in Plain English',
@@ -53,7 +53,7 @@ const PlenarySession5 = () => {
     return (
         <div data-aos="zoom-in-up" className='plenary5'>
         <div className='plenary-session1 container'>
-                    <h2 className='text-primary fw-bold mt-5 pt-3'> Plenary Session 5: How to strat an Entrepreneurship <br /> 17:00-18:00 </h2>
+                    <h2 className='text-primary fw-bold mt-5 pt-3'> Plenary Session 5: How to strat an Entrepreneurship <br /> 17:00-18:00 JST</h2>
         <Container className='my-5'>
 
             <div className="row container">

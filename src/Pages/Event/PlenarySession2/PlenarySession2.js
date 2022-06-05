@@ -5,7 +5,7 @@ import './PlanerySession2.css'
 const speaker2 = [ {
 
 
-photo:"https://i.ibb.co/qgbF4Jk/Md-Rafiqul-Islam-Maruf.jpg",
+photo:"https://i.ibb.co/QCj7pGh/Dr-Rafiqul-Islam.png",
 schedule:2,
 name:'Dr. Rafiqul Islam Maruf' ,
 affiliation:'Associate Professor, Kyushu University, Japan',
@@ -63,7 +63,7 @@ const PlenarySession2 = () => {
     return (
         <div data-aos="zoom-in-up" className='plenary2'>
         <div className='plenary-session1 container'>
-                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 2: SDGs and Entrepreneurship:Japan-Bangladesh  <br /> <span className='py-2 my-2'> 14:00-15:00 JST </span> </h2>
+                    <h2 className='text-coloring fw-bold mt-5 pt-3'>Plenary Session 2: Entrepreneurship to Achieve SDGs <br /> <span className='py-2 my-2'> 14:00-15:00 JST </span> </h2>
                  
                     <Container className='my-5'>
  
