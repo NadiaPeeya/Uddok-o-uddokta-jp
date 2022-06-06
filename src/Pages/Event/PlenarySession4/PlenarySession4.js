@@ -11,9 +11,9 @@ const speaker4 = [
         topic: ''
     },
     {
-        photo: 'https://i.ibb.co/Z6qK5Hr/Yuji-Ando.jpg',
-        name: 'Mr Yuji Ando',
-        designation: 'Resource Person',
+        photo: '',
+        name: 'TBD',
+        designation: 'Resource Person(Proposed)',
         affiliation: 'Country Representative, JETRO, Bangladesh',
         topic: ''
     },

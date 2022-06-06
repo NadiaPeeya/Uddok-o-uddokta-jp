@@ -47,27 +47,27 @@ const openingSession = [
 
     // },
     {   
-        photo:'https://i.ibb.co/pbL64Mn/A-H-M-Ahsan.jpg',
-        name: 'Mr. A.H.M. Ahsan',
+        photo:'',
+        name: 'TBD',
         affiliation: 'Vice Chairman and CEO-EPB, Bangladesh',
-        designation: 'Guest of Honor',
+        designation: 'Guest of Honor(Proposed)',
         topic: 'speech'
 
     },
     {   
         photo:'',
-        name: 'Mr. Md. Jashim Uddin',
+        name: 'TBD',
         affiliation: 'President, FBCCI, Bangladesh',
-        designation: 'Guest of Honor',
+        designation: 'Guest of Honor(Proposed)',
         topic: 'speech'
 
     },
     {   
-        photo:'https://i.ibb.co/tLv5Hy3/Yuji-Ando.jpg',
-        name: 'Mr. Yuji Ando',
+        photo:'',
+        name: 'TBD',
         affiliation: 'Country Representative, JETRO, Bangladesh',
-        designation: 'Guest of Honor',
-        topic: 'speech'
+        designation: 'Guest of Honor(Proposed)',
+        topic: 'speech' 
 
     },
 
