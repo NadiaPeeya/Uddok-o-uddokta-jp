@@ -34,7 +34,7 @@ const speaker = [
         id:3,
         photo:"",
         schedule:1,
-        name:'Mr. A.H.M. Ahsan',
+        name:'',
         affiliation:'Vice Chairman & CEO, Export Promotion Bureau, Bangladesh',
         designation:'Resource Person(Proposed)',
         topic: ''
@@ -52,7 +52,7 @@ const speaker = [
         id:2,
         photo:"",
         schedule:1,
-        name:'Mr. Syed Nasir Ershad',
+        name:'',
         affiliation:'Economic Minister, Bangladesh Embassy, Japan',
         designation:'Speaker(Proposed)',
         topic: 'Japan-Bangladesh economic relationship, achivement and future prospect'

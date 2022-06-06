@@ -6,7 +6,7 @@ import './OpneningSession.css'
 const openingSession = [
     {   
         photo:'',
-        name: 'Mr. Tipu Munshi',
+        name: '',
         affiliation: 'Minister, Ministry of Commerce, Bangladesh',
         designation: 'Chief Guest(Proposed)',
         topic: 'speech'
@@ -14,7 +14,7 @@ const openingSession = [
     },
     {   
         photo:'',
-        name: 'Mr. Shahabuddin Ahmed',
+        name: '',
         affiliation: 'Ambassador of Bangladesh to Japan',
         designation: 'Special Guest(Proposed)',
         topic: 'speech'
@@ -23,7 +23,7 @@ const openingSession = [
     
     {   
         photo:'',
-        name: 'Mr. ITO Naoki',
+        name: '',
         affiliation: 'Ambassador Japan to Bangladesh',
         designation: 'Special Guest(Proposed)',
         topic: 'speech'
@@ -75,7 +75,7 @@ const openingSession = [
         photo: 'https://i.ibb.co/HtQq2fY/Dr-Ashir-Ahmed.jpg',
         name: 'Dr. Ashir Ahmed',
         affiliation: 'Associate Professor, Kyushu University, Japan',
-        designation: 'Advisor, UUJP AC2022',
+        designation: 'Guest of Honor',
         topic: 'Speech'
     },
     {   

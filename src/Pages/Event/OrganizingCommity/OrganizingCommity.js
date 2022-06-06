@@ -1,6 +1,7 @@
 import { Container } from '@mui/material';
 import React from 'react';
 import OrganizingCommittee from './OrganizingCommittee/OrganizingCommittee';
+import './OrganizingCommity.css'
 
 const organizingCommittee = [
     {   
@@ -34,7 +35,7 @@ const organizingCommittee = [
     {   
         photo: 'https://i.ibb.co/Zg210Zs/Samira-Hossain-Mili-1.png',
         name: 'Samira Hossain Mili',
-        designation: 'Tresurer',
+        designation: 'Treasurer',
 
 
     },
@@ -127,8 +128,9 @@ const organizingCommittee = [
 
 const OrganizingCommity = () => {
     return (
-        <div data-aos="zoom-in-up" className='opening'>
-            <div className='plenary-session1 container my-5 p-5'>
+        <div className='organize'>
+             <div data-aos="zoom-in-up" className='opening'>
+            <div className='plenary-session1 container mt-5 p-5'>
             <h1 className='text-coloring fw-bold mt-3 pt-3'>Organizing Committee</h1>
          
             <Container className='my-4'>
@@ -146,6 +148,8 @@ const OrganizingCommity = () => {
         </div>
         </div>
         
+        </div>
+       
     );
 };
 

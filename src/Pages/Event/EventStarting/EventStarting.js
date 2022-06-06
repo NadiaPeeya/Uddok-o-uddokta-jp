@@ -22,7 +22,7 @@ const EventStarting = () => {
         
         </Grid>
                <Grid xs={12} sm={12} md={3} className="session1 p-3 container">
-               <img width='100%' src="https://i.ibb.co/xHRwgGr/newsEve3.jpg" alt="" />
+               <img width='100%' src="https://i.ibb.co/NnnxVQr/Logo-1.png" alt="" />
         
         </Grid>
                <Grid xs={12} sm={12} md={3} className="session1 p-3 container">

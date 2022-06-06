@@ -15,6 +15,7 @@ import PlenarySession4 from './PlenarySession4/PlenarySession4';
 import PlenarySession5 from './PlenarySession5/PlenarySession5';
 import ProgramDetails from './ProgramDetails/ProgramDetails';
 import EventStarting from './EventStarting/EventStarting';
+import Footer from '../Shared/Footer/Footer';
 
 
 
@@ -35,6 +36,8 @@ const Event = () => {
        <PlenarySession5></PlenarySession5>
        <ClosingSession></ClosingSession>
        <OrganizingCommity></OrganizingCommity>
+       <Footer className= "event-footer"></Footer>
+       
 
 
        {/* <AnnualConference2022></AnnualConference2022> */}
