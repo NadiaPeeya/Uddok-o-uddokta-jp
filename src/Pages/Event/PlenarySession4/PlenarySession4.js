@@ -12,7 +12,7 @@ const speaker4 = [
     },
     {
         photo: '',
-        name: 'TBD',
+        name: '',
         designation: 'Resource Person(Proposed)',
         affiliation: 'Country Representative, JETRO, Bangladesh',
         topic: ''

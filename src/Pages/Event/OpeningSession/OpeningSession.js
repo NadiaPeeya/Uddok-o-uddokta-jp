@@ -48,7 +48,7 @@ const openingSession = [
     // },
     {   
         photo:'',
-        name: 'TBD',
+        name: '',
         affiliation: 'Vice Chairman and CEO-EPB, Bangladesh',
         designation: 'Guest of Honor(Proposed)',
         topic: 'speech'
@@ -56,7 +56,7 @@ const openingSession = [
     },
     {   
         photo:'',
-        name: 'TBD',
+        name: '',
         affiliation: 'President, FBCCI, Bangladesh',
         designation: 'Guest of Honor(Proposed)',
         topic: 'speech'
@@ -64,7 +64,7 @@ const openingSession = [
     },
     {   
         photo:'',
-        name: 'TBD',
+        name: '',
         affiliation: 'Country Representative, JETRO, Bangladesh',
         designation: 'Guest of Honor(Proposed)',
         topic: 'speech' 
