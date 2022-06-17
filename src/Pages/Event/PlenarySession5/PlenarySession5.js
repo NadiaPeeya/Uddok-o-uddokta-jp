@@ -5,10 +5,10 @@ import './PlenarySession5.css'
 
 const speaker5 = [
     {
-        photo: '',
-        name: '',
+        photo: 'https://i.ibb.co/Nt6qWd5/287327709-396457862515847-1374297138869828506-n.jpg',
+        name: 'Sahjabin Kabir',
         designation: 'Moderator',
-        affiliation: 'R&D Specialist, Eurofins, Japan',
+        affiliation: 'Founder, Deyalkotha',
         topic: ''
     },
     {

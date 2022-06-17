@@ -6,15 +6,15 @@ const closingSpeaker = [
      {
         photo: '',
         name: 'Ms. Afrina Khan Piya',
-        affiliation: 'Researcher, University of Leeds, UK',
-        designation: 'Secretary General, UUJP'
+        affiliation: 'Secretary General, Uddog o Uddokta, Japan',
+        designation: 'Moderator'
          
      },
      {
         photo: 'https://i.ibb.co/0MRYQcT/Shirin-Jahan.jpg',
         name: 'Ms. Shirin Jahan',
         affiliation: 'Executive Director, Uddog o Uddokta, Bangladesh',
-        designation: 'ED, UUBD'
+        designation: 'Speaker'
          
      },
 
@@ -22,16 +22,32 @@ const closingSpeaker = [
         photo: 'https://i.ibb.co/gghFdFq/Forhad-Hossain-2-2.png',
         name: 'Mr. Forhad Hossain',
         affiliation: 'President, Uddog o Uddokta Japan Association',
-        designation: 'President'
+        designation: 'Speaker'
          
      },
      {
         photo: 'https://i.ibb.co/rHdxxHB/MM-Raihan-2.jpg',
-        name: 'M M Raihan',
+        name: 'Mr. M M Raihan',
         affiliation: 'Vice President, Uddog o Uddokta Japan Association',
-        designation: 'Moderator'
+        designation: 'Speaker'
          
      },
+     {
+        photo: 'https://i.ibb.co/1GzgtNm/283356122-536213944849949-8480011815998436862-n.jpg',
+      
+      name: 'Mr. Zeaul Huda Hemal',
+      affiliation: 'Mentor, Uddog o Uddokta Bangladesh',
+      designation: 'Speaker'
+       
+   },
+     {
+        photo: '',
+        name: 'Ms. Yamashita Haruka',
+        affiliation: 'Project Director, Uddog o Uddokta Japan Association',
+        designation: 'Speaker'
+         
+     },
+ 
 ]
 
 const ClosingSession = () => {

@@ -4,7 +4,7 @@ import { Card, CardActionArea, CardMedia, Grid, CardContent, Typography } from '
 const ClosingSpeaker = (props) => {
     const {name, affiliation, designation, photo} = props.closingSpeaker;
     return (
-        <Grid xs={12} sm={12} md={3} className="session1 p-2 container">
+        <Grid xs={12} sm={12} md={4} className="session1 p-2 container">
         {/* <Card style={{ width: '20rem', height:"100%" }}>
           <Card.Img variant="top" height="65%" src={photo} />
           <Card.Body>
