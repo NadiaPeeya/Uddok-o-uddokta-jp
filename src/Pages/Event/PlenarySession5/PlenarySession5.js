@@ -5,8 +5,8 @@ import './PlenarySession5.css'
 
 const speaker5 = [
     {
-        photo: 'https://i.ibb.co/c6YgZvg/Krishna-G-Nath.jpg',
-        name: 'Dr Krishna G Nath',
+        photo: '',
+        name: '',
         designation: 'Moderator',
         affiliation: 'R&D Specialist, Eurofins, Japan',
         topic: ''

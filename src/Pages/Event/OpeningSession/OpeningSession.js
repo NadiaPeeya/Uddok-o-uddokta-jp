@@ -90,7 +90,7 @@ const openingSession = [
  
 
     {   
-        photo:'',
+        photo:'https://i.ibb.co/QCj7pGh/Dr-Rafiqul-Islam.png',
         name: 'Dr. Rafiqul Islam',
         affiliation: 'Advisor, Uddog o Uddokta Japan Association',
         designation: 'Advisor UUJP',

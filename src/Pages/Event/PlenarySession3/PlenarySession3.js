@@ -6,7 +6,7 @@ import './PlenarySession3.css'
 
 const session3 = [
     {   
-        photo: 'https://i.ibb.co/WWWn449/Dr-Mehruba-Mona.jpg',
+        photo: 'https://i.ibb.co/YkTzCtH/Dr-Mehruba-Mona.jpg',
         name: 'Dr. Mehruba Mona',
         designation: 'moderator',
          affiliation:'Assistant Professor, Okayama University, Japan',
