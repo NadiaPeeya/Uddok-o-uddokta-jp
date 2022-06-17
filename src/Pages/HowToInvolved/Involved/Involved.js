@@ -22,7 +22,7 @@ const Involved = (props) => {
      data-aos-duration="2000" sx={{ maxWidth: 355, height: "100%"}}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt=""
         height={200}
         image={img}
       />

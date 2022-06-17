@@ -37,7 +37,7 @@ Anyone is welcome to join with us to create more positive impact. You can play y
    component="img"
   
    image="https://i.ibb.co/hcrWS31/Crowdfunding-concept-Social-business-fundraising-and-investing-into-new-ideas-Sponsorship-and-invest.jpg"
-   alt="green iguana"
+   alt=""
  />
  <CardContent>
    <Typography gutterBottom variant="h5" component="div">
@@ -61,7 +61,7 @@ Anyone is welcome to join with us to create more positive impact. You can play y
    component="img"
   
    image="https://i.ibb.co/YPbRPdG/final-Investor2.jpg"
-   alt="green iguana"
+   alt=""
  />
  <CardContent>
    <Typography gutterBottom variant="h5" component="div">
@@ -85,7 +85,7 @@ Anyone is welcome to join with us to create more positive impact. You can play y
    component="img"
   
    image="https://i.ibb.co/1d6Ksx1/Skilled-or-motivational-coach-lecturing-to-diverse-multiracial-students-or-businesspeople-in-a-face.jpg"
-   alt="green iguana"
+   alt=""
  />
  <CardContent>
    <Typography gutterBottom variant="h5" component="div">
@@ -109,7 +109,7 @@ Anyone is welcome to join with us to create more positive impact. You can play y
    component="img"
   
    image="https://i.ibb.co/hRxWVVz/final-Member.png"
-   alt="green iguana"
+   alt=""
  />
  <CardContent>
    <Typography gutterBottom variant="h5" component="div">

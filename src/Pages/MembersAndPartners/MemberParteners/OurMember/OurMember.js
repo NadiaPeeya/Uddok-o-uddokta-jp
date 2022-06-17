@@ -18,7 +18,7 @@ const OurMember = (props) => {
         height="350"
       
         image={img}
-        alt="green iguana"
+        alt=""
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

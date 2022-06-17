@@ -18,7 +18,7 @@ const Service = (props) => {
         component="img"
         style={{}}
         image={img}
-        alt="green iguana"
+        alt=""
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

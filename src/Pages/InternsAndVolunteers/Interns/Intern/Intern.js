@@ -14,7 +14,7 @@ const Intern = (props) => {
     <Card sx={{ maxWidth: 345, height: '100%' }}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt=""
         height="420"
         image={img}
       />

@@ -16,7 +16,7 @@ const Volunteer = (props) => {
       <Card sx={{ maxWidth: 300, height: '100%' }}>
         <CardMedia
           component="img"
-          alt="green iguana"
+          alt=""
           height="300"
           image={img}
         />

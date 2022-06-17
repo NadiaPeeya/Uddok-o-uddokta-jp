@@ -38,7 +38,7 @@ const Join = (props) => {
         component="img"
         style={{width: '70%', color: 'white', padding: 6}}
         image={img}
-        alt="green iguana"
+        // alt=""
         
       />
  

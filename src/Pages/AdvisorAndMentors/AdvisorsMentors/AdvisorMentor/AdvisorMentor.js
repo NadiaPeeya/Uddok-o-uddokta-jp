@@ -18,7 +18,7 @@ const AdvisorMentor = (props) => {
         component="img"
         height="140"
         image={img}
-        alt="green iguana"
+        // alt=""
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

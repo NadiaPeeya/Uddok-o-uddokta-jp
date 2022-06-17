@@ -23,7 +23,7 @@ const Session1 = (props) => {
                   component="img"
                   height="180"
                   image={photo}
-                  alt="green iguana"
+                  // alt=""
                 />
                 <CardContent>
                 <Typography gutterBottom variant="subtitle" component="div">

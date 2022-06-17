@@ -25,7 +25,7 @@ const ClosingSpeaker = (props) => {
                   component="img"
                   height="260"
                   image={photo}
-                  alt="green iguana"
+                  // alt=""
                 />
                 <CardContent>
                 <Typography sx={{color: '#0097a7', fontWeight: '600'}} gutterBottom  variant="subtitle" component="div">

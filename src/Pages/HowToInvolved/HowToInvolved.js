@@ -76,7 +76,7 @@ const HowToInvolved = () => {
      data-aos-duration="2000" sx={{ maxWidth: 355}}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt=""
         height="46%"
         image="https://i.ibb.co/hcrWS31/Crowdfunding-concept-Social-business-fundraising-and-investing-into-new-ideas-Sponsorship-and-invest.jpg"
       />
@@ -104,7 +104,7 @@ const HowToInvolved = () => {
      data-aos-duration="2000" sx={{ maxWidth: 355, height: ""}}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt=""
         height="46%"
         image="https://i.ibb.co/YPbRPdG/final-Investor2.jpg"
       />
@@ -130,7 +130,7 @@ const HowToInvolved = () => {
      data-aos-duration="2000" sx={{ maxWidth: 355, height: ""}}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt=""
         height="46%"
         image="https://i.ibb.co/1d6Ksx1/Skilled-or-motivational-coach-lecturing-to-diverse-multiracial-students-or-businesspeople-in-a-face.jpg"
       />
@@ -156,7 +156,7 @@ const HowToInvolved = () => {
      data-aos-duration="2000" sx={{ maxWidth: 355, height: ""}}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt=""
         height="46%"
         image="https://i.ibb.co/hRxWVVz/final-Member.png"
       />
