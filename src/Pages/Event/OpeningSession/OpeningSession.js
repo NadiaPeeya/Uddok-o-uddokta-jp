@@ -79,6 +79,14 @@ const openingSession = [
         topic: 'Speech'
     },
     {   
+        photo:'https://i.ibb.co/QCj7pGh/Dr-Rafiqul-Islam.png',
+        name: 'Dr. Rafiqul Islam',
+        affiliation: 'Advisor, Uddog o Uddokta Japan Association',
+        designation: 'Advisor UUJP',
+        topic: 'speech'
+
+    },
+    {   
         photo:'https://i.ibb.co/rvhfkvW/Shariar-Hossain.jpg',
         name: 'Mr. Shariar Hossain',
         affiliation: 'Managing Director, Deloitte Japan',
@@ -89,14 +97,7 @@ const openingSession = [
 
  
 
-    {   
-        photo:'https://i.ibb.co/QCj7pGh/Dr-Rafiqul-Islam.png',
-        name: 'Dr. Rafiqul Islam',
-        affiliation: 'Advisor, Uddog o Uddokta Japan Association',
-        designation: 'Advisor UUJP',
-        topic: 'speech'
-
-    },
+  
     {   
         photo:'https://i.ibb.co/NSHQD1D/Forhad-Hossain-2.png',
         name: 'Mr. Forhad Hossain',

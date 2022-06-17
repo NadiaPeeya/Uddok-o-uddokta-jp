@@ -8,7 +8,7 @@ const session3 = [
     {   
         photo: 'https://i.ibb.co/YkTzCtH/Dr-Mehruba-Mona.jpg',
         name: 'Dr. Mehruba Mona',
-        designation: 'moderator',
+        designation: 'Moderator',
          affiliation:'Assistant Professor, Okayama University, Japan',
          topic: ''
     },

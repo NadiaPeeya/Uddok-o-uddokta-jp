@@ -33,6 +33,13 @@ const organizingCommittee = [
 
     },
     {   
+        photo: 'https://i.ibb.co/1GzgtNm/283356122-536213944849949-8480011815998436862-n.jpg',
+        name: 'Zeaul Huda Hemal',
+        designation: 'Invitation Chair',
+
+
+    },
+    {   
         photo: 'https://i.ibb.co/Zg210Zs/Samira-Hossain-Mili-1.png',
         name: 'Samira Hossain Mili',
         designation: 'Treasurer',

@@ -17,6 +17,7 @@ const closingSpeaker = [
         designation: 'ED, UUBD'
          
      },
+
      {
         photo: 'https://i.ibb.co/gghFdFq/Forhad-Hossain-2-2.png',
         name: 'Mr. Forhad Hossain',

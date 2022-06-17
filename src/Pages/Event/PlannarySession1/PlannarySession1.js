@@ -32,11 +32,11 @@ const speaker = [
             },
     {
         id:3,
-        photo:"",
+        photo:"https://i.ibb.co/FmKh5d7/287643897-407926674682286-4899620183823115004-n-1.png",
         schedule:1,
-        name:'',
-        affiliation:'Vice Chairman & CEO, Export Promotion Bureau, Bangladesh',
-        designation:'Resource Person(Proposed)',
+        name:'Dr. Moazzem Hossain',
+        affiliation:'Managing Director Japan East West Medical College',
+        designation:'Resource Person',
         topic: ''
         },
     {
