@@ -23,7 +23,7 @@ const Speaker4 = (props) => {
                 <CardMedia 
                   className='image-customize'
                   component="img"
-                  height="300"
+                  height="340"
                   image={photo}
                   // alt=""
                 />

@@ -28,7 +28,7 @@ const speaker4 = [
         photo: 'https://i.ibb.co/GJ0B9kD/Dr-Mashiur-Rahman.jpg',
         name: 'Dr. Mashiur Rahman',
         designation: 'Speaker',
-        affiliation: 'Digital Healthcare Solutions Specialist, Omron Healthcare Ltd., Singapore & Japan.',
+        affiliation: 'Founder, BanglaTutor.org, Biggani.org',
         topic: ''
     },
     {

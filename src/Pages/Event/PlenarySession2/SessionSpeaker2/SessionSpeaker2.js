@@ -24,7 +24,7 @@ const SessionSpeaker2 = (props) => {
                 <CardMedia 
                   className='image-customize'
                   component="img"
-                  height="280"
+                  height="340"
                   image={photo}
                   // alt=""
                 />

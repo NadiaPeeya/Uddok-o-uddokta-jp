@@ -41,12 +41,12 @@ const speaker = [
         },
     {
         id:4,
-        photo:"",
+        photo:"https://i.ibb.co/mb7gtZM/Dr-Abdullah-Al-Mamun.jpg",
         schedule:1,
-        name:'TBD',
-        affiliation:'',
+        name:'Dr. Abdullah-Al-Mamun',
+        affiliation:'Department of Japanese Studies University of Dhaka',
         designation:'Speaker',
-        topic: 'Japan-Bangladesh diplomatic relationship '
+        topic: ''
         },
         {
         id:2,

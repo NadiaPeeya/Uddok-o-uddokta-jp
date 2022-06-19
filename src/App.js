@@ -51,9 +51,9 @@ function App() {
 <AuthProvider>
 <Router>
         <Switch>
-          <PrivateRoute path="/Japanese">
+          <Route path="/Japanese">
           <Japanese/>
-          </PrivateRoute>
+          </Route>
           <Route path="/home">
             <Home />
           </Route>
