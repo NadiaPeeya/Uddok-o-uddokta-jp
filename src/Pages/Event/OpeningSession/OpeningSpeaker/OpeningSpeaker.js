@@ -24,7 +24,7 @@ const OpeningSpeaker = (props) => {
                   className='image-customize'
                   radius="rounded"
                   component="img"
-                  height="300"
+                  height="350"
                   image={photo}
                   // alt="green iguana"
                 />

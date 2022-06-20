@@ -5,18 +5,18 @@ import OpeningSpeaker from './OpeningSpeaker/OpeningSpeaker';
 import './OpneningSession.css'
 const openingSession = [
     {   
-        photo:'',
-        name: '',
-        affiliation: 'Minister, Ministry of Commerce, Bangladesh',
-        designation: 'Chief Guest(Proposed)',
+        photo:'https://i.ibb.co/zRk2vt2/283359573-1186252911917001-8500944929951458849-n.jpg',
+        name: 'Dr. Shamsul Alam',
+        affiliation: 'State Minister, Ministry of Planning, Bangladesh',
+        designation: 'Chief Guest',
         topic: 'speech'
 
     },
     {   
-        photo:'',
-        name: '',
+        photo:'https://i.ibb.co/S7GJzCj/283240534-399013268676897-1099742981902784682-n.png',
+        name: 'Mr. Shahabuddin Ahmed',
         affiliation: 'Ambassador of Bangladesh to Japan',
-        designation: 'Special Guest(Proposed)',
+        designation: 'Special Guest',
         topic: 'speech'
 
     },
