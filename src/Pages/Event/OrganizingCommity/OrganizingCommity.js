@@ -19,7 +19,7 @@ const organizingCommittee = [
 
     },
     {   
-        photo: '',
+        photo: 'https://i.ibb.co/h7vPxLZ/Afrina-Khan-Priya.jpg',
         name: 'Afrin Khan Piya',
         designation: 'Registration Chair',
 
@@ -68,8 +68,8 @@ const organizingCommittee = [
 
     },
     {   
-        photo: '',
-        name: 'Misaki',
+        photo: 'https://i.ibb.co/DfwRPwf/Insiat-Islam.gif',
+        name: 'Insiat Islam',
         designation: 'Member',
 
 

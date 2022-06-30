@@ -21,14 +21,14 @@ const session3 = [
 
      },
      {
-        photo: '' ,
-        name: 'TBD',
-        designation: 'Resource Person',
-        affiliation: '',
+        photo: 'https://i.ibb.co/QPTKKVw/S-M-Ali-Azam.jpg' ,
+        name: 'Mr. S M Ali Azam',
+        designation: 'Advisor',
+        affiliation: 'Advisor, Uddog o Uddokta, Bangladesh',
         topic: ''
      },
      {
-         photo: '',
+         photo: 'https://i.ibb.co/XDrGfDz/290566909-1090692028534035-2974002580187379454-n.jpg',
          name: 'Ms. Yamashita Haruka',
          designation: 'Speaker',
          affiliation: 'Executive Director, Ritzy Ichiba, Japan'

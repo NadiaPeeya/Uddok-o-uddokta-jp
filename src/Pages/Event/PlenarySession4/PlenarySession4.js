@@ -11,10 +11,10 @@ const speaker4 = [
         topic: ''
     },
     {
-        photo: '',
-        name: '',
-        designation: 'Resource Person(Proposed)',
-        affiliation: 'Country Representative, JETRO, Bangladesh',
+        photo: 'https://i.ibb.co/rpzcRyH/Abdullah-Al-Mamun.jpg',
+        name: 'Abdullah Al Mamun',
+        designation: 'Resource Person',
+        affiliation: 'President Leo Trading Co. Ltd.',
         topic: ''
     },
     {

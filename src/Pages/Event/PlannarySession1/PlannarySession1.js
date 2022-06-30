@@ -50,20 +50,20 @@ const speaker = [
         },
         {
         id:2,
-        photo:"",
+        photo:"https://i.ibb.co/LtPKfqp/Syed-Nasir-Ershad.png",
         schedule:1,
-        name:'',
+        name:'Mr. Syed Nasir Ershad',
         affiliation:'Economic Minister, Bangladesh Embassy, Japan',
-        designation:'Speaker(Proposed)',
+        designation:'Speaker',
         topic: 'Japan-Bangladesh economic relationship, achivement and future prospect'
         },
     
         {
         id:6,
-        photo:"https://i.ibb.co/HhXq0Pd/Abu-Mukhles-Alamgir-Hossain.jpg",
+        photo:"",
         schedule:1,
-        name:'Mr. Abu Mukhles Alamgir Hossain',
-        affiliation:'Director (Fair and Display)-Current Charge, Export Promotion Bureau, Bangladesh',
+        name:'',
+        affiliation:'TBD',
         designation:'Speaker',
         topic: 'Japan-Bangladesh Export/Import Scenario and Future Prospect'
         },

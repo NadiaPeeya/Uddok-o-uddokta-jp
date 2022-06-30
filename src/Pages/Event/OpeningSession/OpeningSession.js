@@ -21,14 +21,7 @@ const openingSession = [
 
     },
     
-    {   
-        photo:'',
-        name: '',
-        affiliation: 'Ambassador Japan to Bangladesh',
-        designation: 'Special Guest(Proposed)',
-        topic: 'speech'
-
-    },
+ 
   
     {   
         photo:'https://i.ibb.co/zZJS7F2/Keisuke-omori.jpg',
@@ -38,39 +31,9 @@ const openingSession = [
         topic: 'speech'
 
     },
-    // {   
-    //     photo:'',
-    //     name: 'TBD',
-    //     affiliation: 'JICA, Bangladesh',
-    //     designation: 'Guest of Honor',
-    //     topic: 'speech'
-
-    // },
-    {   
-        photo:'',
-        name: '',
-        affiliation: 'Vice Chairman and CEO-EPB, Bangladesh',
-        designation: 'Guest of Honor(Proposed)',
-        topic: 'speech'
-
-    },
-    {   
-        photo:'',
-        name: '',
-        affiliation: 'President, FBCCI, Bangladesh',
-        designation: 'Guest of Honor(Proposed)',
-        topic: 'speech'
-
-    },
-    {   
-        photo:'',
-        name: '',
-        affiliation: 'Country Representative, JETRO, Bangladesh',
-        designation: 'Guest of Honor(Proposed)',
-        topic: 'speech' 
-
-    },
-
+  
+    
+    
     {
         photo: 'https://i.ibb.co/HtQq2fY/Dr-Ashir-Ahmed.jpg',
         name: 'Dr. Ashir Ahmed',
@@ -80,8 +43,8 @@ const openingSession = [
     },
     {   
         photo:'https://i.ibb.co/QCj7pGh/Dr-Rafiqul-Islam.png',
-        name: 'Dr. Rafiqul Islam',
-        affiliation: 'Advisor, Uddog o Uddokta Japan Association',
+        name: 'Dr. Rafiqul Islam Maruf',
+        affiliation: 'Kyushu University Hospital, Japan',
         designation: 'Advisor UUJP',
         topic: 'speech'
 

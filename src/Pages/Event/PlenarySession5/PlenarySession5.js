@@ -12,10 +12,10 @@ const speaker5 = [
         topic: ''
     },
     {
-        photo: '',
-        name: 'TBD',
+        photo: 'https://i.ibb.co/YbZY9Bh/290308148-1496488647461619-7523089135983555851-n.jpg',
+        name: 'Dr. Rubina Hussain',
         designation: 'Resource Person',
-        affiliation: '',
+        affiliation: 'Managing Director, Institute of Hotel Management & Hospitality',
         topic: ''
     },
     {
@@ -33,10 +33,10 @@ const speaker5 = [
         topic: 'Startup finance (venture capital, crowd funding, others)'
     },
     {
-        photo: '',
-        name: 'TBD',
+        photo: 'https://i.ibb.co/1Tq2rMN/Khokan-Kumar-Nandy.jpg',
+        name: 'Khokan Kumar Nandy',
         designation: 'Speaker',
-        affiliation: '',
+        affiliation: 'President JBR Co. Ltd., Japan',
         topic: ''
     },
     {
