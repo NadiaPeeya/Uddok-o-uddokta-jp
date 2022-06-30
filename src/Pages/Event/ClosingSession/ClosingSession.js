@@ -40,13 +40,7 @@ const closingSpeaker = [
       designation: 'Speaker'
        
    },
-     {
-        photo: 'https://i.ibb.co/XDrGfDz/290566909-1090692028534035-2974002580187379454-n.jpg',
-        name: 'Ms. Yamashita Haruka',
-        affiliation: 'Project Director, Uddog o Uddokta Japan Association',
-        designation: 'Speaker'
-         
-     },
+
  
 ]
 

@@ -14,7 +14,7 @@ const speaker4 = [
         photo: 'https://i.ibb.co/rpzcRyH/Abdullah-Al-Mamun.jpg',
         name: 'Abdullah Al Mamun',
         designation: 'Resource Person',
-        affiliation: 'President Leo Trading Co. Ltd.',
+        affiliation: 'President Leo Trading Co. Ltd., Japan',
         topic: ''
     },
     {
@@ -28,7 +28,7 @@ const speaker4 = [
         photo: 'https://i.ibb.co/GJ0B9kD/Dr-Mashiur-Rahman.jpg',
         name: 'Dr. Mashiur Rahman',
         designation: 'Speaker',
-        affiliation: 'Founder, BanglaTutor.org, Biggani.org',
+        affiliation: 'Founder, BanglaTutor.org, Biggani.org, Bangladesh',
         topic: ''
     },
     {

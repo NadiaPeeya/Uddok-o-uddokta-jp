@@ -15,7 +15,7 @@ const speaker5 = [
         photo: 'https://i.ibb.co/YbZY9Bh/290308148-1496488647461619-7523089135983555851-n.jpg',
         name: 'Dr. Rubina Hussain',
         designation: 'Resource Person',
-        affiliation: 'Managing Director, Institute of Hotel Management & Hospitality',
+        affiliation: 'Managing Director, Institute of Hotel Management & Hospitality, Bangladesh',
         topic: ''
     },
     {

@@ -8,7 +8,7 @@ const speaker2 = [ {
 photo:"https://i.ibb.co/QCj7pGh/Dr-Rafiqul-Islam.png",
 schedule:2,
 name:'Dr. Rafiqul Islam Maruf' ,
-affiliation:'Associate Professor, Kyushu University, Japan',
+affiliation:'Associate Professor, Kyushu University Hospital, Japan',
 designation:'Moderator',
 topic:''
 },

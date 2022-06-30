@@ -35,7 +35,7 @@ const speaker = [
         photo:"https://i.ibb.co/FmKh5d7/287643897-407926674682286-4899620183823115004-n-1.png",
         schedule:1,
         name:'Dr. Moazzem Hossain',
-        affiliation:'Managing Director Japan East West Medical College',
+        affiliation:'Managing Director Japan East West Medical College, Japan',
         designation:'Resource Person',
         topic: ''
         },
@@ -44,7 +44,7 @@ const speaker = [
         photo:"https://i.ibb.co/mb7gtZM/Dr-Abdullah-Al-Mamun.jpg",
         schedule:1,
         name:'Dr. Abdullah-Al-Mamun',
-        affiliation:'Department of Japanese Studies University of Dhaka',
+        affiliation:'Department of Japanese Studies University of Dhaka, Bangladesh',
         designation:'Speaker',
         topic: ''
         },

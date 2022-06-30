@@ -44,7 +44,7 @@ const openingSession = [
     {   
         photo:'https://i.ibb.co/QCj7pGh/Dr-Rafiqul-Islam.png',
         name: 'Dr. Rafiqul Islam Maruf',
-        affiliation: 'Kyushu University Hospital, Japan',
+        affiliation: 'Associate Professor, Kyushu University Hospital, Japan',
         designation: 'Advisor UUJP',
         topic: 'speech'
 
