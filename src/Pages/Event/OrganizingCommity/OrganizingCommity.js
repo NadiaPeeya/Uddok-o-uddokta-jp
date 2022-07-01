@@ -61,8 +61,8 @@ const organizingCommittee = [
 
     },
     {   
-        photo: '',
-        name: 'Haruka',
+        photo: 'https://i.ibb.co/BfxsrsQ/290383967-1465948677193138-1714810002405756529-n.jpg',
+        name: 'Yamashita Haruka',
         designation: 'Member',
 
 
@@ -75,33 +75,15 @@ const organizingCommittee = [
 
     },
     {   
-        photo: '',
-        name: 'Imamura',
+        photo: 'https://i.ibb.co/7GWvqbw/290697158-747489522950308-760510924025260353-n.jpg',
+        name: 'Imamura Yousuke',
         designation: 'Member',
 
 
     },
-    {   
-        photo: '',
-        name: 'Matsushita',
-        designation: 'Member',
+ 
 
-
-    },
-    {   
-        photo: '',
-        name: 'Sakura',
-        designation: 'Member',
-
-
-    },
-    {   
-        photo: '',
-        name: 'Mohammed',
-        designation: 'Member',
-
-
-    },
+  
     {   
         photo: 'https://i.ibb.co/k4zksxm/Md-Sakayet-Hossain.jpg',
         name: 'Md. Sakayet Hossain',

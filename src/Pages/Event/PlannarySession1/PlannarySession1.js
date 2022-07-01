@@ -55,15 +55,15 @@ const speaker = [
         name:'Mr. Syed Nasir Ershad',
         affiliation:'Economic Minister, Bangladesh Embassy, Japan',
         designation:'Speaker',
-        topic: 'Japan-Bangladesh economic relationship, achivement and future prospect'
+        topic: 'Japan-Bangladesh economic relationship, achievement and future prospect'
         },
     
         {
         id:6,
-        photo:"",
+        photo:"https://i.ibb.co/hLQZm9f/289594411-4956363977822491-518904119404656831-n.png",
         schedule:1,
-        name:'',
-        affiliation:'TBD',
+        name:'Dr. Tazbir Ahmed',
+        affiliation:'PhD Fellow, Graduate School of Medicine, University of Tokyo, Japan',
         designation:'Speaker',
         topic: 'Japan-Bangladesh Export/Import Scenario and Future Prospect'
         },
