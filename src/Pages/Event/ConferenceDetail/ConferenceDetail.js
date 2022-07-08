@@ -31,7 +31,7 @@ const ConferenceDetail = () => {
     </Grid>
     <Grid item xs={12} sm={12} md={4} >
     <Col className='registration-box'>
-        <h6 className='registration-link'><a target="_blank" href="https://drive.google.com/file/d/1f3XmD1LceWvxvKVFXY6Z7PqRD-qMTvyP/view?usp=sharing">Program schedule pdf  </a>  </h6>
+        <h6 className='registration-link'><a target="_blank" href="https://drive.google.com/file/d/1BC1oYO8yXxxo4k2cwO7jdaMCXzPebhbS/view?usp=sharing">Program schedule pdf  </a>  </h6>
         </Col>
     
     </Grid>
